@@ -3,14 +3,13 @@ title: "도커에서 실행되는 스프링 부트 애플리케이션에 여러 
 description: ""
 coverImage: "/assets/img/2024-08-18-ConnectingMultipleDBstoSpringBootApplicationRunningonDocker_0.png"
 date: 2024-08-18 11:22
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-18-ConnectingMultipleDBstoSpringBootApplicationRunningonDocker_0.png
 tag: Tech
 originalTitle: "Connecting Multiple DBs to Spring Boot Application Running on Docker"
 link: "https://medium.com/@sehgal.mohit06/connecting-multiple-dbs-to-spring-boot-application-running-on-docker-83a2f9deb19c"
 isUpdated: false
 ---
-
 
 이 글에서는 다음을 수행할 것입니다:
 
@@ -23,7 +22,18 @@ isUpdated: false
 
 Docker Desktop이 실행 중인지 확인해주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 도커 컨테이너에 데이터베이스 설정:
 
@@ -37,7 +47,18 @@ Docker Desktop이 실행 중인지 확인해주세요.
 
 해당 명령어는 이름이 "db-postgres"인 컨테이너를 생성하고, 사용자 이름이 postgres이며 암호가 root인 데이터베이스를 생성합니다. 그런 다음 exec 명령어를 사용하여 해당 컨테이너에 들어가 포스트그레스를 엽니다. 그리고 "testme"라는 이름의 데이터베이스를 생성합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - MySql 설정:
 
@@ -52,7 +73,18 @@ create database mysqlDb1;
 
 아래 명령을 실행하여 "db_network"라는 네트워크를 생성합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 docker network create db_network
@@ -67,11 +99,33 @@ docker network connect db_network db-postgres
 
 이렇게하면 데이터베이스가 가동 중입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 마크다운 형식으로 변경해주세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 두 개의 패키지를 만들었습니다: primary와 secondary입니다. 두 개의 데이터베이스(mysql과 postgres)에 연결할 것입니다. Mysql은 주 데이터베이스로 표시되고, postgres는 보조 데이터베이스로 지정될 것입니다. 어플리케이션이 실행될 때, mysql에 "Students" 테이블이 자동으로 생성되고, postgres에는 "Teachers" 테이블이 생성될 것입니다. 모든 설정은 아래에서 설명합니다:
 
@@ -108,7 +162,18 @@ public interface StudentsRepository extends JpaRepository<Students,Long> {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2.2 선생님 Entity 및 Repository(보조 패키지):
 
@@ -145,7 +210,18 @@ public interface TeachersRepository extends JpaRepository<Teachers, Long> {
 
 2.3 주요 데이터베이스 및 보조 데이터베이스 구성:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 패키지 com.multidbdemo.app.config;
@@ -206,6 +282,7 @@ public class PrimaryDbConfig {
 클래스가 @Profile(“!test”)로 표시되어 있어서 테스트를 실행할 때 이 구성이 활성화되지 않도록 한점에 유의해주세요. 빌드하는 동안 테스트가 실행되고 나서 jar 파일이 생성될 것입니다.
 
 EntityManagerFactory에 dialect를 속성으로 제공하는 것을 주목해주세요.
+
 ```js
 패키지 com.multidbdemo.app.config;
 
@@ -260,8 +337,18 @@ public class SecondaryDbConfig {
 }
 ```
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 나는 이 구성이 나의 테스트를 실행할 때 활성화되지 않았으면 좋겠어요.
 
@@ -285,8 +372,18 @@ public class DemoApplication {
 
 2.5 application.properties: src/main/resource/application.properties
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 spring.application.name=demo
 server.port=9001
@@ -306,9 +403,7 @@ spring.jpa.hibernate.ddl-auto=update
 
 spring.jpa.generate-ddl=true
 
-
 2.6 **application.properties**: src/test/resource/application.properties
-
 
 spring.profiles.active=test
 
@@ -323,11 +418,20 @@ spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.H2Dialect
 spring.jpa.generate-ddl=true
 spring.jpa.hibernate.ddl-auto=update
 
-
 이렇게 만들어서 문제 없이 jar 파일을 생성해야 했어요. 테스트할 때 test 프로필을 만들었는데, TESTS가 실행될 때 활성화될 거예요. 단위 테스트 중에는 H2 데이터베이스를 사용할 거에요.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2.7 pom.xml:
 
@@ -430,7 +534,18 @@ COPY target/demo-0.0.1-SNAPSHOT.jar demo.jar
 ENTRYPOINT ["java", "-jar", "demo.jar"]
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 어플리케이션을 코딩했어요. 이번에는 자바 파일을 만들고 스프링 부트 어플리케이션용 이미지를 만들어볼게요.
 
@@ -440,7 +555,18 @@ ENTRYPOINT ["java", "-jar", "demo.jar"]
 
 target 폴더 안에 생성된 Jar 파일;
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-08-18-ConnectingMultipleDBstoSpringBootApplicationRunningonDocker_3.png" />
 
@@ -452,7 +578,18 @@ docker build -t demo-image .
 
 5. 위 이미지를 Docker 컨테이너로 실행하는 명령어는 다음과 같습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 도커를 실행하여 9001번 포트로 데모 애플리케이션 컨테이너를 시작합니다. 컨테이너 이름은 demoAppContainer이며 db_network 네트워크에 연결하고, MYSQL_HOST는 mysqlDb2, MYSQL_PORT는 3306, POSTGRES_PORT는 5432, POSTGRES_HOST는 db-postgres로 설정합니다. demo-image 이미지를 백그라운드에서 실행합니다.
@@ -464,7 +601,18 @@ docker build -t demo-image .
 
 이제 요구 사항에 따라 테이블이 생성되었는지 데이터베이스를 확인해 봅시다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 6. 해당 명령을 실행하여 포스트그레스에 "Teachers" 테이블이 생성되었는지 확인해 보세요:
 
@@ -478,7 +626,18 @@ docker exec -it db-postgres psql -U postgres
 
 7. 아래 명령을 실행하여 MySQL에 "Students" 테이블이 생성되었는지 확인해 보세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 도커 실행 -it mysqlDb2 sh

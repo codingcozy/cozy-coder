@@ -3,14 +3,13 @@ title: "당신의 Nextjs와 Reactjs 프로젝트를 위한 최고의 10가지 �
 description: ""
 coverImage: "/assets/img/2024-08-18-Top10SliderLibrariesForyourNextjsandReactjsProject_0.png"
 date: 2024-08-18 11:05
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-18-Top10SliderLibrariesForyourNextjsandReactjsProject_0.png
 tag: Tech
 originalTitle: "Top 10 Slider Libraries For your Nextjs and Reactjs Project"
 link: "https://medium.com/stackademic/top-10-slider-libraries-for-your-nextjs-and-reactjs-project-b3c3175d7349"
 isUpdated: false
 ---
-
 
 ## 다음 Next.js 및 React.js 프로젝트를 최고의 10 가지 슬라이더 라이브러리로 업그레이드하세요! 원활한 이미지 표시와 동적 콘텐츠 쇼케이스를 위한 다양한 옵션을 발견해보세요. SwiperJS부터 React Image Gallery까지, 웹 애플리케이션의 기능성과 시각적 매력을 향상시킬 완벽한 슬라이더를 찾아보세요. 🌐💻✨
 
@@ -20,7 +19,18 @@ isUpdated: false
 
 시작해봅시다 👇
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 1. 🌐 FullPage.js
 
@@ -30,7 +40,18 @@ isUpdated: false
 
 [Documentation](https://alvarotrigo.com/fullPage/docs/)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React를 위한 FullPage.js는 높은 수준의 풀 스크린 캐러셀 구성 요소로 높이 평가받습니다. 이 효율적인 전체 화면 페이지 슬라이더는 단일 페이지 애플리케이션 (SPA) 내에서 매끄럽고 수평 및 수직 스냅 스크롤 탐색을 만드는 데 뛰어납니다. 다양성으로 인해 다중 섹션 간의 원활한 전환을 가능하게 하며 React 기반 프로젝트에서 사용자 경험을 향상시키는 데 가치 있는 자산입니다.
 
@@ -40,7 +61,18 @@ React를 위한 FullPage.js는 높은 수준의 풀 스크린 캐러셀 구성 �
 
 데모: https://swiperjs.com/demos
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **링크**: [문서](https://swiperjs.com/get-started)
 
@@ -50,7 +82,18 @@ SwiperJS, 또는 React Slider Swiper로도 불리는 이것은 매끄러운 사�
 
 ![이미지](/assets/img/2024-08-18-Top10SliderLibrariesForyourNextjsandReactjsProject_3.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데모: https://kenwheeler.github.io/slick/
 
@@ -60,7 +103,18 @@ Slick는 JavaScript 및 WordPress 플러그인으로 시작하여 독립 개발�
 
 # 4. 🌟 React 반응형 캐러셀
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데모: [https://react-responsive-carousel.js.org/](https://react-responsive-carousel.js.org/)
 
@@ -70,7 +124,18 @@ React Responsive Carousel 라이브러리는 강력하고 가벼운 컴포넌트
 
 # 5. 🌀 React Flickity
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-08-18-Top10SliderLibrariesForyourNextjsandReactjsProject_4.png" />
 
@@ -81,8 +146,18 @@ React Flickity는 React용으로 제작된 Carousel Component로, 터치 지원 
 
 # 6. 📲 React-swipeable
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-08-18-Top10SliderLibrariesForyourNextjsandReactjsProject_5.png)
 
@@ -92,8 +167,18 @@ React Flickity는 React용으로 제작된 Carousel Component로, 터치 지원 
 
 React-Swipeable은 React용 간단하고 신뢰할 수 있는 캐러셀 구성 요소를 제공하여 여러 스와이프 패턴이 특징인 스와이프 가능한 캐러셀 항목을 개발할 수 있습니다. 옵션 범위가 다소 제한적이지만 사용자 친화성이 뛰어나고 구현이 직관적하여 신뢰할 만한 선택지입니다. React-Swipeable 캐러셀 구성 요소를 돋보이게 하는 것은 정확한 스와이프 패턴에 따라 슬라이더를 조정할 수 있는 독특한 기능으로, 비슬비한 요소에서 찾아보기 어렵습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 7. 🔧 순수한 React 캐러셀
 
@@ -103,7 +188,18 @@ React-Swipeable은 React용 간단하고 신뢰할 수 있는 캐러셀 구성 �
 
 문서: https://github.com/express-labs/pure-react-carousel#readme
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위대로 이름에서 알 수 있듯이 순수 React JS Carousel은 솔직하고 효과적인 캐러셀 라이브러리로서 캐러셀 구성 요소의 기본을 제공합니다. 이 라이브러리를 돋보이게 하는 것은 다른 캐러셀 라이브러리에서 보다 덜 흔한 슬라이드 차원 제어를 당신에게 부여하는 독특한 능력입니다. 또한 CSS 사용자 정의를 통해 레이아웃을 필요에 맞게 수정할 수 있는 유연성을 제공합니다. 커뮤니티 내에서의 폭넓은 인기는 종종 다른 라이브러리에서는 부재가 일반적인 확대 기능을 포함하고 있기 때문입니다.
 
@@ -113,7 +209,18 @@ React-Swipeable은 React용 간단하고 신뢰할 수 있는 캐러셀 구성 �
 
 문서: [https://caferati.me/demo/react-awesome-slider](https://caferati.me/demo/react-awesome-slider)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데모: https://caferati.me/demo/react-awesome-slider
 
@@ -123,7 +230,18 @@ React-Awesome-Slider 캐러셀은 원활한 전체 페이지 전환이 가능하
 
 <img src="/assets/img/2024-08-18-Top10SliderLibrariesForyourNextjsandReactjsProject_8.png" />
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데모: https://commerce.nearform.com/open-source/nuka-carousel/
 
@@ -133,7 +251,18 @@ React-Awesome-Slider 캐러셀은 원활한 전체 페이지 전환이 가능하
 
 # 10. 🖼️ 리액트 이미지 갤러리
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-08-18-Top10SliderLibrariesForyourNextjsandReactjsProject_9.png)
 
@@ -143,7 +272,18 @@ React-Awesome-Slider 캐러셀은 원활한 전체 페이지 전환이 가능하
 
 다양한 React UI 컴포넌트 라이브러리와 프레임워크가 있지만, React Image Gallery는 독특한 캐러셀 컴포넌트로 빛을 발합니다. 이 독특한 도구를 사용하면 모바일 스와이프 제스처 지원, 썸네일 탐색, 전체 화면 기능, 사용자 정의 슬라이드 렌더링, RTL(오른쪽에서 왼쪽으로) 지원, 그리고 갤러리와 캐러셀에 대한 반응형 디자인과 같은 기능을 갖춘 이미지 갤러리 및 캐로셀을 만들 수 있습니다. 주목할 만한 옵션으로 페이지네이션 표시, 전체 화면 보기를 위한 아이콘, 썸네일을 중앙 캐로셀에 통합하는 기능을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 라이브러리들은 React 애플리케이션에서 동적이고 인터랙티브한 이미지 디스플레이를 만들기 위한 다양하고 견고한 선택지를 제공합니다. 즐거운 코딩하세요! 🚀
 
@@ -153,7 +293,18 @@ React-Awesome-Slider 캐러셀은 원활한 전체 페이지 전환이 가능하
 
 끝까지 읽어주셔서 감사합니다. 떠나시기 전에:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 작가를 클로딩하고 팔로우해주세요! 👏
 - 우리를 팔로우하세요 X | LinkedIn | YouTube | Discord

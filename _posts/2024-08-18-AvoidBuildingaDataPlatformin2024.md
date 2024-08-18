@@ -3,14 +3,13 @@ title: "2024년, 데이터 플랫폼 구축을 피해야 하는 이유"
 description: ""
 coverImage: "/assets/img/2024-08-18-AvoidBuildingaDataPlatformin2024_0.png"
 date: 2024-08-18 10:53
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-18-AvoidBuildingaDataPlatformin2024_0.png
 tag: Tech
 originalTitle: "Avoid Building a Data Platform in 2024"
 link: "https://medium.com/towards-data-science/avoid-building-a-data-platform-in-2024-56f0ee95da42"
 isUpdated: false
 ---
-
 
 무엇을 구축하지 말아야 하는 것에 대해 읽는 것에 가치가 없다고 생각할 수도 있지만, 데이터 및 분석 플랫폼 도구의 확산, 모던 데이터 스택(MDS)이 인기를 잃고, '데이터 플랫폼 구축'에 대한 많은 기사들이 이런 경고를 내놓게 만들었습니다.
 
@@ -20,7 +19,18 @@ isUpdated: false
 
 이것이 "데이터 인프라를 플랫폼으로"라고 부른 자막 데하니의 영향이 있거나, 클라우드 공급업체가 "데이터 플랫폼 서비스(DPaaS - 데이터 보호 서비스와 혼동하면 안 됩니다)"를 판매하거나, 플랫폼을 구축하는 것이 간단히 트렌디하다고 생각되기 때문에, 우리는 이런 아이디어에 사로잡힌 것 같습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 데이터 플랫폼이 정확히 무엇인지 궁금하신가요?
 
@@ -30,7 +40,18 @@ isUpdated: false
 
 ## 아키텍처 설계
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일반적으로 조직 전체를 위한 아키텍처를 설계하는 대신 특정 목적을 위한 플랫폼을 구축하는 아이디어에서 문제가 시작된다고 생각합니다. 기업 수준에서 가치 있는 것을 제공하려고 할 때, IT 업체들이 하는 것처럼 제품, 도구 및 플랫폼을 생각한다면 실패하게 될 것입니다. 클라우드 컴퓨팅 공급업체가 DPaaS와 같은 제품을 판매하는 것은 자연스러운 일이지만, 이러한 플랫폼 제품 사고 방식은 포괄적인 기업 아키텍처의 올바른 설계를 찾는 데 도움을 주지 않을 것입니다.
 
@@ -40,7 +61,18 @@ isUpdated: false
 
 업무용 데이터를 처리하는 애플리케이션에 특화된 분리된 플랫폼과 분석용 데이터를 처리하는 애플리케이션에 특화된 다른 플랫폼을 받아들였으며 이 두 영역을 연결하는 ETL 파이프라인이 설치되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 문제를 해결하기 위해 비행기에 대한 단일 플랫폼을 개발하면 된다고 주장할 수도 있지만, 대기업의 IT 관련 문제에 대한 단일 포괄적 플랫폼을 개발하는 것이 불가능하다는 것을 설득하려고 노력해 보겠습니다. 그리고 이는 응용 프로그램 및 데이터를 위한 플랫폼에도 적용됩니다.
 
@@ -50,7 +82,18 @@ isUpdated: false
 
 데이터 기술 부문의 발전으로 데이터 플랫폼뿐만 아니라 데이터 엔지니어링 분야도 형성되었습니다. 제공되는 도구의 범위와 복잡성을 고려할 때 피할 수 없는 분야로 보였습니다. 이 분야가 재정의되어야 하는 이유를 설명하고, 이미 가지고 있는 다른 플랫폼과 분야와의 중첩이 너무 많은 것으로 주로 이유를 설명했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사실 지금 우리가 인공 지능 (AI) 기술 및 기계 학습 (ML) 기술에 대해 비슷한 발전을 경험하고 있습니다. 그리고 이는 다시 한번 플랫폼이 등장하고 그에 따른 엔지니어링 분야가 나타나는 과정과 매우 닮은 것으로 보입니다. 이번에는 AI/ML을 위한 것입니다. 다시 한 번, 공급업체와 현재 시장 수요에 대한 포괄적인 솔루션을 제공하려는 당위적 욕구에 의해 주도됩니다.
 
@@ -60,7 +103,18 @@ isUpdated: false
 
 또 다른 플랫폼을 설치하여 시장 수요만 고려된 플랫폼을 만든다면 이러한 필요를 충족시킬 수 없을 것입니다. 더 나은, 모든 가능한 것들을 위한 통합 환경으로 다시 시도하려는 플랫폼을 만드는 것으로 성공할 수 있을 것입니다. 무엇보다도, 우리가 직면한 엔터프라이즈 수준의 도전에 대한 솔루션이 아닙니다. IT 및 클라우드 컴퓨팅 공급업체가 제품을 번들링하는 편리한 방법일 뿐입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 따라서, 효율적이지 못한 아키텍처에서 우리를 구원할 플랫폼 사고라도 없다면 무엇이 도와줄 수 있을까요?
 
@@ -70,7 +124,18 @@ isUpdated: false
 
 이것이 사실임을 인정해야 합니다. 기업 수준의 비즈니스 로직 확장을 위한 올바른 접근 방식이며, 데이터 이슈에 대한 확장을 위해 이에 유사한 것이 절실하게 필요합니다. 그러나 데이터는 다르며, 애플리케이션처럼 다뤄서는 안됩니다. 우리는 데이터 중심 애플리케이션을 위한 또 다른 플랫폼이 아닌 데이터 인프라가 필요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 먼저 플랫폼과 인프라스트럭처의 차이를 살펴봅시다. 다시 한 번 클라우드 컴퓨팅 모델이 차이를 명확하게 설명하는 데 도움이 될 수 있습니다. 인프라스트럭처 서비스(IaaS)는 가상 머신, 저장소 및 네트워킹 구성 요소와 같은 기본 컴퓨팅 리소스를 제공합니다. IaaS를 통해 우리는 운영 체제와 실행하는 응용 프로그램에 대해 더 많은 제어권을 갖지만, 기본 인프라스트럭처를 관리하고 유지 관리해야 합니다.
 
@@ -80,7 +145,18 @@ IaaS는 원시 컴퓨팅 리소스를 제공하는 반면, DPaaS는 이러한 �
 
 이러한 인프라스트럭처를 사용하면 응용 프로그램이 업무 로직에 집중할 수 있으며, 응용 프로그램 개발자가 저장 및 공유 데이터를 저장하고 읽는 기술적인 부분을 해소하고 다른 응용 프로그램이 해당 데이터를 전체 비즈니스 컨텍스트와 함께 액세스할 수 있도록 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비즈니스 측면에서 이것을 바라보면, 비즈니스 인프라에서 비즈니스인들이 요구하는 것을 이해할 수 있습니다.
 
@@ -90,7 +166,18 @@ IaaS는 원시 컴퓨팅 리소스를 제공하는 반면, DPaaS는 이러한 �
 
 물론, 기업은 상호 양방향으로 정보를 교환하는 세 개의 프로세스가 아닙니다. 오히려, 외부 세계와 밀접하게 상호 작용하는 복잡한 적응형 시스템입니다. 내부 프로세스(어플리케이션의 일부로 디지털화된 것)는 수가 많고 절대 고정적이 아니지만 조직을 대표하여 행동하는 직원의 결정에 따라 지속적으로 발전하고 있습니다. 이로 인해 직원들은 적응형 시스템의 일부가 되어 모델을 크게 복잡하게 만듭니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 이것을 변화시키지 않아도 이로부터 얻을 수 있는 주요 통찰이 변하지 않습니다. 그러니 간단하게 유지하고, 또 다른 비즈니스 프로세스를 추가하여 원하는 대로 성장할 수 있음을 보여주겠습니다. 이렇게 함으로써 상호 양방향 채널을 인프라로 대체할 수 있음을 보여줍시다.
 
@@ -100,7 +187,18 @@ IaaS는 원시 컴퓨팅 리소스를 제공하는 반면, DPaaS는 이러한 �
 
 사실, 데이터는 조직 전체에 분산되어 있습니다. 비즈니스 프로세스 내부와 외부에 데이터가 있는 것을 알 수 있습니다. 내부 데이터는 비공개로 처리되며 프로세스 내에서만 관리됩니다. 외부 데이터는 프로세스가 기업에 제공하는 데이터입니다. 이 외부 데이터는 다른 프로세스가 비즈니스 목표를 달성하는 데 필요한 모든 것을 포함합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어플리케이션/서비스는 그들의 비즈니스 프로세스의 디지털 쌍방이라는 것을 분명히 인식합니다. 이것은 내가 본 시각에서 IT 산업에서 크게 과소평가되고 있다고 생각하는 명백한 유추입니다.
 
@@ -110,7 +208,18 @@ IaaS는 원시 컴퓨팅 리소스를 제공하는 반면, DPaaS는 이러한 �
 
 ## 데이터가 비즈니스를 움직입니다
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비즈니스 프로세스의 디지털 트윈은 실시간으로 비즈니스 프로세스 기능을 반영하는 디지턈화된 로직입니다. 데이터, 시뮬레이션 및 AI를 활용하여 모니터링, 분석, 최적화를 할 수 있으며, 비즈니스 프로세스를 실시간 디지턈 표현할 수 있게 해줍니다. 이 기술은 일반적으로 제조업, 의료, 스마트 시티와 같은 산업에서 제품 제조 과정의 성능과 효율성을 개선하거나 실제 물리적인 것들의 시뮬레이션에 사용됩니다.
 
@@ -120,7 +229,18 @@ IaaS는 원시 컴퓨팅 리소스를 제공하는 반면, DPaaS는 이러한 �
 
 기업은 모든 회사가 열심히 바꾸려고 하는 데이터 중심이 아닌 프로세스 중심입니다. 이것은 회사의 가치 제안을 실현하기 위해 무엇을 해야 하는지 알기 때문에 상당히 자연스럽습니다. 고객이 주문을 한 후 모든 노력은 시작됩니다. 주문을 한 후, 고객의 여정은 주문 처리 및 이행을 포함하며, 회사가 주문을 확인하고 제품을 준비하고 발송한 후 제품을 전달하고 고객 만족을 보장하기 위해 배송 후 지원을 제공합니다. 모든 것은 프로세스 중심입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비즈니스 프로세스 모델링에 사용되는 것은 정확히 "비즈니스 프로세스 모델 및 표기법" (BPMN)이 "비즈니스 프로세스 실행 언어" (BPEL)와 함께 사용되어 비즈니스 프로세스의 형식화된 명세 및 실행 옵션으로 사용됩니다.
 
@@ -130,7 +250,18 @@ IaaS는 원시 컴퓨팅 리소스를 제공하는 반면, DPaaS는 이러한 �
 
 따라서 응용 프로그램/서비스의 조정은 비즈니스 프로세스의 디지털 쌍둥이를 관리하는 것으로 볼 수 있습니다. 입력 데이터가 기업을 통해 흐르며 데이터 교환에 의해 유지되는 프로세스 체인이 유도됩니다. 이는 디지털 기업을 가능하게 하는 단일 데이터 공급을 통해 비즈니스를 강화합니다. 데이터를 보편적으로 사용 가능하게 만들어 회사가 데이터 중심이 아닌 데이터에 기반한 회사가 되는 데 필요한 기본 원칙입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 데이터 패브릭 또는 데이터 메시?
 
@@ -140,7 +271,18 @@ IaaS는 원시 컴퓨팅 리소스를 제공하는 반면, DPaaS는 이러한 �
 
 그런데, 원본과 적응된 데이터 메시 간의 차이에 대해 더 많은 정보를 얻고 싶다면, 세 가지 파트로 구성된 저의 시리즈를 읽어보기를 추천합니다. 한 문장으로 된 정의를 얻지는 못하지만, 계속되는 내용에 대해 훨씬 더 잘 준비될 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 데이터 패브릭은 유연하고 재사용 가능하며 증강된 데이터 통합 파이프라인을 달성하기 위한 데이터 관리 설계입니다.
 
@@ -150,7 +292,18 @@ IaaS는 원시 컴퓨팅 리소스를 제공하는 반면, DPaaS는 이러한 �
 
 적응된 데이터 메시는 모든 비즈니스 프로세스를 기엄한 응용프로그램/서비스(또는 디지털 트윈)로 간주하며 기업 내에서 데이터를 교환합니다. 하류 프로세스가 필요로 하는 데이터의 제공은 생산 응용프로그램들이 데이터 제품을 통해 적극적으로 대응해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 따라서, 메시 안의 데이터 인프라는 애플리케이션 간에 데이터 제품(비즈니스 컨텍스트를 갖춘 데이터)를 교환하는 수단입니다. 더는 전형적인 데이터 파이프라인을 찾을 수 없을 것입니다. 왜냐하면 애플리케이션/서비스가 데이터 인프라 자체의 일부가 아니기 때문입니다. 대신, 비즈니스 로직을 구현하는 모든 구성 요소는 적응된 데이터 메시에 의해 연결된 전체 IT 응용 프로그램 아키텍처의 일부여야 합니다. 특히 통합 로직은 재정의된 데이터 웨어하우스 전문 지식에 의해 다루어져야 합니다.
 
@@ -160,7 +313,18 @@ IaaS는 원시 컴퓨팅 리소스를 제공하는 반면, DPaaS는 이러한 �
 
 적응된 데이터 메시는 상향식 기업 데이터 모델인 Ontology를 정의하여 하향식 프로세스 주도 데이터 모델을 기업의 전체적인 관점과 일치시킵니다. 시리즈의 세 번째 부분에 개요된 지배 프로세스는 애플리케이션/서비스가 참여할 수 있는 프레임워크를 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이는 의미 체계와 지식 그래프 활용을 직접적으로 다룹니다. 데이터 제품(메타데이터)에서 제공되는 풍부한 비즈니스 컨텍스트는 자동화를 적극적으로 촉진하는 데 사용될 수 있습니다.
 
@@ -170,7 +334,18 @@ IaaS는 원시 컴퓨팅 리소스를 제공하는 반면, DPaaS는 이러한 �
 
 **데이터 패브릭은 배치 옵션, 운영 또는 분석적 사용 사례 및/또는 아키텍처 접근 방식에 관계없이 이 모든 기능을 제공합니다**
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 적응된 데이터 메시는 모든 종류의 애플리케이션을 위한 데이터 제품을 쉽고 투명하게 교환할 수 있는 데이터 추상화를 제공합니다. 참여하는 데이터 생성자와 소비자가 분리된 마이크로서비스든 모놀리식 애플리케이션이든 상관없이 모든 종류의 응용 프로그램에 대해 해당합니다.
 
@@ -180,7 +355,18 @@ IaaS는 원시 컴퓨팅 리소스를 제공하는 반면, DPaaS는 이러한 �
 
 대기업의 데이터 엔지니어 및 아키텍트로서, 비즈니스 프로세스의 디지털 트윈으로 정보 교환을 위한 비즈니스 요구 사항을 적절히 대응해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "Universal data supply" 개념이 핵심 비즈니스 요구 사항을 해결한다는 것을 설명했습니다. 이를 구현하는 방법은 적응된 데이터 메시의 원칙에 따라 가능하며, Gartner의 데이터 패브릭 정의를 완전히 준수하는 데이터 인프라를 제공합니다.
 

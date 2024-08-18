@@ -3,15 +3,13 @@ title: "Cake 프로젝트 케이크 만드는 방법과 레시피 알려드립�
 description: ""
 coverImage: "/assets/img/2024-08-18-ProjectNameCake_0.png"
 date: 2024-08-18 10:29
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-18-ProjectNameCake_0.png
 tag: Tech
 originalTitle: "Project Name Cake"
 link: "https://medium.com/aardvark-infinity/project-name-cake-af6793c026f3"
 isUpdated: false
 ---
-
-
 
 ![Project Name Cake](/assets/img/2024-08-18-ProjectNameCake_0.png)
 
@@ -25,8 +23,18 @@ Cake은 고위치 목표에 초점을 맞춘 red-team 전술을 탐구, 시뮬�
 - 설득 및 영향 분석기: 타당성 전술이 얼마나 효과적인지에 대한 AI 기반 피드백, 비언어적 신호 및 권력 동태에 대한 통찰 포함.
 - 실시간 상황 인식: RSS 피드 및 소셜 미디어 스크래핑을 사용하여 잠재적인 "고위치" 목표에 대한 지속적인 정보 업데이트.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 디자인 철학:
 
@@ -128,7 +136,7 @@ Cake은 고위치 목표에 초점을 맞춘 red-team 전술을 탐구, 시뮬�
         <h1>케이크</h1>
         <p>궁극의 고가치 여성 레드 팀 프로그램</p>
     </header>
-    
+
     <div class="content">
         <!-- 사회공학 모듈 -->
         <section class="module">
@@ -136,21 +144,21 @@ Cake은 고위치 목표에 초점을 맞춘 red-team 전술을 탐구, 시뮬�
             <p>실제 세계 영감을 받은 일련의 사회공학 연습을 탐색하고 마스터하세요. 핵심 심리적 트리거를 식별하고 영향력을 행사하며 원하는 결과를 달성하기 위해 대화를 제어하는 방법을 배웁니다. 각 시나리오는 고가치 대상을 정밀하게 조작하는 능력을 향상시키기 위해 설계되었습니다.</p>
             <a href="#social-engineering">마스터클래스 시작하기</a>
         </section>
-        
+
         <!-- 정찰 및 정보수집 -->
         <section class="module">
             <h2>정보수집</h2>
             <p>고급 OSINT 도구를 사용하여 철저한 정찰을 진행하세요. 다양한 플랫폼에서 고가치 개인을 추적하고 실행 가능한 정보를 수집하고 그들의 영향력 네트워크를 그려냅니다. 통합 데이터 마이닝 도구로 항상 대상 앞섭니다.</p>
             <a href="#intelligence">정찰 시작</a>
         </section>
-        
+
         <!-- 설득과 영향 분석 -->
         <section class="module">
             <h2>설득과 영향 분석</h2>
             <p>인공지능 기반 피드백 엔진을 사용하여 설득 기술의 효과를 측정하세요. 권력 동태를 분석하고 비언어 커뮤니케이션의 뉘앙스를 파악하며 다른 사람에게 영향을 극대화하는 방법에 대한 실시간 통찰력을 얻으세요.</p>
             <a href="#analyzer">피드백 받기</a>
         </section>
-        
+
         <!-- 실시간 상황 인식 -->
         <section class="module">
             <h2>상황 인식</h2>
@@ -165,7 +173,18 @@ Cake은 고위치 목표에 초점을 맞춘 red-team 전술을 탐구, 시뮬�
 </html>
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 케이크가 작동하는 방식:
 
@@ -175,7 +194,18 @@ Cake은 고위치 목표에 초점을 맞춘 red-team 전술을 탐구, 시뮬�
 
 정찰 및 정보 수집:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 이 모듈은 고급 OSINT 작업을 실행하는 데 초점을 맞춘 것으로 설계되었습니다. 고가 목표를 프로파일링하고 그들의 영향 네트워크를 매핑하는 데 중점을 둡니다.
 
@@ -185,11 +215,23 @@ Cake은 고위치 목표에 초점을 맞춘 red-team 전술을 탐구, 시뮬�
 
 상황 인식:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 원하는대로 환경 변경에 관련된 움직임, 뉴스 및 변화에 대한 업데이트를 제공하는 실시간 피드 및 알림으로, 가장 적기에 공격할 수 있도록 도와줍니다.
 
 # 메로빙지안 느낌:
+
 Cake는 메로빙지안 자신의 우아함과 세련미를 뽐내도록 디자인되었습니다. 인터페이스는 최소하면서도 강렬하며, 풍부한 색상과 부드러운 디자인 요소로 사용자를 경험으로 끌어들입니다. 이 프로그램의 목적은 전략적 사고를 통해 조종, 유혹 및 통제의 예술과 일치합니다.
 
 이 프로그램은 주요 인물을 대상으로 한 레드팀 작업의 고가치고 고영향력성을 포괄합니다. Cake는 단순히 레드팀 도구를 넘어, 영향력, 권력 및 전략의 궁극적인 조합을 시뮬레이션하는 경험이며, 모두 우아함과 정밀함으로 전달됩니다.

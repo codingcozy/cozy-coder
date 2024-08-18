@@ -3,15 +3,13 @@ title: "NgRx에서 combineLatest를 활용하여 Angular 템플릿을 간편하�
 description: ""
 coverImage: "/assets/img/2024-08-18-SimplifyingAngularTemplateswithcombineLatestinNgRx_0.png"
 date: 2024-08-18 11:11
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-18-SimplifyingAngularTemplateswithcombineLatestinNgRx_0.png
 tag: Tech
 originalTitle: "Simplifying Angular Templates with combineLatest in NgRx"
 link: "https://medium.com/stackademic/simplifying-angular-templates-with-combinelatest-in-ngrx-d6a0d4dd1184"
 isUpdated: false
 ---
-
-
 
 ![image](/assets/img/2024-08-18-SimplifyingAngularTemplateswithcombineLatestinNgRx_0.png)
 
@@ -21,8 +19,18 @@ Angular과 NgRx를 사용할 때 가장 흔한 과제는 상태 셀렉터들을 
 
 RxJS의 combineLatest 함수는 NgRx가 의존하는 것으로, 여러 개의 옵저버블을 결합하는 데 사용됩니다. NgRx 셀렉터와 함께 사용할 때 상태의 여러 조각을 단일 옵저버블 스트림으로 결합할 수 있어 구성 요소에서 이를 구독할 수 있게 해줍니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기에 기본적인 예제가 있습니다:
 
@@ -37,7 +45,18 @@ data$ = combineLatest([
 
 # ng-conteiner와 async 파이프 활용하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가장 효과적인 방법 중 하나는 Angular 템플릿에서 combineLatest를 사용하는 것입니다. 이 방법은 ng-container와 async 파이프를 사용하는 것으로 시작합니다. 이 접근 방식은 템플릿을 간소화하는데 도움이 되며, 비동기 구독 수를 줄이는 방법으로 성능을 향상시킵니다.
 
@@ -52,7 +71,18 @@ data$ = combineLatest([
 
 # 장점
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 combineLatest을 ng-container 및 async pipe와 함께 사용하는 것은 여러 가지 이점을 제공합니다:
 
@@ -65,7 +95,18 @@ combineLatest을 ng-container 및 async pipe와 함께 사용하는 것은 여�
 
 두 가지 다른 선택기에서 사용자 세부 정보 및 환경 설정을 표시하는 구성 요소를 고려해보세요. combineLatest 없이는 템플릿이 이와 같이 보일 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <div *ngIf="user$ | async as user">
@@ -87,8 +128,18 @@ combineLatest을 사용하면 다음과 같이 간소화할 수 있습니다:
 
 이 접근 방식은 더 깔끔하게 보이며 컴포넌트가 복잡해지더라도 더 효율적으로 확장할 수 있습니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -98,6 +149,17 @@ Angular 템플릿에서 ng-container 및 async pipe와 함께 combineLatest를 �
 
 더 많은 Angular 팁과 트릭을 기대해주세요! 👨‍💻
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 글을 즐겨 보셨다면 연결하고 싶으시다면 망설이지 마시고 LinkedIn에서 저를 팔로우해주세요!

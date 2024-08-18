@@ -3,14 +3,13 @@ title: "흥미로운 Tailwind CSS 속성들 최신 업데이트와 활용법"
 description: ""
 coverImage: "/assets/img/2024-08-18-Newcooltailwindcssproperties_0.png"
 date: 2024-08-18 10:26
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-18-Newcooltailwindcssproperties_0.png
 tag: Tech
 originalTitle: "New cool tailwind css properties"
 link: "https://medium.com/@shreyvijayvargiya26/new-cool-tailwind-css-properties-eeea98808df1"
 isUpdated: false
 ---
-
 
 접근성을 고려하여 발전하는 모습이 너무 좋아요 😊
 
@@ -20,7 +19,18 @@ Tailwind CSS의 새로운 기능부터 살펴봅시다. 버전 3 이후에 무�
 
 우리 대부분은 레포지토리의 패키지를 업데이트하지 않는 경우가 많죠. 필요하거나 의무적으로 진행할 때에만 업데이트를 하게 됩니다 😃
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 느낌을 이해할 수 있어요. 그래서 대부분은 새 저장소를 만들 때만 패키지를 업그레이드할 거라고 생각해요 😆
 
@@ -30,7 +40,18 @@ Tailwind CSS의 새로운 기능부터 살펴봅시다. 버전 3 이후에 무�
 
 단지 구문의 차이일 뿐이에요 🌟
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 JSX에서 CSS
@@ -46,7 +67,18 @@ transform: transition-all,
 
 # Tailwind CSS에서 무엇이 새롭고 멋진가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테일윈드 개발자들은 접근성과 애니메이션에 매우 열심히 작업하고 있어요.
 
@@ -56,7 +88,18 @@ transform: transition-all,
 
 https://tailwindcss.com/docs/divide-style
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대부분의 경우 우리는 열 사이에 구분선을 추가하고 싶어합니다. 그게 Divider 속성이 하는 일입니다. Flex 순서로 배치된 요소들에 경계 두께를 추가하여 나누는 모양을 만듭니다.
 
@@ -66,8 +109,18 @@ https://tailwindcss.com/docs/divide-style
 
 https://tailwindcss.com/docs/place-content#space-between
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-08-18-Newcooltailwindcssproperties_2.png)
 
@@ -77,8 +130,18 @@ https://tailwindcss.com/docs/background-image#linear-gradients
 
 ![이미지](/assets/img/2024-08-18-Newcooltailwindcssproperties_3.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 스크린 리더
 
@@ -88,7 +151,18 @@ https://tailwindcss.com/docs/background-image#linear-gradients
 
 # 캐럿 스타일링
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 https://tailwindcss.com/docs/caret-color
 
@@ -98,8 +172,18 @@ https://tailwindcss.com/docs/caret-color
 
 https://tailwindcss.com/docs/scroll-snap-type
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-08-18-Newcooltailwindcssproperties_6.png)
 
@@ -109,8 +193,18 @@ https://tailwindcss.com/docs/resize
 
 ![이미지](/assets/img/2024-08-18-Newcooltailwindcssproperties_7.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 외형
 
@@ -120,7 +214,18 @@ https://tailwindcss.com/docs/resize
 
 https://tailwindcss.com/docs/accent-color
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-08-18-Newcooltailwindcssproperties_9.png" />
 

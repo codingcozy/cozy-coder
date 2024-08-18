@@ -3,15 +3,13 @@ title: "PHP 초보자를 위한 7가지 핵심 질문에 답하면 PHP를 잘 �
 description: ""
 coverImage: "/assets/img/2024-08-18-IfYouCanAnswerThese7QuestionsCorrectlyYoureDecentatPHP_0.png"
 date: 2024-08-18 10:44
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-18-IfYouCanAnswerThese7QuestionsCorrectlyYoureDecentatPHP_0.png
 tag: Tech
 originalTitle: "If You Can Answer These 7 Questions Correctly Youre Decent at PHP"
 link: "https://medium.com/write-a-catalyst/if-you-can-answer-these-7-questions-correctly-youre-decent-at-php-83a2b1bc1f95"
 isUpdated: false
 ---
-
-
 
 ![2024-08-18-IfYouCanAnswerThese7QuestionsCorrectlyYoureDecentatPHP_0.png](/assets/img/2024-08-18-IfYouCanAnswerThese7QuestionsCorrectlyYoureDecentatPHP_0.png)
 
@@ -21,8 +19,18 @@ isUpdated: false
 
 하지만 실제로 PHP를 충분히 잘 알고 계신가요? 화면에 "Hello, World!"를 출력할 수 있고, 루프와 조건문을 사용하는 데 꽤 자신감이 있을지도 모릅니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 더 심각한 내용은, PHP가 이상해지기 시작해서 굉장히 강력한 개발자들에게는 완전히 직관적이지 않다는 것을 증명합니다. 이 글에서는 PHP의 가장 어려운 일곱 가지 질문을 다룰 것입니다.
 
@@ -32,7 +40,18 @@ isUpdated: false
 
 # 1. PHP에서 ==와 ===의 차이는 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오래 PHP를 사용해온다면 이미 == 및 === 연산자를 만난 적이 있을 것입니다. 이 연산자는 값을 비교하는 데 사용되는데, 혼동할 수 있을 수도 있지만, 실제로는 그렇지 않습니다.
 
@@ -43,8 +62,18 @@ isUpdated: false
 
 == 을 사용하면 예상치 못한 결과가 발생할 수 있습니다, 특히 유형이 다를 수 있는 값들을 비교할 때. 이것을 고려해 보세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![IfYouCanAnswerThese7QuestionsCorrectlyYoureDecentatPHP_1](/assets/img/2024-08-18-IfYouCanAnswerThese7QuestionsCorrectlyYoureDecentatPHP_1.png)
 
@@ -54,8 +83,18 @@ isUpdated: false
 
 ![IfYouCanAnswerThese7QuestionsCorrectlyYoureDecentatPHP_2](/assets/img/2024-08-18-IfYouCanAnswerThese7QuestionsCorrectlyYoureDecentatPHP_2.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서 비교 결과는 예상대로 false를 반환합니다.
 
@@ -65,19 +104,39 @@ isUpdated: false
 
 ## 기본적인 예시:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두 개의 클래스가 있다고 가정해보세요: User와 Admin이며, 둘 다 파일에 작업을 기록해야 합니다. 그래서 두 클래스 모두 함수를 복사하지 말고 trait을 사용해야 합니다.
 
-
 ![image](/assets/img/2024-08-18-IfYouCanAnswerThese7QuestionsCorrectlyYoureDecentatPHP_3.png)
-
 
 이 예제에서, User 및 Admin 클래스는 공통 상위 클래스를 갖거나 직접 공통 선조로부터 상속받지 않고도 log 메서드에 액세스할 수 있습니다.
 
 ## 왜 Traits를 사용해야 하나요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 특성은 관련이 없는 클래스에 기능을 혼합하는 방법을 제공합니다. 특히 중대규모 애플리케이션에서는 유용한 기능으로 판명되었습니다. 그렇지 않으면 유사한 행동이 필요한 여러 클래스가 상속의 엄청난 크고 복잡하게 얽힌 웹을 만들지 않고 행동할 수 있습니다.
 
@@ -87,7 +146,18 @@ isUpdated: false
 
 일반적으로, 세션이란 클라이언트와 서버 간의 일정 기간 동안 발생하는 상호 작용입니다. PHP에서 세션 관리는 클라이언트 측 쿠키와 서버 측 저장소를 통해 제어됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## PHP에서 세션 작업하기
 
@@ -97,7 +167,18 @@ session_start() 함수로 세션을 시작하면 PHP는 서버 내에 새 세션
 
 ![PHP 이미지](/assets/img/2024-08-18-IfYouCanAnswerThese7QuestionsCorrectlyYoureDecentatPHP_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 코드는 세션을 설정하고 사용자의 이름을 세션 데이터에 저장합니다. 세션이 만료되지 않은 경우, 이 값을 다음 요청에서 검색할 수 있습니다.
 
@@ -110,7 +191,18 @@ session_start() 함수로 세션을 시작하면 PHP는 서버 내에 새 세션
 - 쿠키 설정: HttpOnly 및 Secure와 같은 올바른 쿠키 플래그를 설정하여 XSS에 의한 세션 쿠키 도난 위험을 줄입니다.
 - 세션 만료: 합리적인 세션 만료 및 비활동 시간 초과를 구현하여 비활성 세션이 공격자에 의해 인계되는 위험을 줄입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 안전한 세션 설정 예시:
 
@@ -120,7 +212,18 @@ session_start() 함수로 세션을 시작하면 PHP는 서버 내에 새 세션
 
 세션에 어려움이 있다면, 이것을 확인해보세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 4. include, require, include_once, require_once의 차이점을 정의합니다.
 
@@ -133,49 +236,91 @@ PHP는 파일을 포함하고 실행하는 여러 가지 방법을 제공합니�
 
 파일의 중요성이 크거나(예: 구성 파일) 파일이 없는 것이 바람직하지 않은 경우 require를 사용하십시오. 이 경우 응용 프로그램이 계속 실행되길 원하지 않을 수 있습니다. 파일의 비필수적인 중요성이 있는 경우에는 include를 사용하십시오. 비필수적인 중요성을 가진 스크립트나 템플릿이 예시입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `*require_once` 표현식을 사용해보세요. 이는 잠재적 문제를 피하기 위한 것입니다. 문제는 파일을 여러 번 포함할 때 발생할 수 있습니다. 이 문제에는 클래스 또는 함수 재선언이 포함됩니다.
 
-
 <img src="/assets/img/2024-08-18-IfYouCanAnswerThese7QuestionsCorrectlyYoureDecentatPHP_7.png" />
-
 
 이 상황에서는 db_config.php 파일이 있습니다. 이 파일은 데이터베이스 작업을 실행하는 데 중요합니다. 그래서 이를 포함합니다. 이는 `require_once`를 사용하여 이루어집니다.
 
 반면에 사이드바 템플릿은 선택적 모듈입니다. 이를 포함해도 정상적인 작업에는 필요하지 않습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 5. PHP의 매직 메서드를 설명해줄 수 있을까요?
 
-매직 메서드는 특별한 메서드들입니다. 이들은 더블 언더스코어(__)로 시작합니다. 그들은 독특한 역할을 합니다.
+매직 메서드는 특별한 메서드들입니다. 이들은 더블 언더스코어(\_\_)로 시작합니다. 그들은 독특한 역할을 합니다.
 
 매직 메서드들은 특정 동작이 객체에서 발생할 때 이를 재정의하고 실행할 수 있는 기능을 제공합니다. 자주 사용되는 매직 메서드들을 살펴보겠습니다:
 
 - include_once: 이 메서드는 include 역할을 합니다. 그러나 파일이 한 번만 포함되도록 보장합니다. 스크립트 실행이 이를 독려합니다. 이미 포함된 파일인 경우 다시 포함하지 않습니다.
-- __construct(): 이 메서드는 생성자 메서드를 나타냅니다. 객체가 인스턴스화될 때 자동으로 호출됩니다.
-- __destruct(): 소멸자 메서드를 다루는데 사용됩니다. 객체가 해체되거나 스크립트가 종료될 때 호출됩니다.
-- __get($name): 이 메서드는 접근할 수 없는 속성을 읽으려고 시도하거나 실제로 존재하지 않을 때 호출됩니다.
-- __set($name, $value): 이 메서드는 접근할 수 없는 속성에 대한 대체가 발생했을 때 또는 존재하지 않는 속성이 작성될 때 호출됩니다.
-- __isset($name): 접근할 수 없는 속성 또는 실제로 존재하지 않는 속성에 대해 isset() 또는 empty()를 호출할 때 제어됩니다.
-- __unset($name): 접근할 수 없는 가상 속성 또는 실제로 존재하지 않는 속성에 대해 unset()이 사용될 때 작동합니다.
-- __call($name, $arguments): 존재하지 않는 메서드에 접근하려고 시도할 때 발생하며 해당 메서드도 접근할 수 없습니다.
-- __callStatic($name, $arguments): __call() 메서드와 유사하지만 정적 메서드에 대해 작동합니다.
-- __toString(): 객체가 문자열로 사용될 때 호출됩니다. 예를 들어 echo를 사용하면 발생할 수 있습니다.
-- __invoke(): 객체를 함수처럼 호출할 때 사용됩니다.
+- \_\_construct(): 이 메서드는 생성자 메서드를 나타냅니다. 객체가 인스턴스화될 때 자동으로 호출됩니다.
+- \_\_destruct(): 소멸자 메서드를 다루는데 사용됩니다. 객체가 해체되거나 스크립트가 종료될 때 호출됩니다.
+- \_\_get($name): 이 메서드는 접근할 수 없는 속성을 읽으려고 시도하거나 실제로 존재하지 않을 때 호출됩니다.
+- \_\_set($name, $value): 이 메서드는 접근할 수 없는 속성에 대한 대체가 발생했을 때 또는 존재하지 않는 속성이 작성될 때 호출됩니다.
+- \_\_isset($name): 접근할 수 없는 속성 또는 실제로 존재하지 않는 속성에 대해 isset() 또는 empty()를 호출할 때 제어됩니다.
+- \_\_unset($name): 접근할 수 없는 가상 속성 또는 실제로 존재하지 않는 속성에 대해 unset()이 사용될 때 작동합니다.
+- \_\_call($name, $arguments): 존재하지 않는 메서드에 접근하려고 시도할 때 발생하며 해당 메서드도 접근할 수 없습니다.
+- **callStatic($name, $arguments): **call() 메서드와 유사하지만 정적 메서드에 대해 작동합니다.
+- \_\_toString(): 객체가 문자열로 사용될 때 호출됩니다. 예를 들어 echo를 사용하면 발생할 수 있습니다.
+- \_\_invoke(): 객체를 함수처럼 호출할 때 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 마법 메서드 사용 예시:
 
 ![2024-08-18-IfYouCanAnswerThese7QuestionsCorrectlyYoureDecentatPHP_8.png](/assets/img/2024-08-18-IfYouCanAnswerThese7QuestionsCorrectlyYoureDecentatPHP_8.png)
 
-이 예제에서는 __get과 __set 메서드가 연관 배열에서 동적 속성 관리를 가능하게 하고,__toString은 객체의 문자열 표현을 제공합니다.
+이 예제에서는 **get과 **set 메서드가 연관 배열에서 동적 속성 관리를 가능하게 하고,\_\_toString은 객체의 문자열 표현을 제공합니다.
 
 # 6. PHP 네임스페이스는 어떻게 작동하며 왜 중요한가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 PHP에서의 네임스페이스는 중요합니다. 이들은 이름 충돌을 방지합니다. 큰 프로젝트에서 이러한 충돌은 흔히 발생합니다. 또한, 서드 파티 라이브러리를 사용할 때도 자주 발생합니다. PHP에서는 관련된 클래스 함수 및 상수를 연관시킬 수 있게 허용합니다. 이들을 특정 제목 아래에 모아둘 수 있습니다.
 
@@ -185,7 +330,18 @@ PHP에서의 네임스페이스는 중요합니다. 이들은 이름 충돌을 �
 
 ![Different user class in the app](/assets/img/2024-08-18-IfYouCanAnswerThese7QuestionsCorrectlyYoureDecentatPHP_10.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `table` 태그를 Markdown 형식으로 변경할 수도 있습니다.
 
@@ -195,7 +351,18 @@ PHP에서의 네임스페이스는 중요합니다. 이들은 이름 충돌을 �
 
 네임스페이스는 중요한 역할을 합니다. 프로젝트에서 이름 충돌을 방지합니다. 특히 대규모 사업에서 이는 특히 참된 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로젝트가 확장되면 동일한 이름을 가진 여러 클래스가 발생할 가능성이 높아집니다. 네임스페이스는 클래스를 그룹화하여 도와주기 때문에 유용합니다. 이들은 충돌을 방지하기 위해 안전하게 둘러싸줍니다.
 
@@ -205,7 +372,18 @@ PHP에서의 네임스페이스는 중요합니다. 이들은 이름 충돌을 �
 
 2. PSR-4 준수: 여기에서 따라야 할 표준이 있습니다. 이것은 PSR-4 표준에서 권장됩니다. 파일 구조는 네임스페이스의 레이아웃을 반영해야 합니다. 예를 들어보겠습니다. App/Models/User라는 클래스를 생각해보세요. 이것은 User.php라는 파일에 포함되어야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. 깊게 중첩된 네임스페이스를 피하세요: 네임스페이스는 코드 관리에 도움이 됩니다. 하지만 여전히 어려움을 가지고 있습니다. 이는 도전적인 일입니다. 깊게 중첩된 네임스페이스는 이 문제를 악화시킬 수 있습니다. 보다 복잡성을 도입하게 될 것입니다.
 
@@ -215,7 +393,18 @@ PHP 클로저는 때때로 익명 함수라고 불리기도 합니다. 실제 �
 
 ![이미지]("/assets/img/2024-08-18-IfYouCanAnswerThese7QuestionsCorrectlyYoureDecentatPHP_12.png")
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어 예제에서 $greet을 고려해보세요. $greet의 정의는 클로저를 보여줍니다. 클로저는 매개변수를 가져와 문자열을 출력합니다. $greet을 일반 변수처럼 다룰 수 있습니다.
 
@@ -225,7 +414,18 @@ PHP 클로저는 때때로 익명 함수라고 불리기도 합니다. 실제 �
 
 ![이미지](/assets/img/2024-08-18-IfYouCanAnswerThese7QuestionsCorrectlyYoureDecentatPHP_13.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 실제 시나리오에서의 클로저:
 
@@ -235,7 +435,18 @@ PHP 클로저는 때때로 익명 함수라고 불리기도 합니다. 실제 �
 
 이 경우 array_map에 전달된 클로저가 있습니다. 이는 변환을 적용합니다. 이 변환은 배열의 각 요소에 적용됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론:
 
@@ -245,7 +456,18 @@ PHP 클로저는 때때로 익명 함수라고 불리기도 합니다. 실제 �
 
 예를 들어 안전한 세션 관리를 이해하는 것이 중요해요. 엄격한 비교를 언제 사용해야 하는지 아는 것도 중요해요. 또한 특징과 네임스페이스로 코드를 구조화하는 방법을 알아내는 것도 중요해요. 이런 것들을 함께 알면 다른 개발자들과 차별화될 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일관된 학습과 연습. 새로운 프로젝트로 계속 도전해 보세요. 그 과정에서 두려움을 갖지 마세요. 본질적인 언어 구성 요소에 대해 망설임 없이 파고 들어보세요.
 
@@ -256,7 +478,18 @@ PHP 클로저는 때때로 익명 함수라고 불리기도 합니다. 실제 �
 - 👏 이야기에 박수를 보내주시면 기사를 더 널리 퍼뜨리는 데 도움이 됩니다. (50 박수).
 - 📩 뉴스레터를 구독하고 싶으시다면: https://yunus-emre-adas.ck.page/c090914848
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 링크를 통해 저에게 연락할 수 있습니다:
 

@@ -3,14 +3,13 @@ title: "CSS 매일 팁 21 제대로 사용하고 있는 것 같지만 틀린 CSS
 description: ""
 coverImage: "/assets/img/2024-08-18-CSSDailyTips21TheCSSPropertyYoureProbablyUsingWrong_0.png"
 date: 2024-08-18 10:24
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-18-CSSDailyTips21TheCSSPropertyYoureProbablyUsingWrong_0.png
 tag: Tech
 originalTitle: "CSS Daily Tips 21 The CSS Property Youre Probably Using Wrong"
 link: "https://medium.com/@Marioskif/css-daily-tips-21-the-css-property-youre-probably-using-wrong-ec2a9c73bbd0"
 isUpdated: false
 ---
-
 
 <img src="/assets/img/2024-08-18-CSSDailyTips21TheCSSPropertyYoureProbablyUsingWrong_0.png" />
 
@@ -20,7 +19,18 @@ CSS를 한동안 사용해왔다면, !important를 만나본 적이 있고 아�
 
 # 1. !important 선언이란?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 !important가 왜 문제가 될 수 있는지에 대한 세부 내용에 들어가기 전에, 먼저 무엇인지 정의해보겠습니다. !important 선언은 CSS 속성에 부여할 수 있는 특별한 플래그로, 다른 원본과 관계없이 특정도를 최상으로 설정하여 다른 모든 스타일을 무시하게 만듭니다.
 
@@ -34,7 +44,18 @@ CSS를 한동안 사용해왔다면, !important를 만나본 적이 있고 아�
 
 이 경우 color: red 스타일은 .button 클래스를 가진 모든 요소에 적용됩니다. 다른 어떤 스타일이 적용되어 있더라도 !important 선언으로 이 스타일이 다른 모든 스타일보다 우선 순위를 가지게 됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 2. 왜 !important가 필요한가요?
 
@@ -44,11 +65,33 @@ CSS를 한동안 사용해왔다면, !important를 만나본 적이 있고 아�
 
 # 3. !important 사용의 함정
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 !중요는 특정 상황에서 생명....
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 .button {
@@ -67,7 +110,18 @@ CSS를 한동안 사용해왔다면, !important를 만나본 적이 있고 아�
 
 CSS는 Cascading Style Sheets의 약자로, "cascading(카스케이딩)" 부분이 스타일이 적용되는 방식의 핵심 기능입니다. 스타일은 아래로 카스케이드되어 고유한 선택자와 이후의 규칙이 더 높은 우선순위를 갖습니다. 그러나 !important 선언은 이러한 자연스러운 순서를 깨버립니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 강제적으로 !important를 사용하면 계단 구조를 우회하여 다른 스타일이 의도한 대로 적용되지 않도록 만드는데, 이는 특히 동료들과 협업하거나 여러 개발자가 동일한 스타일 시트에 기여하는 대규모 프로젝트에서 문제가 될 수 있습니다.
 
@@ -77,7 +131,18 @@ CSS에서 문제가 발생하면 !important가 관련된 경우 디버깅이 악
 
 ## 3.4 가독성과 유지보수성 부족
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 좋은 CSS는 깔끔하고 가독성이 있으며 유지보수가 용이해야 합니다. !important를 과도하게 사용하면 이러한 품질을 희생하게 됩니다. 당신의 코드를 작업해야 하는 다른 개발자들(또는 심지어 미래의 당신)이 특정 스타일이 원하는 대로 작동하지 않는 이유를 이해하기 어려워할 수 있고, 이는 당혹감과 시간 낭비로 이어질 수 있습니다.
 
@@ -87,7 +152,18 @@ CSS에서 문제가 발생하면 !important가 관련된 경우 디버깅이 악
 
 # 4.1 !important를 사용해야 하는 경우
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 서드 파티 스타일 재정의: CSS 프레임워크나 직접 수정할 수 없는 서드 파티 코드와 작업 중이라면 !important를 사용하여 사용자 정의 스타일을 적용하는 것이 필요할 수 있습니다.
 - 레거시 코드에서의 빠른 수정: 깊게 중첩된 CSS나 변경하기 어려운 인라인 스타일이 있는 레거시 프로젝트에서 !important는 빠른 수정사항이 될 수 있습니다. 그러나 가능한 경우 코드를 리팩터링하는 것이 일반적으로 더 좋습니다.
@@ -101,7 +177,18 @@ CSS에서 문제가 발생하면 !important가 관련된 경우 디버깅이 악
 
 ## 5. !important 대체 방법
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가능하면 첫 번째 수단으로 !important를 사용하는 대신 CSS의 무결성을 희생하지 않고 원하는 효과를 달성할 수 있는 대안을 고려해보세요:
 
@@ -111,7 +198,18 @@ CSS에서 문제가 발생하면 !important가 관련된 경우 디버깅이 악
 
 예를 들어, 이것 대신에:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .button {
@@ -129,7 +227,18 @@ CSS에서 문제가 발생하면 !important가 관련된 경우 디버깅이 악
 
 이렇게 하면 .nav 클래스 내 .button 요소에 적용되어서 선택자가 보다 구체적이 되고 덜 구체적인 규칙보다 우선시됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 5.2 더 구체적인 선택기나 문맥 선택기 사용하기
 
@@ -149,7 +258,18 @@ CSS에서 문제가 발생하면 !important가 관련된 경우 디버깅이 악
 
 .navbar 내에 있는 .button 요소를 대상으로 하면 !important를 사용하지 않고도 원하는 스타일을 적용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 5.3 CSS 리팩토링하기
 
@@ -159,7 +279,18 @@ CSS에서 문제가 발생하면 !important가 관련된 경우 디버깅이 악
 
 CSS 변수 (사용자 정의 속성)를 사용하면 스타일 오버라이드를 더 쉽게 다룰 수 있는 방법을 제공합니다. 주요 스타일에 대한 변수를 정의함으로써 !important에 의존할 필요 없이 쉽게 조정할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 :root {
@@ -181,7 +312,18 @@ CSS 변수 (사용자 정의 속성)를 사용하면 스타일 오버라이드�
 
 만약 !important를 사용해야 한다면, 그 영향을 최소화하기 위해 다음 권장 사항을 따르세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 6.1 적게 사용하세요
 
@@ -191,7 +333,18 @@ CSS 변수 (사용자 정의 속성)를 사용하면 스타일 오버라이드�
 
 CSS에서 !중요를 사용하는 경우, 주석으로 그 이유를 기록하세요. 이렇게 하면 다른 개발자들 (그리고 미래의 본인)이 왜 사용했는지 이해할 수 있고 나중에 제거할 수 있는지 판단할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 /* !important를 사용하여 제3자 스타일을 무시하는 방법 */
@@ -206,7 +359,18 @@ CSS에서 !중요를 사용하는 경우, 주석으로 그 이유를 기록하�
 
 ## 여기까지 읽어주셔서 감사합니다! 이 글을 마음에 들었다면 박수를 또는 팔로우를 해주세요. 저는 매일 HTML 및 JavaScript 팁과 트릭을 업로드하고 있습니다. 제 프로필을 살펴보시거나 여기에서 찾아보세요:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 7. 결론: !important 사용 마스터하기
 

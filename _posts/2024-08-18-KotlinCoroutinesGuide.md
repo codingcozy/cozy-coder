@@ -3,14 +3,13 @@ title: "코틀린 코루틴 가이드 비동기 처리를 위한 완벽한 솔�
 description: ""
 coverImage: "/assets/img/2024-08-18-KotlinCoroutinesGuide_0.png"
 date: 2024-08-18 10:46
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-18-KotlinCoroutinesGuide_0.png
 tag: Tech
 originalTitle: "Kotlin Coroutines Guide"
 link: "https://medium.com/@daniel.atitienei/kotlin-coroutines-guide-543556ada927"
 isUpdated: false
 ---
-
 
 커피 한 잔을 따르고 ☕, 코루틴과 같은 큰 관심사에 대해 이야기해보세요.
 
@@ -20,7 +19,18 @@ isUpdated: false
 
 코루틴은 스레드와 유사하지만 단일 스레드에 바운드되지 않고 훨씬 가벼운 코드 블록을 동시에 실행합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 코루틴 실행
 
@@ -30,8 +40,8 @@ isUpdated: false
 
 ```js
 fun myCoroutine() {
-    runBlocking { 
-        launch { 
+    runBlocking {
+        launch {
             delay(1.seconds)
             println("SECOND")
         }
@@ -40,7 +50,18 @@ fun myCoroutine() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 비동기 & 기다림
 
@@ -52,15 +73,26 @@ fetchProducts와 fetchStores 두 함수가 있다고 가정해 보겠습니다. 
 suspend fun fetchData() {
     val products = async { fetchProducts() }
     val stores = async { fetchStores() }
-    
+
     products.await()
     stores.await()
-    
+
     println("완료") // 두 함수가 모두 완료되었을 때 표시됩니다
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 코루틴 디스패처
 
@@ -73,7 +105,18 @@ suspend fun fetchData() {
 
 ## 코루틴 예외 처리
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코루틴은 예외를 발생시킬 수 있기 때문에 해당 예외를 처리하려면 CoroutineExceptionHandler를 사용해야 합니다. 먼저 CoroutineExceptionHandler를 생성하고 발생한 오류를 출력하는 방법부터 시작해봅시다.
 
@@ -86,12 +129,23 @@ val handler = CoroutineExceptionHandler { coroutineContext, throwable ->
 그 다음으로는 CoroutineScope를 사용하여 새로운 코루틴 스코프를 생성해야 합니다. 여기서 핸들러를 직접 전달하거나 특정 디스패처에 대해 핸들러를 실행할 수 있습니다.
 
 ```js
-CoroutineScope(handler)
+CoroutineScope(handler);
 // 또는
-CoroutineScope(Dispatchers.IO + handler)
+CoroutineScope(Dispatchers.IO + handler);
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼 coroutine을 시작하려면 launch를 사용하고, 내부에 Exception을 던져보겠습니다. 이렇게 하면 앱이 크래시되지 않도록 방지할 수 있습니다.
 

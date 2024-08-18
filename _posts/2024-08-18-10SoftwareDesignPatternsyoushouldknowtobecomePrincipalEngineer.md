@@ -3,14 +3,13 @@ title: "주요 엔지니어가 되기 위해 알아야 할 10가지 소프트웨
 description: ""
 coverImage: "/assets/img/2024-08-18-10SoftwareDesignPatternsyoushouldknowtobecomePrincipalEngineer_0.png"
 date: 2024-08-18 11:03
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-18-10SoftwareDesignPatternsyoushouldknowtobecomePrincipalEngineer_0.png
 tag: Tech
 originalTitle: "10 Software Design Patterns you should know to become Principal Engineer"
 link: "https://medium.com/javascript-in-plain-english/10-software-design-patterns-you-should-know-to-become-principal-engineer-b2f070564516"
 isUpdated: false
 ---
-
 
 ![Image](/assets/img/2024-08-18-10SoftwareDesignPatternsyoushouldknowtobecomePrincipalEngineer_0.png)
 
@@ -20,7 +19,18 @@ isUpdated: false
 
 그러나 그 후에 주요 엔지니어로 발전하면, 사람들이 어리석은 웹사이트를 위해 시스틴 성당을 유지하길 원하지 않는다는 것을 깨닫고 플레이도 뱀을 만들기 위해 돌아갈 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이번 기사에서는 소프트웨어 디자인 패턴 10가지에 대해 배우게 되며 사용하는 장단점에 대해 이야기할 것입니다. 이는 매우 주관적이며 논란이 될 수 있습니다.
 
@@ -28,7 +38,18 @@ isUpdated: false
 
 프로그래머가 직면하는 반복적인 문제를 해결하기 위한 23가지 다양한 접근 방식을 제시하며, 이는 생성 패턴(객체 생성 방식), 구조 패턴(객체 간의 관계) 및 행동 패턴(객체 간의 통신 방식)으로 구분됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로 소프트웨어 엔지니어가 되는 것은 프로그래밍 언어의 구문을 외우는 것이 아니라 문제를 해결하는 능력에 관한 것입니다. 이 기사를 끝까지 따라가면 여러 가지 문제 해결 패턴을 이해하게 될 것입니다, 이것은 현대 앱 개발자들과 관련하여 어떻게 적용되는 지에 대한 것입니다.
 
@@ -38,7 +59,18 @@ isUpdated: false
 
 이를 모든 곳에 구현하려는 유혹을 느낄 수 있지만, 부적절하게 사용하면 코드베이스에 추가 복잡성과 보일러플레이트를 더할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 책은 성서가 아니며, 디자인 패턴을 인식하는 것이 프로그래머로서 능력을 향상시키는 데 도움이 된다는 점을 알고 있더라도 그 책에 대한 많은 비평이 있습니다.
 
@@ -48,7 +80,18 @@ isUpdated: false
 
 TypeScript에서 전역 앱 설정 데이터를 표현하기 위해 싱글톤 클래스인 settings를 구현할 수 있습니다. 이 클래스에는 정적 인스턴스 속성이 있을 것이며, 생성자를 비공개로 만들어 new 키워드로 인스턴스화할 수 없도록 할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그런 다음, 이미 생성된 인스턴스를 확인하고 생성되지 않았다면 새로 생성하는 정적 get instance 메서드를 만듭니다. 이 메서드는 오직 하나의 객체만 생성될 수 있도록 보장합니다. 이것이 모두 멋지지만, 여기서 조금 미묘해지는 부분이 있습니다.
 
@@ -58,7 +101,18 @@ JavaScript에서는 객체 리터럴을 사용합니다. 또한 전역 데이터
 
 # Prototype
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 프로토타입 패턴에 대해 알아보겠습니다. 이는 클론을 위한 멋진 용어에 불과합니다. 객체 지향 프로그래밍을 수행한 적이 있다면 상속에 익숙할 것입니다. 클래스를 서브클래스로 확장할 수 있는 상속의 개념입니다.
 
@@ -68,7 +122,18 @@ JavaScript에서는 객체 리터럴을 사용합니다. 또한 전역 데이터
 
 이 새 객체에도 "이름"이라는 속성이 있기를 원합니다. 우리는 새로운 속성들을 추가할 때, 해당 "zombie"를 프로토타입으로 전달하고 새 객체의 이름과 같은 추가 속성들을 지정해주면 됩니다. 흥미로운 점은 이 객체를 로그에 남길 때, 이름만이 아니라 "뇌 먹기" 메소드가 아니라는 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 해당 메소드를 호출하려고 하면 여전히 작동합니다. 이것은 자바스크립트가 모든 메소드나 속성을 찾기 위해 프로토타입 체인을 따라 루트까지 이동하기 때문입니다.
 
@@ -78,7 +143,18 @@ JavaScript에서는 객체 리터럴을 사용합니다. 또한 전역 데이터
 
 # Builder
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼, 이제 빌더 패턴으로 전환해 봅시다. 핫도그 가게를 운영 중이라고 상상해봅시다. 고객이 주문할 때 샌드위치에 무엇을 넣을지를 말해야 하는데, 기존의 생성자에 모든 옵션을 알려야 하는 것은 조금 복잡하고 모든 단계를 나중에 처리할 수도 있습니다.
 
@@ -88,7 +164,18 @@ JavaScript에서는 각 메서드가 this를 반환하게 되는데, 이는 메�
 
 그 다음 체이닝된 메서드가 작동하지만, 항상 반환 값으로 객체를 받습니다. 이 패턴은 주로 jQuery와 같은 라이브러리에서 빈번히 사용되었지만, 최근 몇 년간은 약간 시대에 뒤떨어진 스타일이 되어갔습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 팩토리
 
@@ -98,7 +185,18 @@ JavaScript에서는 각 메서드가 this를 반환하게 되는데, 이는 메�
 
 대신, 어떤 객체를 인스턴스화해야 할지를 결정하는 서브 클래스나 함수를 만들어 사용할 수 있습니다. 이제 반복 로직을 사용하는 대신, 팩토리를 사용하여 렌더링될 버튼을 결정할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 파사드
 
@@ -108,7 +206,18 @@ JavaScript에서는 각 메서드가 this를 반환하게 되는데, 이는 메�
 
 그래서 우리는 저수준 시스템을 의존성으로 포함하고, 그러나 그들의 작업을 단순화하는 파사드 클래스를 만들어요. 예를 들어, 전기 및 배관 세부 사항을 단일 메서드로 결합하여 사용자는 단일 메서드로 전기와 배관을 간단히 켜거나 끌 수 있게 해줄 수 있어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 거의 모든 JavaScript로 설치하는 패키지는 특정한 방식으로 패싸드로 간주할 수 있으며 jQuery 같은 것은 더 귀찮은 하위 수준의 JavaScript 기능을 위한 패싸드의 훌륭한 예입니다.
 
@@ -118,7 +227,18 @@ JavaScript에서는 각 메서드가 this를 반환하게 되는데, 이는 메�
 
 프로그래밍에서는 대상 객체를 프록시로 대체할 수 있지만, 그렇게 하려면 왜 원하는 걸까요? 음, Vue.js의 반응성 시스템이 좋은 사례 연구입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Vue에서는 데이터를 생성하지만 프레임워크 자체가 데이터를 가로채서 데이터가 변경될 때 UI를 업데이트할 수 있는 방법이 필요합니다. 이를 처리하는 방법은 원래 객체를 프록시로 대체하는 것입니다.
 
@@ -128,7 +248,18 @@ Vue에서는 데이터를 생성하지만 프레임워크 자체가 데이터를
 
 프록시는 또한 메모리를 복제하는 데 비용이 많이 드는 매우 큰 객체를 다룰 때 흔히 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Iterator
 
@@ -138,7 +269,18 @@ Vue에서는 데이터를 생성하지만 프레임워크 자체가 데이터를
 
 하지만 JavaScript에 대해 제가 실망하는 한 가지는 원하는 시간 간격마다 쉽게 열 번 반복하고 싶은 범위 함수가 내장되어 있지 않다는 것입니다. 실제로 우리 자신의 이터레이터 패턴을 구현하여 이를 비교적 쉽게 수행할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 JavaScript에서는 다음 메서드가 있는 객체를 정의함으로써 그 작업을 수행할 수 있습니다. 해당 함수는 루프에서 현재 값을 나타내는 값을 반환해야 하며 종료 기준을 알기 위해 done 속성을 가져야 합니다.
 
@@ -148,7 +290,18 @@ JavaScript에서는 다음 메서드가 있는 객체를 정의함으로써 그 
 
 # 옵서버
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로 살펴볼 패턴은 옵저버입니다. 옵저버는 푸시 기반 시스템입니다. 옵저버 패턴은 다른 객체에 의해 방송된 이벤트에 여러 개의 객체가 구독할 수 있게 합니다. 이것은 일대다 관계입니다.
 
@@ -158,7 +311,18 @@ JavaScript에서는 다음 메서드가 있는 객체를 정의함으로써 그 
 
 우리의 코드에서는 RXJS 라이브러리를 가져와 이 패턴을 간단히 보여줄 것입니다. 이 라이브러리는 우리가 청취하고 싶은 데이터인 서브젝트 클래스를 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 주제를 가지게 되면 해당 주제에 여러 가입을 추가할 수 있습니다. 주제는 모든 이러한 구독을 추적하고 데이터가 변경될 때마다 콜백 함수를 호출할 것입니다.
 
@@ -168,7 +332,18 @@ JavaScript에서는 다음 메서드가 있는 객체를 정의함으로써 그 
 
 이제 중재자 패턴으로 넘어가 봅시다. 중재자는 매개자나 브로커와 같습니다. 비행기와 샐도로를 위한 클래스가 있다고 상상해보세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여러 개의 활주로와 비행기가 있을 수 있고, 어떻게 하면 특정 활주로에 비행기가 착륙해도 좋은지 확인해야 합니다.
 
@@ -178,7 +353,18 @@ JavaScript에서는 다음 메서드가 있는 객체를 정의함으로써 그 
 
 다음은 express.js 웹 프레임워크의 더 실용적인 예입니다. 미들웨어 시스템을 사용하여 들어오는 요청과 나가는 응답을 처리하며 미들웨어가 중간에 위치합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그것은 비행기처럼 모든 요청을 가로채서 적절한 형식으로 응답을 위한 런웨이로 변환합니다. 이것은 관심사의 분리를 제공하며 코드 중복을 제거합니다.
 
@@ -188,7 +374,18 @@ JavaScript에서는 다음 메서드가 있는 객체를 정의함으로써 그 
 
 코드에서는 상태나 데이터에 따라 여러 가능성을 처리하기 위해 조건 로직 또는 스위치 문을 사용해 왔을 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이런 식의 코드는 일반적으로 잘 확장되지 않습니다. 이 상태 패턴을 사용하면 하나의 기본 클래스로 시작하여 내부 상태에 따라 다양한 기능을 제공할 수 있습니다.
 
@@ -198,7 +395,18 @@ JavaScript에서는 다음 메서드가 있는 객체를 정의함으로써 그 
 
 이제 사람 클래스에서 상태를 속성으로 설정하고, 그 메소드가 호출될 때마다 현재 상태로 위임합니다. 이는 상태가 변경될 때마다 객체가 완전히 다른 방식으로 동작하지만 동시에 API를 변경할 필요가 없거나 다수의 조건부 로직을 사용할 필요가 없다는 것을 의미합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 크레딧
 
@@ -208,7 +416,18 @@ JavaScript에서는 다음 메서드가 있는 객체를 정의함으로써 그 
 
 # 요약하여 말하면 🚀
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인 플레인 잉글리쉬 커뮤니티에 참여해 주셔서 감사합니다! 떠나시기 전에:
 

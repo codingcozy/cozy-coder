@@ -3,14 +3,13 @@ title: "Nodejs 성능과 확장성 최적화 방법"
 description: ""
 coverImage: "/assets/img/2024-08-18-NodejsPerformanceandScalabilityBestPractices_0.png"
 date: 2024-08-18 11:13
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-18-NodejsPerformanceandScalabilityBestPractices_0.png
 tag: Tech
 originalTitle: "Nodejs Performance and Scalability Best Practices"
 link: "https://medium.com/@profoliohub/node-js-performance-and-scalability-best-practices-776c6ceb25ca"
 isUpdated: false
 ---
-
 
 우리의 Node.js 내부 심층 탐구 일곱 번째 시리즈에 오신 것을 환영합니다! 이번 포스트에서는 Node.js 애플리케이션의 성능과 확장성을 최적화하기 위한 기술과 모범 사례를 탐색할 것입니다. 애플리케이션이 규모와 복잡성이 커지면서, 무거운 부하에도 빠르고 반응성 있는 상태를 유지하는 것이 중요합니다. 이 블로그는 이를 달성하기 위한 실용적인 통찰을 제공할 것입니다.
 
@@ -20,7 +19,18 @@ isUpdated: false
 
 성능과 확장성은 어떠한 애플리케이션에도 중요하며, 특히 실시간 애플리케이션, 마이크로서비스 및 API를 구축할 때 자주 사용되는 Node.js에서는 더욱 중요합니다. 최적화된 Node.js 애플리케이션은 수천 개의 동시 연결을 처리할 수 있고, 빠른 응답 시간을 제공하며 수요 증가에 효과적으로 확장할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Node.js에서 최적화할 핵심 영역
 
@@ -36,7 +46,18 @@ isUpdated: false
 
 # 1. 이벤트 루프 관리
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이벤트 루프는 Node.js의 핵심이며 비동기 작업을 처리하고 애플리케이션이 응답성을 유지하도록 합니다. 이벤트 루프를 잘못 관리하면 성능 병목 현상이 발생하여 응용 프로그램이 느려지고 응답하지 않을 수 있습니다.
 
@@ -48,14 +69,25 @@ isUpdated: false
 
 ## 예: 이벤트 루프 차단 피하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-const fs = require('fs');
+const fs = require("fs");
 
-fs.readFile('/largefile.txt', 'utf8', (err, data) => {
+fs.readFile("/largefile.txt", "utf8", (err, data) => {
   if (err) throw err;
-  console.log('파일 읽기 완료.');
+  console.log("파일 읽기 완료.");
 });
 
 // Blocking operation simulation
@@ -70,7 +102,18 @@ for (let i = 0; i < 1e9; i++) {
 
 비동기 프로그래밍은 Node.js의 핵심이지만, 콜백 지옥이나 처리되지 않은 프로미스 거부와 같은 함정을 피하기 위해 효율적으로 사용하는 것이 중요합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 최상의 작업 방법:
 
@@ -81,21 +124,32 @@ for (let i = 0; i < 1e9; i++) {
 ## 예시: Async/Await을 효율적으로 사용하는 방법
 
 ```js
-const fs = require('fs').promises;
+const fs = require("fs").promises;
 
 async function readFile() {
   try {
-    const data = await fs.readFile('/largefile.txt', 'utf8');
-    console.log('파일 읽기 완료:', data);
+    const data = await fs.readFile("/largefile.txt", "utf8");
+    console.log("파일 읽기 완료:", data);
   } catch (err) {
-    console.error('파일 읽기 중 오류 발생:', err);
+    console.error("파일 읽기 중 오류 발생:", err);
   }
 }
 
 readFile();
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예시는 비동기 파일 읽기를 처리하기 위해 async/await을 사용하여 깔끔하고 오류 처리가 용이한 방식을 제공합니다.
 
@@ -105,7 +159,18 @@ readFile();
 
 ## 모범 사례:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 전역 변수 사용을 피하세요: 불필요한 전역 변수는 응용 프로그램의 수명 동안 지속되므로 메모리 누수로 이어질 수 있습니다.
 - 적절한 데이터 구조 사용하기: 사용 사례에 가장 적합한 데이터 구조를 선택하여 메모리 사용량을 최적화하세요. 예를 들어, 순서가 있는 컬렉션에는 배열을 사용하고 키-값 쌍에는 객체를 사용하세요.
@@ -122,7 +187,18 @@ setInterval(() => {
 
 이 스크립트는 메모리 사용량을 매 다섯 초마다 로깅하여 추세나 잠재적인 메모리 누출을 모니터하고 식별할 수 있도록 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 4. I/O 작업 최적화
 
@@ -134,23 +210,34 @@ I/O 작업은 파일 시스템에서 데이터를 읽거나 쓰거나 네트워�
 - 캐싱 활용: 가능한 경우 비싼 I/O 작업의 결과를 캐싱하여 이러한 작업이 필요한 횟수를 줄입니다.
 - 비동기 I/O: I/O 작업에는 항상 비동기 방식을 사용하여 이벤트 루프가 블록되지 않도록 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 예시: 대용량 파일 처리를 위한 스트림 사용
 
 ```js
-const fs = require('fs');
+const fs = require("fs");
 
-const readableStream = fs.createReadStream('/largefile.txt', {
-  highWaterMark: 16 * 1024 // 16 KB 단위로 처리
+const readableStream = fs.createReadStream("/largefile.txt", {
+  highWaterMark: 16 * 1024, // 16 KB 단위로 처리
 });
 
-readableStream.on('data', (chunk) => {
-  console.log('받은 청크:', chunk);
+readableStream.on("data", (chunk) => {
+  console.log("받은 청크:", chunk);
 });
 
-readableStream.on('end', () => {
-  console.log('파일 처리 완료.');
+readableStream.on("end", () => {
+  console.log("파일 처리 완료.");
 });
 ```
 
@@ -158,7 +245,18 @@ readableStream.on('end', () => {
 
 # 5. 클러스터링과 부하 분산
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Node.js는 한 스레드에서 실행되기 때문에 멀티 코어 시스템에서는 기본적으로 모든 CPU 코어를 활용하지 않습니다. 클러스터링을 사용하면 애플리케이션의 여러 인스턴스를 생성하여 각각 다른 코어에서 실행할 수 있습니다.
 
@@ -169,12 +267,23 @@ Node.js는 한 스레드에서 실행되기 때문에 멀티 코어 시스템에
 
 ## 예시: 클러스터 모듈 사용하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-const cluster = require('cluster');
-const http = require('http');
-const os = require('os');
+const cluster = require("cluster");
+const http = require("http");
+const os = require("os");
 
 if (cluster.isMaster) {
   const numCPUs = os.cpus().length;
@@ -182,15 +291,17 @@ if (cluster.isMaster) {
   for (let i = 0; i < numCPUs; i++) {
     cluster.fork();
   }
-  cluster.on('exit', (worker, code, signal) => {
+  cluster.on("exit", (worker, code, signal) => {
     console.log(`Worker ${worker.process.pid} died, spawning a new one.`);
     cluster.fork();
   });
 } else {
-  http.createServer((req, res) => {
-    res.writeHead(200);
-    res.end('Hello, World!\n');
-  }).listen(8000);
+  http
+    .createServer((req, res) => {
+      res.writeHead(200);
+      res.end("Hello, World!\n");
+    })
+    .listen(8000);
   console.log(`Worker process is running on PID: ${process.pid}`);
 }
 ```
@@ -201,7 +312,18 @@ if (cluster.isMaster) {
 
 지속적인 모니터링 및 프로파일링은 Node.js 응용 프로그램의 성능을 유지하고 향상시키는 데 필수적입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 최선의 실천 방법:
 
@@ -215,7 +337,18 @@ if (cluster.isMaster) {
 npx clinic doctor -- node your-app.js
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 명령을 실행하면 응용 프로그램을 프로파일링하여 성능 병목 현상을 식별하고 최적화를 위한 실행 가능한 통찰을 제공하는 보고서를 생성합니다.
 
@@ -225,7 +358,18 @@ npx clinic doctor -- node your-app.js
 
 ## 최상의 관행:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - HTTPS 사용: 데이터 전송 중 암호화하여 중간자 공격을 방지합니다.
 - 사용자 입력 데이터 필터링: 모든 사용자 입력을 필터링하여 SQL 인젝션 및 기타 공격을 방지합니다.
@@ -235,11 +379,11 @@ npx clinic doctor -- node your-app.js
 ## 예시: 요청 제한 구현하기
 
 ```js
-const rateLimit = require('express-rate-limit');
+const rateLimit = require("express-rate-limit");
 
 const limiter = rateLimit({
   windowMs: 15 * 60 * 1000, // 15분
-  max: 100 // 각 IP 주소당 windowMs 당 최대 100개의 요청 제한
+  max: 100, // 각 IP 주소당 windowMs 당 최대 100개의 요청 제한
 });
 
 app.use(limiter);
@@ -247,7 +391,18 @@ app.use(limiter);
 
 이 예시에서는 Express 애플리케이션에 요청 제한기가 적용되어, 각 IP 주소가 15분당 100개의 요청으로 제한됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -257,7 +412,18 @@ Node.js에서 성능 및 확장성을 최적화하려면 이벤트 루프 관리
 
 지금 팔로우하고 구독하여 Node.js 내부 세계로의 흥미진진한 여정에 참여해보세요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 편하게 댓글이나 질문을 남겨주세요. 학습 여정에 도움이 될 수 있도록 도와드리겠습니다.
 

@@ -3,14 +3,13 @@ title: "백엔드 개발자라면 데이터베이스 지식을 경시하지 말�
 description: ""
 coverImage: "/assets/img/2024-08-18-DontUnderestimateDatabaseKnowledgeIfYoureaBackendDeveloper_0.png"
 date: 2024-08-18 10:42
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-18-DontUnderestimateDatabaseKnowledgeIfYoureaBackendDeveloper_0.png
 tag: Tech
 originalTitle: "Dont Underestimate Database Knowledge If Youre a Backend Developer"
 link: "https://medium.com/@emirgs-uzun/dont-underestimate-database-knowledge-if-you-re-a-backend-developer-f5a146871216"
 isUpdated: false
 ---
-
 
 백엔드 개발자가 되기를 원한다면, 데이터베이스에 대한 견고한 이해 없이 시작하는 것은 나침반 없이 산을 탐험하는 것과 같습니다. 데이터베이스와 백엔드 간의 관계는 애플리케이션의 심장과 뇌의 관계와 비슷합니다. 내 의견으로는, 백엔드 개발의 60%는 데이터베이스에 관한 것입니다. 처음 학습을 시작했을 때, 온라인 백엔드 로드맵에서 가장 큰 결점 중 하나는 데이터베이스 지식에 대한 강조 부족이었습니다. 이러한 로드맵은 종종 초보자들을 잘못 이끌어주는데, 조금의 JavaScript와 몇 가지 기본적인 Java 지식으로 백엔드 개발자가 될 수 있다고 제안합니다. 이는 초보자들을 오도하기 쉽습니다. 이후 학생들이 교육을 계속하고 주요 데이터베이스 문제를 마주하게 되면, 모든 동기부여를 잃고, 불안감을 느끼며 공부를 그만두는 경우가 발생할 수 있습니다.
 
@@ -20,7 +19,18 @@ isUpdated: false
 
 # 백엔드 개발자가 되고 싶어요: 데이터베이스에 대해 알아야 할 것들
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가장 먼저 데이터베이스 개념을 이해해야 합니다. 당신이 작성한 코드와 데이터베이스 사이의 관계는 무엇인가요? 데이터베이스에서 무엇을 검색하고, 무엇을 전송하고 있나요? 데이터베이스가 코드와 상호작용하는 방식을 고려해야 합니다. 한 줄의 코드로 검색한 데이터만큼으로 끝나는 것이 아닙니다. 데이터베이스 관계에서의 조차 작은 실수도 기업 환경에서 중대한 문제를 일으킬 수 있습니다.
 
@@ -30,7 +40,18 @@ SQL 프로그래밍에 능숙해지는 것은 큰 장점이 될 것입니다. �
 
 # 백엔드 개발 중 메모하는 작은 노트들
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 항상 내가 쓰는 메모를 신뢰했어요. 주석이 개발자를 위한 다이어리인 것처럼 나에게는 실제 종이에 쓰는 메모가 필수적이에요. 내가 쓴 코드에서 따라온 모든 관계와 경로를 쉽게 기억하게 도와주는 메모장을 가지고 있어요. 이러한 메모는 나만이 이해할 수 있는 방식으로 쓰여졌지만, 그게 전부인 거죠. 너에게 내 조언은 단순히 코딩을 마구하게하는 대신 네가 무엇을 했는지 상기시킬 메모를 유지하는 거에요. 특히 데이터베이스 관계에 관해 이야기할 때는 더욱 중요해요. 나에게는 이게 가장 중요한 세부사항이에요.
 
@@ -40,7 +61,18 @@ SQL 프로그래밍에 능숙해지는 것은 큰 장점이 될 것입니다. �
 
 # 데이터베이스 지식을 과소평가했을 때 일어난 일은 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대학에서 5년 동안 경영 정보 시스템을 공부했어요. 이 기간 동안에는 최대한 스스로를 발전시키고 소프트웨어 전문가로서의 자리를 찾으려고 노력했어요. 지난 2년 동안에는 백엔드와 풀스택 개발에 집중하며 이 분야에서 자기계발을 시작했어요. 이전에도 언급한 대로, 초기 단계에서 로드맵에 따라 자바를 배우기 시작했어요. 자바 기술을 향상시키는 동안 Spring Boot로 코드 작성에 익숙해지려고 노력했어요. 그러나 이 과정에서 데이터베이스에는 그다지 신경을 쓰지 않고 교육 세션에서 가르쳐진 대로만 코드를 작성했어요. 이것뿐만 아니라, 함께하는 친구들과 이야기할 때도 데이터베이스 전문 지식이 구식이라는 것을 알지 못하고 간단히 논의했어요.
 
@@ -50,6 +82,17 @@ SQL 프로그래밍에 능숙해지는 것은 큰 장점이 될 것입니다. �
 
 # 가장 타당한 백엔드 로드맵
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아직 학습 중이신 분이시고 이 주제에 대해 많은 사이트를 탐색하고 광범위한 연구를 수행해온 것으로 알고 있습니다. 그러한 관점에서 가장 타당한 로드맵은 Couchbase가 제공한 Backend Roadmap이라고 말씀드리고 싶습니다. 만약 안내가 필요하시다면, 이 사이트가 최적의 길잡이 역할을 해줄 것입니다. 게다가 백엔드에 대한 매우 좋은 프로젝트 예시도 있습니다. 이 경로를 단계별로 따라가고 모든 것을 적용한다면, 나중에 충격을 받지 않고 아무 것도 모르는 느낌을 받지 않을 것입니다. 유용하게 활용하시길 바랍니다.

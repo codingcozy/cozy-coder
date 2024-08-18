@@ -3,14 +3,13 @@ title: "Angular에서 this의 컨텍스트를 잃는 예시들"
 description: ""
 coverImage: "/assets/img/2024-08-18-ExamplesoflosingcontextofthisinAngular_0.png"
 date: 2024-08-18 11:01
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-18-ExamplesoflosingcontextofthisinAngular_0.png
 tag: Tech
 originalTitle: "Examples of losing context of this in Angular"
 link: "https://medium.com/itnext/practical-examples-of-losing-context-of-this-in-angular-ed7035ea85a7"
 isUpdated: false
 ---
-
 
 이러한 것을 잃어버리는 것은 예전에는 ES6 이전에 일반적인 두통이었습니다. 그런 다음 화살표 함수가 등장하면 과거의 문제가 사라졌습니다. 그렇다면 새로운 JavaScript 개발자는 왜 호출 컨텍스트의 차이를 배우려고 해야 할까요? (또는 상속, 호이스팅, 객체지향 원칙 등) 제가 이유를 보여드릴게요. 그 전에 간단하게 정의를 다시 한 번 살펴봅시다:
 
@@ -20,7 +19,18 @@ isUpdated: false
 
 JavaScript에서 'this'의 값은 함수가 호출되는 방식에 따라 달라집니다. (런타임 바인딩), 정의된 방식에 따라 달라지지 않습니다. 일반 함수가 객체의 메서드로 호출될 때 (obj.method()), 'this'는 해당 객체를 가리킵니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## '화살표 함수'에서의 'this':
 
@@ -34,7 +44,7 @@ export type State = 'FAILED' | 'PERFECT';
 @Component({
   ...
   template: `
-      <input type="number" [formControl]="value"/> 
+      <input type="number" [formControl]="value"/>
   `,
   changeDetection: ChangeDetectionStrategy.OnPush
 })
@@ -53,23 +63,43 @@ export class SelfValidatingFieldComponent {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간단한 입력 필드입니다. 여기에는 유효성 검사기가 있습니다. 유효성 검사기를 정의하여 이 필드는 일회용 필드입니다. 한 번 유효하지 않게 만들면 그대로 유지됩니다. 그 이유는 몰라도 되죠. 물론 이 코드는 제대로 작동하지 않을 것입니다.
 
-
 ![Image](/assets/img/2024-08-18-ExamplesoflosingcontextofthisinAngular_1.png)
-
 
 디버깅해 보면 더욱 나빠집니다. 우리의 유효성 검사기가 두 번 호출됩니다. 먼저 Angular 내부의 FormControl2 클래스에서 this.validator(this)로 호출되고, 그 다음으로 util 순수 함수에서 호출됩니다.
 
 ```javascript
 function executeValidators(control, validators) {
-    return validators.map((validator) => validator(control));
+  return validators.map((validator) => validator(control));
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 innerStateThing이 이를 FormControl2로 보고 두 번째에는 undefined로 볼 때 당신의 의도와는 다르게 동작합니다. 이런 상황이 발생하는 이유가 무엇일까요? new FormControl(1, this.controlValidator)은 우리의 validator를 FormControl 개체에 할당하고, 호출될 때 이를 this로 받게 됩니다. 두 번째 호출에 대해 말씀드리자면,
 
@@ -120,8 +150,18 @@ export class SelfValidatingFieldComponent {
 
 이제 controlValidatorFactory는 동작하지만 다시 오류가 발생했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Example of losing context of 'this' in Angular](/assets/img/2024-08-18-ExamplesoflosingcontextofthisinAngular_2.png)
 
@@ -131,8 +171,18 @@ Fun fact: if I had used @Input instead of signal input this would be SelfValidat
 
 The bottom line is, you never know where your function will be called from, so either:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 순수하게 만들어 보세요!
 - 화살표 함수를 사용하여 속성 보유 `customValidator = (val: number): boolean =` 를 사용해 보세요!

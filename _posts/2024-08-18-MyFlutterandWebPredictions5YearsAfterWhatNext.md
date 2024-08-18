@@ -3,14 +3,13 @@ title: "내 예상 5년 후의 플러터와 웹 개발 현황 그 다음은"
 description: ""
 coverImage: "/assets/img/2024-08-18-MyFlutterandWebPredictions5YearsAfterWhatNext_0.png"
 date: 2024-08-18 10:39
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-18-MyFlutterandWebPredictions5YearsAfterWhatNext_0.png
 tag: Tech
 originalTitle: "My Flutter and Web Predictions 5 Years After What Next"
 link: "https://medium.com/@slavaolenin/my-flutter-and-web-predictions-5-years-after-what-next-113b5c36de35"
 isUpdated: false
 ---
-
 
 2019년에 Flutter가 웹에 혁명을 가져올 것이라고 예언했었죠. 그리고 제가 그것에 대해 옳았다는 걸 알아버렸습니다!
 
@@ -23,7 +22,18 @@ isUpdated: false
 - 브라우저들은 자바스크립트/HTML 외의 기능에 더 많은 노력을 기울일 거예요.
 - HTML 태그에 국한되지 않는 SEO 최적화에 더 많은 작업이 기대될 것이에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내가 한 모든 예측에 관심이 있다면, 5년 전의 글을 확인해 보세요. 그런데 정말 유혹적이게 "봤어! 봤어! 내가 말했던 대로 정확히 그렇군!" 이렇게 말하고 싶네요. 여기에 이유가 있습니다:
 
@@ -33,7 +43,18 @@ isUpdated: false
 
 ## 플러터(Flutter)는 막 시작에 불과합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 말씀드렸던 대로, Flutter가 웹을 대상으로 처음 등장했습니다. 기본적인 문제를 해결한 후에는 텍스트 선택, 페이지 내 검색, 접근성과 같은 네이티브 브라우저 기능을 처리해야 합니다. 이러한 쟁점들을 정복하면 새로운 플레이어들이 시장에 진입하리라 기대할 수 있습니다. 새로운 프레임워크들을 처음부터 개발해야 하는 것은 아닙니다. 이미 많은 프레임워크가 존재했지만 순수한 성능과 거대한 번들 크기 때문에 브라우저를 대상으로 지향하지 않았던 것이다. 그리고 이제 우리는 선택할 수 있는 다양한 옵션들이 있습니다:
 
@@ -46,7 +67,18 @@ isUpdated: false
 
 # 더 많은 언어들이 WASM을 통해 웹을 타겟팅할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금 또 다른 혁명이 일어나고 있습니다:
 
@@ -57,7 +89,18 @@ isUpdated: false
 
 우리는 여기서도 많은 진전을 이루었습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 대부분의 프레임워크에서 사용되는 렌더링 프레임워크 Skia는 Kotlin Compose Multiplatform, Uno, Avalonia, Flutter 등에서 사용되며 WebGPU 지원이 진행 중입니다.
 - Flutter의 임펠러가 모든 모바일 플랫폼에 배포되면 웹으로 이주될 가능성이 높습니다.
@@ -69,7 +112,18 @@ isUpdated: false
 
 Rust의 Leptos는 이미 우수한 서버 사이드 기능을 제공하고 있으며, Dioxus도 따라가고 있습니다. 물론, 이들은 HTML에 더 중점을 둔다. 그러나 특정 구현보다는 동향에 대해 이야기하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 그건 내 자랑 뿐만이 아니에요.
 
@@ -79,7 +133,18 @@ Rust의 Leptos는 이미 우수한 서버 사이드 기능을 제공하고 있�
 
 지금 일어나고 있는 일은 post-JavaScript로의 매우 부드러운 이주, 자바스크립트는 그대로 남아 있지만 또 다른 WASM 지원 언어로 존재할 거에요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 다음은 무엇인가요?
 
@@ -89,7 +154,18 @@ Rust의 Leptos는 이미 우수한 서버 사이드 기능을 제공하고 있�
 
 산업은 계속해서 WASM 번들 크기를 줄이는 데 초점을 맞출 것입니다. 최소한 최소화된 JavaScript 기반 번들과 비교할 수 있는 수준으로. 그것은 다양한 형태로 나타날 수 있지만, 뚜렷한 변화로 나타날 것입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - WASM은 더 많은 내장 기능을 노출할 것입니다. 예를 들어, WasmGC를 통해 GC 기반 언어는 자체 GC를 번들로 제공할 필요가 없게 됩니다. 새로운 공유 문자열 제안이 진행 중에 있습니다. 기본적으로 브라우저들은 Windows가 DLL로 수행하는 것처럼 많은 기능들을 기본 제공할 것입니다.
 - WASM 구성 요소 — 독립적인 WASM 모듈이 서로 통신할 수 있는 경우, 가장 일반적인 WASM 모듈은 CDNs에서 호스팅되어 대부분의 사용자 브라우저 캐시에 저장될 것입니다. 그렇지 않더라도, WASM 모듈을 분리함으로써 거대한 빌드를 더 작은 모듈로 분할하여 필요할 때 필요에 따라 지연로드할 수 있게 될 것입니다.
@@ -100,8 +176,18 @@ Rust의 Leptos는 이미 우수한 서버 사이드 기능을 제공하고 있�
 
 ## 더 나은 도구
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 WasmGC가 소개되면서 Google, Microsoft, JetBrains와 같은 주요 기업들이 다양한 언어를 웹에서 적극적으로 홍보하는 것을 볼 수 있습니다.
 
@@ -111,7 +197,18 @@ Kotlin/WASM은 알파 단계에 있으며, Dart는 이미 안정화되었으며,
 
 # 최종 추측
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자바스크립트 엔진은 자바스크립트를 빠르게 컴파일하고 최적화하여 성능을 향상시키기 위해 필요한 작업량 때문에 현재 브라우저에서 가장 복잡한 시스템 중 하나입니다. 그래서 WASM이 자바스크립트와 기능적으로 호환되면, 자바스크립트 컴파일러를 V8과 같은 런타임으로부터 분리하여 순수하게 WASM 전용 런타임으로 변경하는 것이 합리적입니다.
 
@@ -121,7 +218,18 @@ Kotlin/WASM은 알파 단계에 있으며, Dart는 이미 안정화되었으며,
 
 저의 주장은 순수한 추측에 불과하지만, 미래 어느 날에는 최적화된 WASM을 생성할 수 있는 널리 채택된 JS의 LLVM 아날로그가 등장할 가능성이 매우 높습니다. 그리고 이는 더 간단하고 가벼운 순수 WASM 런타임을 모든 주요 브라우저에 함께 제공할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 너무나도 믿기 어려울 수도 있겠지만! JIT와 그에 따른 모든 최적화에 대해 어떻게 생각하시나요? 이미 React Native 세계에서 그런 변화가 일어나고 있다는 것을 알 수 있어요. React Native가 JIT 지원이 없는 JavaScript 런타임인 Hermes로 이동한 후에 성능 문제가 발생한 것을 몇 명이나 알고 있었나요?
 

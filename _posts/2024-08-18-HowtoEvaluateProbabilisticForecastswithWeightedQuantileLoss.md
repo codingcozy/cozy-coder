@@ -3,15 +3,13 @@ title: "가중된 분위수 손실 함수를 사용하여 확률적 예측을 �
 description: ""
 coverImage: "/assets/img/2024-08-18-HowtoEvaluateProbabilisticForecastswithWeightedQuantileLoss_0.png"
 date: 2024-08-18 10:35
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-18-HowtoEvaluateProbabilisticForecastswithWeightedQuantileLoss_0.png
 tag: Tech
 originalTitle: "How to Evaluate Probabilistic Forecasts with Weighted Quantile Loss"
 link: "https://medium.com/@_init_/how-to-evaluate-probabilistic-forecasts-with-weighted-quantile-loss-0208463746d0"
 isUpdated: false
 ---
-
-
 
 ![How to Evaluate Probabilistic Forecasts with Weighted Quantile Loss](/assets/img/2024-08-18-HowtoEvaluateProbabilisticForecastswithWeightedQuantileLoss_0.png)
 
@@ -21,8 +19,18 @@ isUpdated: false
 
 이 글을 마치면, 이 지표를 어떻게 계산하는지와, 그것을 해석하는 방법을 정확히 알게 될 것이고, 무엇보다도 확신을 갖고 확률적 예측을 평가할 수 있을 거야.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 글에서 설명한 결과를 재현하기 위한 코드는 해당 저장소에 있습니다.
 
@@ -32,7 +40,18 @@ isUpdated: false
 
 ![Quantile Loss Formula](/assets/img/2024-08-18-HowtoEvaluateProbabilisticForecastswithWeightedQuantileLoss_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 솔직히, 누가 수학에 시간을 할애할 수 있을까요? 실제로 의미 있는 방식으로 이것을 코드를 사용하여 분석해 보겠습니다!
 
@@ -48,7 +67,18 @@ quantile = 0.1
 
 이제 각 시간 단계 i에 대해 quantile α = 0.1에서의 예측값에 대한 quantile 손실을 계산해보겠습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 def quantile_loss(alpha, q, x):
@@ -66,7 +96,18 @@ print(metrics)
 
 np.where 함수는 실제 값이 예측된 값보다 큰지에 따라 적절한 공식을 적용하여 손실을 계산하는 데 도움을 줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더미 매개변수로 실행하면 아래와 같은 결과를 얻을 수 있어요:
 
@@ -78,7 +119,18 @@ np.where 함수는 실제 값이 예측된 값보다 큰지에 따라 적절한 
 
 # 분위 손실 집계하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 실제로는 하나의 분위에 대한 분위 손실만 계산하는 것이 아닙니다. 실제 응용 프로그램에서는 종종 여러 분위에 걸쳐 확률적 예측을 생성해야 합니다. 그래서 모델의 확률적 예측에서 분위 손실을 집계하는 방법을 살펴보겠습니다.
 
@@ -95,7 +147,18 @@ data = {
 
 먼저 각 분위에 대한 분위 손실을 계산해보겠습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 quantiles = [0.1, 0.5, 0.9]
@@ -119,7 +182,18 @@ for quantile in quantiles:
 
 이제 이러한 손실을 시간 단계별로 가중치를 적용하여 집계합니다. 가중치는 약간 이상할 수 있지만 걱정하지 마세요. 곧 중요성에 대해 자세히 알게 될 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 #각 분위수에 대해 가중치를 사용하여 시간 단계별로 집계합니다
@@ -139,7 +213,18 @@ for 분위수 in 분위수:
 
 결과는 다음과 같게 될 것입니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 결과:
@@ -158,7 +243,18 @@ print(f"단순 평균: {simple_average}")
 
 위 코드에서, 우리는 집계된 분위수 손실을 모두 합하고 3으로 나누어줍니다 (3개의 분위수 값들인 0.1, 0.5 및 0.9를 계산했기 때문에). 그렇게 해서 다음과 같은 값을 구할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 출력: 간단한 평균: 0.013333333333333334
@@ -170,8 +266,18 @@ print(f"단순 평균: {simple_average}")
 
 그래서, 우리는 어떻게 사분위수 손실을 계산하는지 살펴보았지만, 이게 정말 무엇을 의미하는 걸까? 보다 명확한 그림을 얻기 위해 아래 차트를 살펴보자. 이 차트는 다른 사분위수로 나타낸 손실값을 시각화했다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Breaking Down the Chart](<img src="/assets/img/2024-08-18-HowtoEvaluateProbabilisticForecastswithWeightedQuantileLoss_2.png" />)
 
@@ -181,8 +287,18 @@ print(f"단순 평균: {simple_average}")
 
 이제 이해해야 할 중요한 점은:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예측값과 실제 값이 같을 때 손실은 0입니다-놀랄 만한 일은 없네요! 둘 다 다를 때, 일이 흥미롭게 시작합니다.
 
@@ -192,7 +308,18 @@ print(f"단순 평균: {simple_average}")
 
 우리가 0.9 분위수에서 예측을 할 때, 우리는 실제 값이 해당 숫자 아래에 있을 것이라고 90% 확신하는 것을 의미합니다. 그래서 실제 값이 더 높게 나오면, 우리의 모델이 정말 크게 엉망이라는 뜻이 되어 더 벌을 부과합니다. 양쪽 다 손실률이 직선적이지만 서로 다른 비율로 나타난다는 점에 주목하세요-과소평가할 때 더 가파르게 상승하며, 이는 높은 분위에서 예상하는 것과 일치합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 분위수 α=0.1
 
@@ -202,7 +329,18 @@ print(f"단순 평균: {simple_average}")
 
 마지막으로, α = 0.5에 대해 이야기해 봅시다. 이것은 중앙에 정확히 위치한 값이기 때문에 특별합니다 - 중앙값입니다. 여기서 초과평가와 과소평가에 대한 손실은 완벽하게 대칭적입니다. 차트를 보면, 너무 높게 예측하든 너무 낮게 예측하든 손실이 똑같은 속도로 증가하는 것을 볼 수 있습니다. 이것은 α = 0.5에서의 분위수 손실이 사실 평균 절대 편차(Mean Absolute Deviation, MAD) 손실의 확장된 버전에 불과하기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 공식은 어떻게 단순화될까요? 확인해보세요:
 
@@ -212,8 +350,18 @@ print(f"단순 평균: {simple_average}")
 
 이를 다음과 같이 단순화할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-08-18-HowtoEvaluateProbabilisticForecastswithWeightedQuantileLoss_4.png)
 
@@ -223,8 +371,18 @@ MAD 손실의 정확히 절반에 해당합니다. 따라서 α = 0.5일 때, �
 
 분위 손실은 예측 값과 실제 값 사이의 오류를 측정하는 메트릭으로 볼 수 있습니다. 벌점은 오류가 과소 또는 과대 추정인지, 모델이 얼마나 확신을 가졌는지에 따라 달라집니다. 이때 더 높은 분위는 더 많은 확신을 나타냅니다.
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 손실을 집계하면(이전에 했던 것처럼), 모형의 성능을 더 세밀하게 이해할 수 있습니다. 단일 정확도 지표에 의존하는 대신, 여러 가지 시나리오에 걸쳐 모형의 오류가 어떻게 분산되어 있는지에 대한 포괄적 요약을 얻을 수 있습니다. 이 방법은 서로 다른 모형의 성능을 비교하기 위한 단일 숫자가 필요할 때 귀중합니다.
 
@@ -234,7 +392,18 @@ MAD 손실의 정확히 절반에 해당합니다. 따라서 α = 0.5일 때, �
 
 ## 과대 추정 시나리오
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-08-18-HowtoEvaluateProbabilisticForecastswithWeightedQuantileLoss_5.png)
 
@@ -245,7 +414,18 @@ MAD 손실의 정확히 절반에 해당합니다. 따라서 α = 0.5일 때, �
 
 ## 과소평가 시나리오
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-08-18-HowtoEvaluateProbabilisticForecastswithWeightedQuantileLoss_6.png" />
 
@@ -256,7 +436,18 @@ MAD 손실의 정확히 절반에 해당합니다. 따라서 α = 0.5일 때, �
 
 ## 정확한 예측 시나리오
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-08-18-HowtoEvaluateProbabilisticForecastswithWeightedQuantileLoss_7.png" />
 
@@ -267,7 +458,18 @@ MAD 손실의 정확히 절반에 해당합니다. 따라서 α = 0.5일 때, �
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 게시물에서는 Weighted Quantile Loss (WQL)의 내부와 외부를 탐색했습니다. 수식을 이해하고 다양한 예측 시나리오에서 해석하는 방법까지 알아보았습니다. WQL은 모델의 성능을 이해하는 실용적인 방법을 제공하는데, 단순히 점 추정이 아닌 예측 분포를 출력할 수 있다면 이를 이용할 수 있습니다.
 

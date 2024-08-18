@@ -3,14 +3,13 @@ title: "자바에서 Getter 또는 Setter를 다시 작성하지 마세요"
 description: ""
 coverImage: "/assets/img/2024-08-18-NeverwriteaGetterorSetterinJavaAgain_0.png"
 date: 2024-08-18 11:24
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-18-NeverwriteaGetterorSetterinJavaAgain_0.png
 tag: Tech
 originalTitle: "Never write a Getter or Setter in Java Again"
 link: "https://medium.com/@abhisheksinghjava/never-write-a-getter-or-setter-in-java-again-a40ce6c3a05f"
 isUpdated: false
 ---
-
 
 <img src="/assets/img/2024-08-18-NeverwriteaGetterorSetterinJavaAgain_0.png" />
 
@@ -20,7 +19,18 @@ Lombok은 현재 Java 세계에서 매우 인기 있는 매우 유명한 라이�
 
 여러 애너테이션을 제공하여 애너테이션에 따라 메서드를 자동으로 생성할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 1. 가독성 향상:
 
@@ -30,7 +40,18 @@ Lombok은 현재 Java 세계에서 매우 인기 있는 매우 유명한 라이�
 
 ## 2. 보일러플레이트 코드 감소:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 롬복 라이브러리는 게터 및 세터 메서드, 생성자, equals(), hashCode(), 그리고 toString() 메서드와 같은 반복적이고 장황한 코드를 제거하는 데 도움이 됩니다.
 
@@ -40,7 +61,18 @@ Lombok은 현재 Java 세계에서 매우 인기 있는 매우 유명한 라이�
 
 롬복은 일관된 코드 패턴을 제공하여 다른 개발자들이 코드를 더 잘 이해할 수 있도록 돕고, 다양한 보일러플레이트 코드를 제거함으로써 코딩 오류를 줄입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 4. 빌더 패턴을 간소화합니다:
 
@@ -50,7 +82,18 @@ Lombok은 현재 Java 세계에서 매우 인기 있는 매우 유명한 라이�
 
 ## 5. IDE와의 호환성:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **롬복**은 IntelliJ IDEA, Eclipse, Visual Studio Code 및 기타 대부분의 인기있는 IDE와 통합될 수 있습니다.
 
@@ -60,7 +103,18 @@ Lombok은 현재 Java 세계에서 매우 인기 있는 매우 유명한 라이�
 
 롬복은 작성하고 유지해야 하는 다양한 보일러플레이트 코드를 제거하는 데 도움을 줍니다. 따라서 여기서 개발자는 주로 비즈니스 로직 작성에 주력할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 개발자들은 반복적인 작업에 시간을 보내는 대신 클래스의 필수 로직을 작성하는 데 집중할 수 있습니다.
 
@@ -71,7 +125,18 @@ Lombok은 현재 Java 세계에서 매우 인기 있는 매우 유명한 라이�
 
 Java에서 롬복 주석의 몇 가지 실용적인 예제는 아래와 같습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## @Getter 및 @Setter 어노테이션-
 
@@ -91,7 +156,18 @@ public class Student {
 
 ## @ToString 어노테이션-
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 주석은 클래스 내용을 출력하는 toString() 메서드를 생성합니다.
 
@@ -109,7 +185,18 @@ public class Student {
 
 이 주석은 Getter, Setter, ToString, EqualsAndHashCode 및 RequiredArgumentConstructor 주석을 결합합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import lombok.Data;
@@ -137,7 +224,18 @@ public class Student {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## @Builder Annotation-
 
@@ -156,7 +254,18 @@ public class Student {
 
 ## @EqualsAndHashCode Annotation-
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 주석은 클래스 필드에 대한 equals() 및 hashCode() 메서드를 생성합니다.
 
@@ -175,7 +284,18 @@ public class Student {
 
 이 주석은 각각 매개변수가 없는 생성자와 모든 매개변수를 갖는 생성자를 생성합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 import lombok.AllArgsConstructor;

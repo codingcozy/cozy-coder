@@ -3,14 +3,13 @@ title: "JavaScript와 TypeScript에서 let 사용을 중지해야 하는 이유 
 description: ""
 coverImage: "/assets/img/2024-08-18-StopUsingletorWhyItsNeedlessinJavaScriptTypeScriptAdvancedJSTS2024_0.png"
 date: 2024-08-18 10:59
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-18-StopUsingletorWhyItsNeedlessinJavaScriptTypeScriptAdvancedJSTS2024_0.png
 tag: Tech
 originalTitle: "Stop Using let or Why Its Needless in JavaScript TypeScript  Advanced JS TS 2024"
 link: "https://medium.com/javascript-in-plain-english/stop-using-let-or-why-its-needless-in-javascript-typescript-advanced-js-ts-2024-fe3be70287d2"
 isUpdated: false
 ---
-
 
 ![이미지](/assets/img/2024-08-18-StopUsingletorWhyItsNeedlessinJavaScriptTypeScriptAdvancedJSTS2024_0.png)
 
@@ -20,7 +19,18 @@ isUpdated: false
 
 하지만 여기에 주목할 점이 있습니다: 2024년에는 코드에서 let을 사용하는 것이 가장 불필요한 일 중 하나일 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그렇다고요. 이제 let을 사용하는 것을 그만두는 시간입니다.
 
@@ -30,7 +40,18 @@ const로 바꾸어야 하는 경우와 가끔씩 let이 TypeScript 파일에서 
 
 우선 과거로 돌아가봅시다. ES6 이전에는 var을 사용했었죠. 기능적이었지만 심각하게 결함이 있었습니다. var은 블록 스코프를 존중하지 않았는데요, for 루프 내에서 var를 선언해도 해당 변수가 루프 외부에서 계속 접근 가능했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 혼란을 불러일으키고 버그 코드를 유발하는 것은 바로 요것. ES6(혹은 ECMAScript 2015)은 let과 const를 도입함으로써 게임을 바꿨어. 갑자기 우리에게는 블록 단위 변수가 생겼지!
 
@@ -40,7 +61,18 @@ const로 바꾸어야 하는 경우와 가끔씩 let이 TypeScript 파일에서 
 
 # 왜 const가 기본값이 되어야 하는 이유 🐠
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자, 함께 고려해 봅시다: 변경 불가능성은 최고입니다. 우리의 대부분의 일상 프로그래밍에서는 예측 가능하고 이해하기 쉽며 부작용이 없는 코드를 작성하기 위해 노력합니다.
 
@@ -50,7 +82,18 @@ const로 바꾸어야 하는 경우와 가끔씩 let이 TypeScript 파일에서 
 
 ![이미지](/assets/img/2024-08-18-StopUsingletorWhyItsNeedlessinJavaScriptTypeScriptAdvancedJSTS2024_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이렇게 하면 코드를 읽고 유지하는 것이 더 쉬워집니다. const로 선언된 변수를 한눈에 보면 즉시 그 목적을 파악할 수 있습니다: 이 값은 고정되어 있다는 것을 알 수 있어요.
 
@@ -60,7 +103,18 @@ const로 바꾸어야 하는 경우와 가끔씩 let이 TypeScript 파일에서 
 
 # let 사용의 문제점 🐲
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 let 키워드의 주요 문제는 불필요한 가변성을 초래한다는 것입니다. let을 사용하여 무언가를 선언하는 것은 너무 쉽지만 후에 그것이 처음에 왜 가변이어야 하는지 잊기 쉽습니다.
 
@@ -70,20 +124,40 @@ let 키워드의 주요 문제는 불필요한 가변성을 초래한다는 것�
 
 이 예시에서 let을 사용하는 것은 해 Harmless 해 보일 수 있지만, 자신에게 물어보세요 - userCount가 정말 가변이어야 했나요?
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신이 쓴 코드를 const로 바꾸고 로직을 다시 구성했으면 코드가 더 명확하고 기능적일까요?
 
-
 | <img src="/assets/img/2024-08-18-StopUsingletorWhyItsNeedlessinJavaScriptTypeScriptAdvancedJSTS2024_3.png" /> |
-| :------------------------------------------------------------------------------------------------------------: |
-
+| :-----------------------------------------------------------------------------------------------------------: |
 
 와우! 더 깨끗한 코드, 덜 가변성이 있고, 쉽게 따라가기가 쉬워졌어요.
 
 # 언제 let을 사용해야 할까요? 🎒
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서 let을 완전히 버릴까요? 그렇지 않아요. let에 대한 합리적인 사용 사례가 있습니다. 하지만 생각하는 것보다 그 수가 더 적고 희소합니다.
 
@@ -93,7 +167,18 @@ for 루프가 좋은 예입니다:
 
 ![이미지](/assets/img/2024-08-18-StopUsingletorWhyItsNeedlessinJavaScriptTypeScriptAdvancedJSTS2024_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 여기서 i는 각 반복마다 변경되어야 하므로 let을 사용하는 것이 옳은 선택입니다.
 - 변경 가능한 변수: 값이 실제로 변경되어야 하는 변수가 있는 경우에는 const 대신 let을 사용하는 것이 적절합니다.
@@ -104,7 +189,18 @@ for 루프가 좋은 예입니다:
 
 하지만 이러한 시나리오는 생각보다 덜 흔합니다. 종종 let이 필요하다고 느껴지는 것은 const로 재구성되어 명확성이나 기능을 잃지 않을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 더 나은 코드를 위한 도구와 팁들 🎥
 
@@ -116,19 +212,39 @@ for 루프가 좋은 예입니다:
 
 # let 선언 완화의 고급 수준 💖
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 혼란을 해결하는 다른 방법을 찾고 있다면, 선언 부분이 당신을 구조해 주는 구명조끼가 될 수도 있어요.
 
 이것을 읽기 어렵게 만드는 이유는 초기 값을 머릿속에 유지하고 읽는 동안 발생하는 변이를 지켜봐야 한다는 점입니다.
 
-
 ![이미지](/assets/img/2024-08-18-StopUsingletorWhyItsNeedlessinJavaScriptTypeScriptAdvancedJSTS2024_6.png)
-
 
 해결 방법: 함수를 호출하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-08-18-StopUsingletorWhyItsNeedlessinJavaScriptTypeScriptAdvancedJSTS2024_7.png" />
 
@@ -138,7 +254,18 @@ let을 사용하지 말고 formattedAddress 변수를 변이시키는 대신, �
 
 요약하자면, 현대의 JavaScript와 TypeScript에서는 let은 규칙보다는 예외여야 합니다. const를 기본으로 사용함으로써 코드를 더 예측 가능하고 읽기 쉽게 만들며 버그 발생 가능성을 줄일 수 있습니다. 물론 let이 필요한 경우도 있지만, 그런 경우는 신중하게 고려해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 키보드 위에 손가락이 떠다니면서 'let'을 입력하려고 할 때, 한 순간 멈춰서 '이것이 정말 가변이어야 할까?' 물어보세요. 대부분의 경우 그 답은 아닐 겁니다.
 
@@ -148,7 +275,18 @@ let을 사용하지 말고 formattedAddress 변수를 변이시키는 대신, �
 
 즐거운 코딩하세요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 친근한 한국어 번역 🚀
 

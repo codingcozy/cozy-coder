@@ -3,14 +3,13 @@ title: "리액트 ToDo 앱과 장고로 세분화된 Full-Stack 개발 마스터
 description: ""
 coverImage: "/assets/img/2024-08-18-MasteringFull-StackDevelopmentBuildaReactTodoAppwithDjangoinMinutes_0.png"
 date: 2024-08-18 11:09
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-18-MasteringFull-StackDevelopmentBuildaReactTodoAppwithDjangoinMinutes_0.png
 tag: Tech
 originalTitle: "Mastering Full-Stack Development Build a React Todo App with Django in Minutes"
 link: "https://medium.com/@devsumitg/mastering-full-stack-development-build-a-react-todo-app-with-django-in-minutes-e77c75f17d46"
 isUpdated: false
 ---
-
 
 ![이미지](/assets/img/2024-08-18-MasteringFull-StackDevelopmentBuildaReactTodoAppwithDjangoinMinutes_0.png)
 
@@ -20,7 +19,18 @@ Buy Me a Coffee로 후원하여 개발 지식을 공유하는 제 열정을 지�
 
 출발해봅시다 🚀
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오늘의 기술 세계에서는 풀 스택 개발이 매우 중요한 기술이며, Django와 React와 같은 강력한 기술을 결합하면 개발자로서 돋보일 수 있습니다.
 
@@ -30,7 +40,18 @@ Buy Me a Coffee로 후원하여 개발 지식을 공유하는 제 열정을 지�
 
 ![최종 제품](/assets/img/2024-08-18-MasteringFull-StackDevelopmentBuildaReactTodoAppwithDjangoinMinutes_1.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 바로 시작해 볼까요!
 
@@ -40,7 +61,18 @@ ReactJS는 사용자 인터페이스를 구축하는 데 사용되는 인기있�
 
 ## 필수 조건
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시작하기 전에 ReactJS와 Django 프레임워크에 대한 기본 지식이 있어야 해요. 또한 머신에 Node.js와 Python이 설치되어 있어야 해요.
 
@@ -50,7 +82,18 @@ ReactJS는 사용자 인터페이스를 구축하는 데 사용되는 인기있�
 
 ### 단계 1: 필요한 패키지 설치
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로젝트와 애플리케이션이 생성되면 몇 가지 패키지를 설치해야 합니다. Django의 경우 Django Rest Framework와 Django Cors Headers를 설치해야 합니다.
 
@@ -62,7 +105,18 @@ pip install django djangorestframework django-cors-headers
 
 ## 단계 2: 새 Django 프로젝트 생성
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 첫 번째 단계는 새로운 Django 프로젝트를 만드는 것입니다.
 
@@ -74,7 +128,18 @@ django-admin startproject myproject
 
 디렉토리를 변경하세요
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 cd myproject
@@ -88,7 +153,18 @@ cd myproject
 python manage.py startapp todo
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 4: 앱과 패키지 추가하기
 
@@ -107,7 +183,7 @@ MIDDLEWARE = [
     # ...
     # 👇 이 줄을 여기에 추가하세요
     'corsheaders.middleware.CorsMiddleware',
-    # 👇 이 줄을 아래 줄 전에 추가하세요 
+    # 👇 이 줄을 아래 줄 전에 추가하세요
     'django.middleware.common.CommonMiddleware',
 ]
 
@@ -117,7 +193,18 @@ CORS_ORIGIN_ALLOW_ALL = True
 
 이 코드 라인은 rest_framework, corsheaders, 그리고 todo 앱을 INSTALLED_APPS 목록에 추가하고, CorsMiddleware를 MIDDLEWARE 목록에 추가하며, 모든 출처에서의 교차 출처 요청을 허용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 5: 모델 정의
 
@@ -137,7 +224,18 @@ class Todo(models.Model):
 
 ## 단계 6: 직렬화기 정의
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 todo 앱 내에서 Todo 모델을 직렬화하기 위해 serializers.py 파일을 생성해보세요.
 
@@ -155,7 +253,18 @@ class TodoSerializer(serializers.ModelSerializer):
 
 Django REST Framework에서 클래스 기반 뷰는 API 엔드포인트를 정의하는 강력하고 유연한 접근 방식을 제공합니다. 함수 기반 뷰와는 달리 클래스 기반 뷰는 함수가 아닌 클래스로 정의됩니다. 개발 프로세스를 단순화하고 코드 재사용성을 촉진하는 다양한 기능과 기능을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 클래스 기반 뷰를 사용하면 모델 인스턴스에 대한 CRUD (생성, 읽기, 업데이트, 삭제) 작업을 다룰 수 있어요.
 
@@ -165,8 +274,18 @@ Django REST Framework에서 클래스 기반 뷰는 API 엔드포인트를 정�
 
 이제 API 요청을 다룰 뷰를 정의하세요. todo/views.py에서:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 from rest_framework import viewsets
@@ -195,7 +314,18 @@ urlpatterns = [
 ]
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 main myproject/urls.py에 todo/urls.py를 포함하세요.
 
@@ -213,12 +343,24 @@ urlpatterns = [
 
 모델에 가한 변경 사항을 적용하려면 마이그레이션을 생성하고 적용해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 python manage.py makemigrations
 python manage.py migrate
 ```
+
 ## 단계 10: 장고 서버 실행
 
 마지막으로, 장고 개발 서버를 실행하세요.
@@ -227,8 +369,18 @@ python manage.py migrate
 python manage.py runserver
 ```
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 11: 브라우저에서 Browsable API 인터페이스에 액세스하기
 
@@ -238,9 +390,20 @@ python manage.py runserver
 
 1. 원하는 웹 브라우저를 엽니다.
 2. 터미널 출력에 제공된 URL을 입력합니다. 일반적으로 다음과 같습니다.
-http://127.0.0.1:8000/api/todos/ — 이 URL을 통해 Django REST Framework의 브라우저 API 인터페이스에 액세스할 수 있습니다.
+   http://127.0.0.1:8000/api/todos/ — 이 URL을 통해 Django REST Framework의 브라우저 API 인터페이스에 액세스할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 장고 REST 프레임워크 API와 상호 작용하려면 다음 단계를 수행하십시오:
 
@@ -255,30 +418,57 @@ http://127.0.0.1:8000/api/todos/ — 이 URL을 통해 Django REST Framework의 
 
 장고 REST 프레임워크 API와 상호 작용하려면 위의 단계를 수행하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 I. 할 일 목록:
+
 1. 요청 URL을 http://127.0.0.1:8000/api/todos/로 설정하여 모든 할 일 목록을 가져옵니다.
 2. 브라우저에서 API 페이지로 이동한 후, "GET" 버튼을 찾습니다.
 3. "GET" 버튼을 클릭하여 할 일 목록을 가져와 표시합니다.
 
 II. 할 일 생성:
+
 1. API 페이지에서 요청 URL이 http://127.0.0.1:8000/api/todos/로 설정되어 있는지 확인합니다.
 2. 필요한 책 세부 정보를 입력란에 입력합니다.
 3. "POST" 버튼을 클릭하여 할 일 세부 정보를 저장하고 새로운 할 일 항목을 생성합니다.
 
 III. 특정 할 일 가져오기:
+
 1. 웹 브라우저에서 http://127.0.0.1:8000/api/todos/2로 이동합니다 (2를 원하는 할 일 ID로 대체).
 2. 이 URL에서 해당 ID를 가진 책의 세부 정보를 표시합니다.
 
 IV. 할 일 업데이트:
+
 1. 요청 URL을 http://127.0.0.1:8000/api/todos/2로 설정합니다 (2를 원하는 책 ID로 대체).
 2. 할 일의 갱신된 세부 정보를 입력란에 수정합니다.
 3. 변경 사항을 적용하고 할 일 정보를 업데이트하기 위해 "PUT" 버튼을 클릭합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 할 일 삭제하기:
+
 1. 요청 URL을 http://127.0.0.1:8000/api/todos/2로 설정합니다 (2를 삭제하려는 할 일의 ID로 대체합니다).
 2. "DELETE" 버튼을 클릭하여 시스템에서 할 일을 제거합니다.
 
@@ -288,7 +478,18 @@ IV. 할 일 업데이트:
 
 ## 단계 1: Vite로 리액트 프론트엔드 설정하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Vite는 현대 웹 개발에 최적화된 빠른 빌드 도구입니다.
 
@@ -300,7 +501,18 @@ npm create vite@latest react-todo-app --template react
 
 이제, React를 선택하고 JavaScript를 선택하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금은 디렉토리를 변경해주세요:
 
@@ -312,7 +524,18 @@ cd react-todo-app
 
 모든 패키지와 axios를 설치해주세요
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npm 설치
@@ -325,11 +548,21 @@ npm axios 설치
 
 ## 단계 3: 다크 테마로 스타일링하기
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');  
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
 /* 일반 스타일 */
 body {
@@ -444,25 +677,36 @@ button:hover {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-import './App.css'
+import "./App.css";
 
-import TodoList from './components/TodoList';
+import TodoList from "./components/TodoList";
 
 function App() {
   return (
     <>
       <div className="container">
-            <h1>React ToDo App with Django Backend</h1>
-            <TodoList />
-        </div>
+        <h1>React ToDo App with Django Backend</h1>
+        <TodoList />
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
 ```
 
 App 컴포넌트는 기본 구조를 설정하는 함수형 컴포넌트로, 제목과 주요 TodoList 컴포넌트를 포함합니다. 이는 사용자 인터페이스의 기초를 제공하고 할 일 항목을 관리하는 논리와 연결합니다.
@@ -470,93 +714,103 @@ App 컴포넌트는 기본 구조를 설정하는 함수형 컴포넌트로, 제
 components/AddTodo.jsx 파일을 생성하고 엽니다
 
 ```js
-import React, { useState } from 'react';
-import axios from 'axios';
+import React, { useState } from "react";
+import axios from "axios";
 
 // 새로운 todo 항목을 추가하는 컴포넌트
 const AddTodo = ({ onNewTodo }) => {
-    // 새로운 todo 제목의 입력 값을 추적하는 상태
-    const [title, setTitle] = useState('');
+  // 새로운 todo 제목의 입력 값을 추적하는 상태
+  const [title, setTitle] = useState("");
 
-    // 폼 제출을 처리하는 함수
-    const handleSubmit = (e) => {
-        e.preventDefault(); // 기본 폼 제출 동작 방지
+  // 폼 제출을 처리하는 함수
+  const handleSubmit = (e) => {
+    e.preventDefault(); // 기본 폼 제출 동작 방지
 
-        // 현재 제목과 기본 완료 상태가 거짓인 새로운 todo 객체 생성
-        const newTodo = { title, completed: false };
+    // 현재 제목과 기본 완료 상태가 거짓인 새로운 todo 객체 생성
+    const newTodo = { title, completed: false };
 
-        // 서버에 새로운 todo를 추가하기 위해 POST 요청 보내기
-        axios.post('http://127.0.0.1:8000/api/todos/', newTodo)
-            .then(res => {
-                // 새로 생성된 todo를 부모 컴포넌트로 전달
-                onNewTodo(res.data);
-                // 입력 필드 지우기
-                setTitle('');
-            })
-            .catch(err => console.error(err)); // 콘솔에 발생한 에러 기록
-    };
+    // 서버에 새로운 todo를 추가하기 위해 POST 요청 보내기
+    axios
+      .post("http://127.0.0.1:8000/api/todos/", newTodo)
+      .then((res) => {
+        // 새로 생성된 todo를 부모 컴포넌트로 전달
+        onNewTodo(res.data);
+        // 입력 필드 지우기
+        setTitle("");
+      })
+      .catch((err) => console.error(err)); // 콘솔에 발생한 에러 기록
+  };
 
-    return (
-        <form onSubmit={handleSubmit}>
-            <input
-                type="text"
-                value={title}
-                onChange={(e) => setTitle(e.target.value)} // 입력이 변경될 때 제목 상태 업데이트
-                placeholder="제목"
-                required // 필수 입력 필드로 설정
-            />
-            <button type="submit">Todo 추가</button> {/* 폼 제출을 위한 버튼 */}
-        </form>
-    );
+  return (
+    <form onSubmit={handleSubmit}>
+      <input
+        type="text"
+        value={title}
+        onChange={(e) => setTitle(e.target.value)} // 입력이 변경될 때 제목 상태 업데이트
+        placeholder="제목"
+        required // 필수 입력 필드로 설정
+      />
+      <button type="submit">Todo 추가</button> {/* 폼 제출을 위한 버튼 */}
+    </form>
+  );
 };
 
 export default AddTodo;
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AddTodo 컴포넌트는 사용자가 새로운 할 일 항목을 입력하고 백엔드로 제출하는 간단한 인터페이스를 제공합니다. 이는 양식 제출을 관리하고 상태를 업데이트하며 API 상호작용을 효과적으로 처리합니다.
 
 components/TodoItem.jsx 파일을 생성하고 열어서 아래 코드를 추가하세요.
 
 ```js
-import React from 'react';
-import axios from 'axios';
+import React from "react";
+import axios from "axios";
 
 const TodoItem = ({ todo, onUpdate, onDelete }) => {
-    const handleCheckboxChange = () => {
-        const updatedTodo = { ...todo, completed: !todo.completed };
+  const handleCheckboxChange = () => {
+    const updatedTodo = { ...todo, completed: !todo.completed };
 
-        // 서버의 할 일을 업데이트하기 위해 PUT 요청을 보냅니다.
-        axios.put(`http://127.0.0.1:8000/api/todos/${todo.id}/`, updatedTodo)
-            .then(res => {
-                onUpdate(res.data); // 업데이트를 부모 컴포넌트에 알립니다.
-            })
-            .catch(err => console.error(err));
-    };
+    // 서버의 할 일을 업데이트하기 위해 PUT 요청을 보냅니다.
+    axios
+      .put(`http://127.0.0.1:8000/api/todos/${todo.id}/`, updatedTodo)
+      .then((res) => {
+        onUpdate(res.data); // 업데이트를 부모 컴포넌트에 알립니다.
+      })
+      .catch((err) => console.error(err));
+  };
 
-    const handleDelete = () => {
-        // 서버에서 할 일 삭제를 위해 DELETE 요청을 보냅니다.
-        axios.delete(`http://127.0.0.1:8000/api/todos/${todo.id}/`)
-            .then(() => {
-                onDelete(todo.id); // 삭제를 부모 컴포넌트에 알립니다.
-            })
-            .catch(err => console.error(err));
-    };
+  const handleDelete = () => {
+    // 서버에서 할 일 삭제를 위해 DELETE 요청을 보냅니다.
+    axios
+      .delete(`http://127.0.0.1:8000/api/todos/${todo.id}/`)
+      .then(() => {
+        onDelete(todo.id); // 삭제를 부모 컴포넌트에 알립니다.
+      })
+      .catch((err) => console.error(err));
+  };
 
-    return (
-        <div className={`todo-item ${todo.completed ? 'completed' : ''}`}>
-            <h3>{todo.title}</h3>
-            <div className="right-todo">
-                <input
-                    type="checkbox"
-                    checked={todo.completed}
-                    onChange={handleCheckboxChange}
-                />
-                <button onClick={handleDelete}>삭제</button>
-            </div>
-        </div>
-    );
+  return (
+    <div className={`todo-item ${todo.completed ? "completed" : ""}`}>
+      <h3>{todo.title}</h3>
+      <div className="right-todo">
+        <input type="checkbox" checked={todo.completed} onChange={handleCheckboxChange} />
+        <button onClick={handleDelete}>삭제</button>
+      </div>
+    </div>
+  );
 };
 
 export default TodoItem;
@@ -564,63 +818,73 @@ export default TodoItem;
 
 TodoItem 컴포넌트는 개별 할 일 항목을 표시하고 업데이트 또는 삭제할 수 있는 옵션을 제공하도록 설계되었습니다. 이는 Axios를 사용하여 Django 백엔드에 HTTP 요청을 보내서 할 일 항목의 상태를 관리합니다. 완료된 항목은 가로줄로 표시되고 작업을 업데이트하고 삭제하기 위한 사용자 상호작용을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-import React, { useState, useEffect } from 'react';
-import axios from 'axios';
-import TodoItem from './TodoItem';
-import AddTodo from './AddTodo';
+import React, { useState, useEffect } from "react";
+import axios from "axios";
+import TodoItem from "./TodoItem";
+import AddTodo from "./AddTodo";
 
 // 할 일 목록을 관리하는 주요 컴포넌트
 const TodoList = () => {
-    // 할 일 목록을 저장하는 상태
-    const [todos, setTodos] = useState([]);
+  // 할 일 목록을 저장하는 상태
+  const [todos, setTodos] = useState([]);
 
-    // 컴포넌트가 마운트될 때 서버에서 할 일 목록을 가져옴
-    useEffect(() => {
-        axios.get('http://127.0.0.1:8000/api/todos/')
-            .then(res => setTodos(res.data)) // 가져온 할 일로 상태 업데이트
-            .catch(err => console.error(err)); // 에러 발생 시 콘솔에 로그 출력
-    }, []); // 의존성 배열이 비어있어 처음 렌더링 후 한 번만 실행
+  // 컴포넌트가 마운트될 때 서버에서 할 일 목록을 가져옴
+  useEffect(() => {
+    axios
+      .get("http://127.0.0.1:8000/api/todos/")
+      .then((res) => setTodos(res.data)) // 가져온 할 일로 상태 업데이트
+      .catch((err) => console.error(err)); // 에러 발생 시 콘솔에 로그 출력
+  }, []); // 의존성 배열이 비어있어 처음 렌더링 후 한 번만 실행
 
-    // 새로운 할 일을 추가하는 함수
-    const handleNewTodo = (newTodo) => {
-        setTodos([...todos, newTodo]); // 새로운 할 일을 목록에 추가
-    };
+  // 새로운 할 일을 추가하는 함수
+  const handleNewTodo = (newTodo) => {
+    setTodos([...todos, newTodo]); // 새로운 할 일을 목록에 추가
+  };
 
-    // 기존 할 일을 업데이트하는 함수
-    const handleUpdateTodo = (updatedTodo) => {
-        // ID를 기준으로 업데이트할 할 일을 찾아서 교체
-        const updatedTodos = todos.map(todo =>
-            todo.id === updatedTodo.id ? updatedTodo : todo
-        );
-        setTodos(updatedTodos); // 새로운 목록으로 상태 업데이트
-    };
+  // 기존 할 일을 업데이트하는 함수
+  const handleUpdateTodo = (updatedTodo) => {
+    // ID를 기준으로 업데이트할 할 일을 찾아서 교체
+    const updatedTodos = todos.map((todo) => (todo.id === updatedTodo.id ? updatedTodo : todo));
+    setTodos(updatedTodos); // 새로운 목록으로 상태 업데이트
+  };
 
-    // 할 일을 삭제하는 함수
-    const handleDeleteTodo = (id) => {
-        // 특정 ID를 가진 할 일을 필터링하여 제거
-        const filteredTodos = todos.filter(todo => todo.id !== id);
-        setTodos(filteredTodos); // 필터링된 목록으로 상태 업데이트
-    };
+  // 할 일을 삭제하는 함수
+  const handleDeleteTodo = (id) => {
+    // 특정 ID를 가진 할 일을 필터링하여 제거
+    const filteredTodos = todos.filter((todo) => todo.id !== id);
+    setTodos(filteredTodos); // 필터링된 목록으로 상태 업데이트
+  };
 
-    return (
-        <div>
-            <h1>할 일 앱</h1>
-            {/* 새로운 할 일을 추가하는 컴포넌트 */}
-            <AddTodo onNewTodo={handleNewTodo} />
-            {/* 각 할 일 항목을 렌더링하는 TodoItem 컴포넌트 사용 */}
-            {todos.map(todo => (
-                <TodoItem
-                    key={todo.id} // 각 할 일 항목을 식별하기 위한 고유 키
-                    todo={todo}
-                    onUpdate={handleUpdateTodo} // 업데이트 이벤트 핸들러 전달
-                    onDelete={handleDeleteTodo} // 삭제 이벤트 핸들러 전달
-                />
-            ))}
-        </div>
-    );
+  return (
+    <div>
+      <h1>할 일 앱</h1>
+      {/* 새로운 할 일을 추가하는 컴포넌트 */}
+      <AddTodo onNewTodo={handleNewTodo} />
+      {/* 각 할 일 항목을 렌더링하는 TodoItem 컴포넌트 사용 */}
+      {todos.map((todo) => (
+        <TodoItem
+          key={todo.id} // 각 할 일 항목을 식별하기 위한 고유 키
+          todo={todo}
+          onUpdate={handleUpdateTodo} // 업데이트 이벤트 핸들러 전달
+          onDelete={handleDeleteTodo} // 삭제 이벤트 핸들러 전달
+        />
+      ))}
+    </div>
+  );
 };
 
 export default TodoList;
@@ -633,7 +897,18 @@ TodoList 컴포넌트는 CRUD(Create, Read, Update, Delete) 작업을 수행하�
 - 이벤트 핸들러: 새로운 할 일 추가(handleNewTodo), 기존 할 일 업데이트(handleUpdateTodo), 할 일 삭제(handleDeleteTodo)를 위한 함수를 포함합니다.
 - 렌더링: 제목을 표시하고, 새 할 일을 생성하는 AddTodo 컴포넌트를 포함하며, 각 할 일 항목을 렌더링하기 위해 todos 배열을 매핑하고 각각의 TodoItem 컴포넌트를 렌더링하며 필요한 핸들러를 props로 전달합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 전반적으로, TodoList는 할 일 항목과 백엔드 서버를 동기화하는 데 완벽한 인터페이스를 제공합니다.
 
@@ -645,7 +920,18 @@ TodoList 컴포넌트는 CRUD(Create, Read, Update, Delete) 작업을 수행하�
 python manage.py runserver
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리액트 프로젝트를 실행하세요
 
@@ -657,7 +943,18 @@ npm run dev
 
 다음과 같이 할 일 앱이 표시됩니다,
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결과,
 
@@ -667,7 +964,18 @@ YouTube에서 전체 데모 비디오를 확인해보세요:
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ReactJS와 Django 프레임워크를 연결하는 것은 웹 애플리케이션을 만들 때 강력한 조합이 될 수 있습니다. 이 튜토리얼에서 안내한 단계를 따라가면 이 두 도구를 연결하고 견고한 웹 애플리케이션을 구축할 수 있습니다. 원활한 통신을 위해 React 앱과 Django API 간 CORS 오류를 처리하기 위해 필요한 패키지를 설치해야 합니다.
 
@@ -677,7 +985,18 @@ ReactJS와 Django 프레임워크를 연결하는데 도움이 되는 많은 튜
 
 좋은 코딩 되세요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 블로그에서 제공된 정보에 관한 질문이나 의견이 있으면 언제든지 연락해 주세요. 다시 한번 읽어주셔서 감사합니다!
 

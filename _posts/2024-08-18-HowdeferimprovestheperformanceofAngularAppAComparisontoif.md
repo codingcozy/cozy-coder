@@ -3,14 +3,13 @@ title: "Angular 앱의 성능을 향상시키는 defer의 효과 if와의 비교
 description: ""
 coverImage: "/assets/img/2024-08-18-HowdeferimprovestheperformanceofAngularAppAComparisontoif_0.png"
 date: 2024-08-18 11:11
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-18-HowdeferimprovestheperformanceofAngularAppAComparisontoif_0.png
 tag: Tech
 originalTitle: "How defer improves the performance of Angular App A Comparison to if"
 link: "https://medium.com/angular-simplified/optimizing-angular-performance-with-defer-a-comparison-to-if-2d25f2dd1984"
 isUpdated: false
 ---
-
 
 <img src="/assets/img/2024-08-18-HowdeferimprovestheperformanceofAngularAppAComparisontoif_0.png" />
 
@@ -20,7 +19,18 @@ isUpdated: false
 
 ## @if
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `@if`은 조건이 참일 때 컴포넌트를 렌더링하고 거짓인 경우 숨기는 기본 제어 흐름 데코레이터입니다.
 
@@ -36,13 +46,22 @@ isUpdated: false
 
 `@defer` 지시어는 조건이 true일 때 컴포넌트를 DoM에 렌더링합니다. 컴포넌트 렌더링을 true 조건이 될 때까지 지연시킬 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 @defer (condition) {
-  <large-component />
+<large-component />
 }
-
 
 # @if, @switch, @defer 비교
 
@@ -50,8 +69,18 @@ isUpdated: false
 
 # 언제 어떤 것을 사용해야 할까요?
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - **@if**: 즉시 렌더링이 필요하고 컴포넌트가 비교적 가벼운 간단한 조건에 이상적입니다.
 - **@defer**: 복잡한 컴포넌트나 초기 사용자 경험에 중요하지 않은 컴포넌트에 가장 적합합니다.

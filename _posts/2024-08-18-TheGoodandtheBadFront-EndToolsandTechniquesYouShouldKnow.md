@@ -3,14 +3,13 @@ title: "알면 좋은 것과 나쁜 것 알아두어야 하는 프론트엔드 �
 description: ""
 coverImage: "/assets/img/2024-08-18-TheGoodandtheBadFront-EndToolsandTechniquesYouShouldKnow_0.png"
 date: 2024-08-18 11:07
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-18-TheGoodandtheBadFront-EndToolsandTechniquesYouShouldKnow_0.png
 tag: Tech
 originalTitle: "The Good and the Bad Front-End Tools and Techniques You Should Know"
 link: "https://medium.com/gitconnected/the-good-and-the-bad-front-end-tools-and-techniques-you-should-know-bd8acc9aa980"
 isUpdated: false
 ---
-
 
 ![image](/assets/img/2024-08-18-TheGoodandtheBadFront-EndToolsandTechniquesYouShouldKnow_0.png)
 
@@ -20,7 +19,18 @@ isUpdated: false
 
 이 글에서는 이러한 도구에 대한 제 경험을 공유하고 "❌ 고려" 또는 "✅ 지지" 중 하나로 평가하겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - ❌ 고려해 보세요: 프로젝트에 대한 대안을 고려하는 것을 추천드립니다.
 - ✅ 지지합니다: 망설임 없이 이것을 프로젝트에서 재사용할 것입니다.
@@ -31,7 +41,18 @@ isUpdated: false
 
 🔍 고려
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 설명: JavaScript 코드에서 문제를 식별하고 해결하여 일관된 코딩 표준을 시행하는 정적 코드 분석 도구입니다.
 
@@ -43,7 +64,18 @@ ESLint는 느릴 수 있습니다. 제 경험상, 빌드 파이프라인 시간�
 
 일상적인 작업 흐름에서, 저는 커밋 전에 Git 후크로 ESLint를 실행합니다. 파일을 약간만 수정해도 ESLint가 보통 5-15초가 걸리는데, 이는 작은 커밋을 선호하는 저에게는 귀찮은 일일 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ESLint의 잠재적인 대체품으로 biome을 고려해 볼 수 있습니다. biome은 현재 ESLint 규칙을 모두 지원하지는 않지만 상당히 빠릅니다.
 
@@ -54,7 +86,18 @@ ESLint의 잠재적인 대체품으로 biome을 고려해 볼 수 있습니다. 
 설명:
 Husky나 pre-commit과 같은 도구로 관리되는 Git 훅은 코드베이스에서 작업하는 모든 사람이 변경 사항을 커밋하기 전에 동일한 작업을 수행하도록 보장합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 긍정적으로 말씀드리자면, pre-commit Git 훅은 팀 전반에 걸쳐 일관된 관행을 강제함으로써 풀 리퀘스트를 올릴 때 빌드가 깨지는 횟수를 줄이는 데 도움을 줍니다. 여기에는 pre-commit 훅에 포함할 수 있는 몇 가지 작업이 있습니다:
 
@@ -68,7 +111,18 @@ Husky나 pre-commit과 같은 도구로 관리되는 Git 훅은 코드베이스�
 
 ✅ 지지합니다
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 설명:
 최근 몇 년 동안 TypeScript의 인기가 상당히 증가했지만, Svelte 창조자인 Rich Harris와 같은 사람들은 때로는 필수가 아니라고 주장합니다.
@@ -81,7 +135,18 @@ Husky나 pre-commit과 같은 도구로 관리되는 Git 훅은 코드베이스�
 부정적 측면:
 TypeScript는 tsc를 실행해야 하므로 CI 파이프라인에 일부 추가 빌드 시간을 추가할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또한, 특히 react-hook-form과 같은 복잡한 유형의 패키지를 다룰 때 지루할 수도 있습니다. 이러한 경우에 대해 TypeScript 특정 문제를 해결하는 데 종종 JavaScript 전용 프로젝트에는 존재하지 않는 버그를 디버깅해야 했습니다.
 
@@ -92,7 +157,18 @@ TypeScript는 tsc를 실행해야 하므로 CI 파이프라인에 일부 추가 
 설명:
 Unimported(더 이상 유지되지 않음)와 knip과 같은 도구는 코드베이스에서 사용되지 않는 파일을 식별하는 데 도움을 줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 긍정적:
 코드를 정리할 때 사용하지 않는 파일을 놓치기 쉽습니다. 이러한 도구들은 삭제해도 되는 파일을 감지하여 코드베이스를 깨끗하고 효율적으로 유지하는 데 도움을 줍니다.
@@ -103,7 +179,18 @@ Unimported(더 이상 유지되지 않음)와 knip과 같은 도구는 코드베
 
 ## Vite
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 환영합니다
 
@@ -115,7 +202,18 @@ Unimported(더 이상 유지되지 않음)와 knip과 같은 도구는 코드베
 
 게다가 Vite의 '즉시 서버 시작' 기능은 로컬 개발 서버를 즉시 시작하여 매일 소중한 시간을 절약할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 러나
 
@@ -127,7 +225,18 @@ Unimported(더 이상 유지되지 않음)와 knip과 같은 도구는 코드베
 장점:
 지금까지 러나를 사용하며 원활한 경험을 해왔어요. 주요 문제 없이 JavaScript 모노 레포지토리를 관리하는 데 신뢰할 만하고 안정적인 도구입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 프로토콜 버퍼
 
@@ -139,7 +248,18 @@ Unimported(더 이상 유지되지 않음)와 knip과 같은 도구는 코드베
 장점:
 프로토콜 버퍼는 특히 수십 명의 엔지니어로 이루어진 대규모 코드베이스에서 API 표준에 대해 분산된 팀을 정렬하는 데 탁월한 도구입니다. 이들은 일관적이고 효율적인 데이터 형식을 제공함으로써 복잡한 응용 프로그램을 구축하는 프로세스를 간소화합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 부정적인 측면:
 그러나 Protocol Buffers를 설정하는 것은 복잡할 수 있고, 시스템에 익숙하지 않은 사람들에게는 도전적일 수 있는 학습 곡선이 있습니다.
@@ -151,7 +271,18 @@ Protocol Buffers와 같은 코드 생성 도구가 실제로 어떻게 작동하
 
 ## Jest를 사용한 단위 테스트
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **표를 고쳐주세요**
 
@@ -163,7 +294,18 @@ JavaScript 테스팅 프레임워크.
 
 우리는 SWC를 사용하여 Jest의 유닛 테스트 실행 시간을 4분에서 1분 정도로 크게 줄였어요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Vitest를 사용하는 것 또한 테스트 속도를 향상시키는 좋은 방법일 수 있습니다.
 
@@ -174,7 +316,18 @@ Vitest를 사용하는 것 또한 테스트 속도를 향상시키는 좋은 방
 
 ✅ 추천
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내용:
 작가의 인기가 지난 몇 년 동안 상당히 증가했으며, 그로 인해 Playwright가 E2E에 대한 올바른 선택임을 확신하게 되었습니다.
@@ -186,7 +339,18 @@ Vitest를 사용하는 것 또한 테스트 속도를 향상시키는 좋은 방
 
 우리는 관련 있는 E2E 테스트가 풀 리퀘스트에서 트리거되도록 시스템을 설정했으며, 실패하는 경우 엔지니어는 문제를 분석하기 위해 직접 Trace Viewer에 연결됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 부정적:
 E2E 테스트 유지하는 일이 조금 지루할 수 있어요. 처음에는 개발자들이 새로운 기능과 함께 E2E 테스트를 작성하도록 했지만, 코드베이스가 발전함에 따라 기존 테스트를 유지하고 새로운 테스트를 작성할 전용 QA 팀이 필요하다는 점을 깨달았어요.
@@ -197,7 +361,18 @@ E2E 테스트 유지하는 일이 조금 지루할 수 있어요. 처음에는 �
 
 ✅ 추천
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **설명:**
 Mantine은 완전한 오픈 소스 React 컴포넌트 라이브러리입니다.
@@ -209,7 +384,18 @@ Mantine은 이해하기 쉽고 프로젝트에 쉽게 적응하고 통합할 수
 
 **## Highcharts**
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 고려사항
 
@@ -222,7 +408,18 @@ Highcharts에는 다양한 사용 사례를 다루는 복잡한 차트를 구축
 **단점:**
 그러나 Highcharts는 유료 라이브러리이며, 대부분의 사용 사례에는 Chart.js와 같은 무료 대안이 충분할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또 다른 단점은 TypeScript의 타입과 인터페이스가 하나의 거대한 파일로 통합되어 있어서 IDE의 성능을 상당히 느리게 만들 수 있다는 것입니다. 그 결과로 종종 온라인 문서를 의존해야 했습니다.
 
@@ -232,7 +429,18 @@ Highcharts에는 다양한 사용 사례를 다루는 복잡한 차트를 구축
 
 ❌ 고려해 보세요
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **설명:**
 복잡하고 사용자 정의된 데이터 시각화를 만들기 위한 유연한 JavaScript 라이브러리입니다.
@@ -245,7 +453,18 @@ D3는 좀 더 간단한 라이브러리로 다루기 어려운 복잡한 계층 
 
 라이브러리의 복잡성이 매우 높기 때문에 문서의 튜토리얼과 예제에 많은 의존을 하게 될 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## dnd 킷
 
@@ -257,7 +476,18 @@ dnd 킷은 드래그 앤 드롭 기능을 구현하는 라이브러리입니다.
 긍정적인 면:
 dnd 킷은 사용자가 폼 요소를 드래그하고 다시 배치할 수 있는 복잡한 중첩된 양식을 구축하는 데 훌륭하다고 생각합니다. 이러한 시나리오에서 제게 잘 도움이 되었습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 상태 관리
 
@@ -268,7 +498,18 @@ dnd 킷은 사용자가 폼 요소를 드래그하고 다시 배치할 수 있�
 설명:
 TanStack Query는 React 애플리케이션에서 API 호출과 서버 상태를 효과적으로 관리하는 강력한 라이브러리입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 긍정적인 피드백:
 TanStack Query를 사용하면 항상 긍정적인 경험만을 누릴 수 있어요. 데이터 검색, 캐싱 및 동기화를 간편하게 처리해주어, 직접 검색 로직을 구현하는 것보다 훨씬 쉽게 만들어줘요. 이것은 의심할 여지없이 모든 프론트엔드 프로젝트에 포함되어야 할 가장 중요한 라이브러리 중 하나에요.
@@ -280,7 +521,18 @@ TanStack Query를 사용하면 항상 긍정적인 경험만을 누릴 수 있�
 설명:
 TanStack Table은 강력하고 사용자 정의 가능한 헤드리스 UI 라이브러리로, 테이블을 구축하는 데 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 긍정적인 면:
 TanStack Table을 사용한 경험은 전적으로 긍정적이었습니다. 이는 특정한 필요에 맞는 견고한 테이블 컴포넌트를 만들 수 있는 유연성을 제공합니다.
@@ -292,7 +544,18 @@ TanStack Table을 사용한 경험은 전적으로 긍정적이었습니다. 이
 설명:
 Zustand은 React 애플리케이션을 위한 간단하고 확장 가능한 상태 관리 라이브러리입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 긍정적:
 Zustand은 React Context와 비교해 더 쉽고 확장 가능하기 때문에 React 프로젝트에서 상태를 관리하는 데 좋은 선택입니다.
@@ -304,7 +567,18 @@ Zustand은 React Context와 비교해 더 쉽고 확장 가능하기 때문에 R
 Description:
 React Hook Form은 React 애플리케이션에서 폼을 빌드하고 관리하는 인기 있는 라이브러리입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 친절한 말투로 번역:
 
@@ -318,7 +592,18 @@ TanStack Form이나 Mantine Form과 같은 대안들은 TypeScript 관련 문제
 
 # 유틸리티 라이브러리
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Lodash
 
@@ -330,7 +615,18 @@ Lodash는 편리한 함수들로 코드를 더 깔끔하고 읽기 쉽게 만들
 긍정적:
 Lodash 함수들은 코드를 보다 간결하고 가독성 있게 만들어줍니다. 제가 자주 사용하는 함수로는 groupBy, cloneDeep 등이 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내 코드를 더 깔끔하게 만들고 싶을 때는 종종 GPT에게 Lodash 함수를 사용하여 리팩토링해달라고 요청하곤 하는데, 결과적으로 대부분 개선이 있었습니다.
 
@@ -341,7 +637,18 @@ Lodash 함수들은 코드를 보다 간결하고 가독성 있게 만들어줍�
 설명:
 Madge는 코드 베이스에서 순환 종속성을 감지하고 방지하기 위한 도구입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 긍정적인 측면:
 Jest로 작성된 단위 테스트는 저장소 내에서 순환 종속성이있을 때 예기치 않은 실패를 일으킬 수있으므로 부실할 수 있습니다. Madge를 통합하여 이러한 문제를 피할 수 있습니다. Madge는 빠르기도 하기 때문에 작업 과정에 상당한 시간을 추가하지 않습니다.
@@ -353,7 +660,18 @@ Jest로 작성된 단위 테스트는 저장소 내에서 순환 종속성이있
 
 ✅ 추천
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 설명:
 Less는 스타일 파일을 더 유지보수하기 쉽고 이해하기 쉽도록 도와주는 CSS 전처리기입니다.
@@ -366,7 +684,18 @@ IDE에서 Less 구문을 완전히 지원하지 않는 경우가 있어서 "선�
 
 저는 CSS 클래스 이름을 다루는 대신 Mantine와 같은 라이브러리를 사용하여 JSX 내에서 직접 DOM 요소를 스타일링하는 것이 더 효율적이라고 생각했습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, 저는 이 방법을 선호합니다:
 
@@ -398,7 +727,18 @@ const LessExample = () => {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저의 흔한 방식은 Mantine에서 제공하는 속성 (예: p, mb 등)을 최대한 활용하여 스타일을 적용하고, 필요할 때만 CSS 또는 Less로 되돌아가는 것입니다.
 

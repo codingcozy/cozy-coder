@@ -3,14 +3,13 @@ title: "서버 기반 JSON을 활용한 동적 UI 구성하기"
 description: ""
 coverImage: "/assets/img/2024-08-18-BuildDynamicUIswithServer-BasedJSON_0.png"
 date: 2024-08-18 10:41
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-18-BuildDynamicUIswithServer-BasedJSON_0.png
 tag: Tech
 originalTitle: "Build Dynamic UIs with Server-Based JSON"
 link: "https://medium.com/@nocode_71647/build-dynamic-uis-with-server-based-json-fa7ed6c4e3bd"
 isUpdated: false
 ---
-
 
 <img src="/assets/img/2024-08-18-BuildDynamicUIswithServer-BasedJSON_0.png" />
 
@@ -20,7 +19,18 @@ isUpdated: false
 
 먼저, 여러분은 앱 인터페이스가 어떻게 보이길 원하는지 결정해야 합니다. 앱에 직접 코딩하는 대신 서버의 JSON 데이터로 이를 정의할 것입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - JSON은 데이터를 설명하는 방법입니다. 예를 들어, 앱에서 버튼과 텍스트를 원한다면, JSON 형식으로 그들을 설명합니다.
 
@@ -45,7 +55,18 @@ isUpdated: false
 
 이 예시에서:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - type: UI 요소의 종류를 설명합니다 (예: 텍스트 또는 버튼).
 - children: 다른 요소 내부에 포함된 요소를 나열합니다. (예: 버튼 내의 텍스트).
@@ -58,7 +79,18 @@ isUpdated: false
 
 - Node.js, Firebase 또는 Python과 같은 도구를 사용하여 API를 생성하여 앱이 요청 시 JSON 데이터를 보낼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 3: 플러터 앱에서 JSON 데이터 가져오기
 
@@ -84,7 +116,7 @@ class DynamicUI extends StatelessWidget {
       throw Exception('UI 불러오기 실패');
     }
   }
-  
+
   @override
   Widget build(BuildContext context) {
     return FutureBuilder(
@@ -103,7 +135,18 @@ class DynamicUI extends StatelessWidget {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 4: JSON 데이터를 Flutter 위젯으로 변환하기
 
@@ -135,7 +178,18 @@ Widget buildWidget(Map<String, dynamic> json) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 함수는 JSON에서 유형을 확인한 후 (Column, Text 또는 Button과 같은) 해당하는 플러터 위젯을 생성합니다.
 
@@ -145,7 +199,18 @@ Widget buildWidget(Map<String, dynamic> json) {
 
 예시:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 {
@@ -169,8 +234,18 @@ case 'Button':
 
 # 단계 6: 동적 UI의 이점을 누리세요
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 서버 기반 UI를 사용하면 다음과 같은 작업을 쉽게 할 수 있어요:
 
@@ -184,7 +259,18 @@ case 'Button':
 - 보안: JSON 데이터가 안전하고 앱에만 접근할 수 있도록 보장해야 해요.
 - 오류 처리: JSON 데이터를 사용할 수 없거나 잘못된 경우를 대비해 계획하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론: 앱 개발의 미래가 여기에 있습니다
 

@@ -3,14 +3,13 @@ title: "앵귤러의 3가지 레벨의 지연 로딩 방법을 알고 계셨나�
 description: ""
 coverImage: "/assets/no-image.jpg"
 date: 2024-08-18 10:57
-ogImage: 
+ogImage:
   url: /assets/no-image.jpg
 tag: Tech
 originalTitle: "Did You Know Angular Has 3 Lazy Loading Levels"
 link: "https://medium.com/javascript-in-plain-english/did-you-know-angular-has-3-lazy-loading-levels-da2877f813ad"
 isUpdated: false
 ---
-
 
 ## 안녕하세요 👋
 
@@ -20,7 +19,18 @@ Angular는 매일 더욱 강력하고 인기 있는 프레임워크가 되고 �
 
 # 📦 모듈 레벨
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 NgModule에서 loadChildren과 함께 사용하는 전통적인 수준입니다.
 
@@ -29,15 +39,26 @@ Angular는 매일 더욱 강력하고 인기 있는 프레임워크가 되고 �
 ```js
 const routes: Routes = [
   {
-    path: 'a-route',
-    loadChildren: () => import('./path-to/feature.module').then(m => m.FeatureModule)
-  }
+    path: "a-route",
+    loadChildren: () => import("./path-to/feature.module").then((m) => m.FeatureModule),
+  },
 ];
 ```
 
 # 🧩 컴포넌트 레벨
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최신 Angular 버전(15부터)의 독립 기능 덕분에 Angular 앱의 성능을 더욱 향상시킬 수 있는 컴포넌트를 지연 로드할 수 있습니다.
 
@@ -46,15 +67,26 @@ const routes: Routes = [
 ```js
 const routes: Routes = [
   {
-    path: 'a-route',
-    loadComponent: () => import('./path-to/a-component.component').then(m => m.AComponent)
-  }
+    path: "a-route",
+    loadComponent: () => import("./path-to/a-component.component").then((m) => m.AComponent),
+  },
 ];
 ```
 
 독립 기능에 관심이 있다면, 이 아티클을 읽어보시기를 강력히 추천합니다:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # `/` 템플릿 레벨
 
@@ -64,19 +96,30 @@ const routes: Routes = [
 
 ```js
 @Component({
-  selector: 'app',
+  selector: "app",
   standalone: true,
   template: `
     <h2>즉시 표시될 일부 내용...</h2>
     @defer (상호작용 시; 화면에 prefetch) {
-      <a-large-component/>
+    <a-large-component />
     }
   `,
 })
 export class AppComponent {}
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위대한 기능에 대해 더 알아보세요:
 
@@ -86,7 +129,18 @@ export class AppComponent {}
 
 커피 한 잔 해주고 싶으신가요? ☕️
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 쉽게 설명한 영어 커뮤니티에 참여해 주셔서 감사합니다! 떠나시기 전에:
 

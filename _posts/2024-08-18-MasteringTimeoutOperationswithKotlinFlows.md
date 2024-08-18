@@ -3,14 +3,13 @@ title: "코틀린 플로우로 타임아웃 작업 마스터하기"
 description: ""
 coverImage: "/assets/img/2024-08-18-MasteringTimeoutOperationswithKotlinFlows_0.png"
 date: 2024-08-18 10:48
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-18-MasteringTimeoutOperationswithKotlinFlows_0.png
 tag: Tech
 originalTitle: "Mastering Timeout Operations with Kotlin Flows"
 link: "https://medium.com/@sandeepkella23/mastering-timeout-operations-with-kotlin-flows-cb8a45a3014e"
 isUpdated: false
 ---
-
 
 ![2024-08-18-MasteringTimeoutOperationswithKotlinFlows_0.png](/assets/img/2024-08-18-MasteringTimeoutOperationswithKotlinFlows_0.png)
 
@@ -20,7 +19,18 @@ isUpdated: false
 
 타임아웃에 대해 알아보기 전에, Kotlin Flows가 무엇인지 간단히 되짚어봅시다. Kotlin Flows는 데이터의 꾸준한 흐름과 같습니다. 공장의 컨베이어 벨트를 상상해보세요. 물건(데이터)이 계속 이동하는 컨베이어 벨트가 있습니다. 컨베이어 벨트 옆에 서서 물건이 지나가면 주울 수 있고, 한 번에 하나씩 처리할 수 있습니다. Kotlin Flows도 비슷하게 작동하며 시간이 지나면서 값들을 방출하고, 이 값을 비동기적으로 수집할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 왜 타임아웃 작업이 필요한가요?
 
@@ -30,7 +40,18 @@ isUpdated: false
 
 여러분이 Kotlin 플로우에서 타임아웃 작업을 구현하는 방법을 알아보겠습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 1: 간단한 Flow 생성하기
 
@@ -51,7 +72,18 @@ fun simpleFlow(): Flow<Int> = flow {
 
 여기서 simpleFlow()는 매 초 메시지를 보내는 당신의 친구와 같습니다. emit(i)가 호출될 때마다 새 값이 컨베이어 벨트(Flow)를 통해 전송됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 2: 타임아웃 적용하기
 
@@ -79,7 +111,18 @@ fun main() = runBlocking {
 - collect { value -> ... }: Flow에서 각 값을 수집하고 처리합니다.
 - catch (e: Exception): 타임아웃이 발생하면 친구가 나타나지 않아 카페를 나가는 것처럼 예외를 우아하게 처리합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 3: 테스트해보세요
 
@@ -89,7 +132,18 @@ fun main() = runBlocking {
 
 타임아웃은 짜증나긴 하지만 막다른 길은 아닙니다. 타임아웃을 더 세련되게 처리하기 위해 `timeoutOrNull` 연산자를 사용하여 예외가 발생하는 대신 null을 반환할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```kotlin
 import kotlinx.coroutines.flow.timeoutOrNull

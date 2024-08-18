@@ -20,7 +20,16 @@ isUpdated: false
 
 # 목록에 없는 것
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 먼저 사용하지 않아도 되는 다섯 가지 HTML 태그를 살펴보기 전에, 사용하지 말아야 할 몇 가지 태그에 대해 먼저 살펴보겠습니다.
 
@@ -30,7 +39,16 @@ isUpdated: false
 
 텍스트의 깜박이 효과는 여전히 CSS나 JavaScript를 통해 페이지에 추가할 수 있지만, 사용자에게 이러한 경험을 제공하는 것은 피하는 것이 좋습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 좋아요, `blink` 태그가 사라졌네요!
 
@@ -40,7 +58,16 @@ isUpdated: false
 
 `blink` 태그와 마찬가지로, `marquee` 태그의 행동은 웹페이지의 접근성과 일반적인 사용 편의성에 심각한 문제를 일으킵니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 현재 이 HTML 태그 중 하나를 사용 중이라면, 그만두세요. 사용 중이 아니라면, 잘했어요! 계속해서 사용하지 않도록 해주세요.
 
@@ -50,7 +77,16 @@ isUpdated: false
 
 # #1 — 두 가지 태그 한 가지로: `details` 와 `summary`
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신의 웹페이지에 빠르고 쉬운 아코디언을 추가하여 추가 정보를 볼 수 있고 숨길 수 있습니다. `details`와 `summary` 태그만 있으면 됩니다.
 
@@ -67,7 +103,16 @@ isUpdated: false
 
 `details` 태그는 초기에 페이지 로드시 추가 정보가 표시되는지 여부를 제어하는 선택적인 `open` 속성이 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # #2 — 슈퍼칼리프라질리스틱익스피알리도셔스 도우미: `wbr`
 
@@ -81,7 +126,16 @@ isUpdated: false
 
 `br` 태그와 달리 줄 바꿈을 강제하지 않는 `wbr` 태그는 사용자 브라우저에서 표시해야 할 경우 줄 바꿈이 필요한 위치의 제안만 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # #3 — 일어나요, 낮아지세요: `sup`와 `sub`
 
@@ -93,7 +147,16 @@ isUpdated: false
 크리스마스는 12월 25일에 축하됩니다.
 ```  
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 `sub` 태그를 사용한 아래 첨자 텍스트의 예시입니다.
 
@@ -105,7 +168,16 @@ isUpdated: false
 
 Credit where credit is due: `cite` (#4)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 창의적인 작품의 제목을 인용할 때 `cite` 태그를 사용하여 의미론적인 방식으로 표시할 수 있습니다. `cite` 태그는 책, 연극, 영화, 웹사이트, 페이스북 게시물, TV 프로그램 및 노래와 같은 다양한 창의적인 작품을 참조할 때 사용할 수 있습니다.
 
@@ -117,7 +189,16 @@ Credit where credit is due: `cite` (#4)
 
 `abbr` 태그는 웹 페이지의 본문에서 약어나 머리글자를 정의하는 데 사용됩니다. 이 태그는 매우 적절하게 '약어'라는 단어의 약어입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 태그를 사용하면 사용자가 주어진 약어나 두문자어의 의미를 알 수 있도록 해당 태그의 title 속성을 통해 전체 확장 버전을 표기합니다.
 
@@ -129,7 +210,16 @@ HTML5 출시 이후 `acronym` 태그는 사용이 중지되었으므로 그 대�
 
 # 이 HTML 태그들을 자유롭게 사용하세요!
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 HTML 태그들이 익숙할 수도 있고, 크게 사용되지 않을 수도 있지만, 당신의 웹페이지를 더욱 효과적으로 개선할 수 있는 스마트한 방법일 수 있습니다.
 

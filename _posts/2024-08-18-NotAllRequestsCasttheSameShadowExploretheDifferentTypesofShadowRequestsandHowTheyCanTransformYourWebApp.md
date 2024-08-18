@@ -3,14 +3,13 @@ title: "각기 다른 그림자 요청의 변화 웹 앱을 변화시킬 수 있
 description: ""
 coverImage: "/assets/img/2024-08-18-NotAllRequestsCasttheSameShadowExploretheDifferentTypesofShadowRequestsandHowTheyCanTransformYourWebApp_0.png"
 date: 2024-08-18 11:14
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-18-NotAllRequestsCasttheSameShadowExploretheDifferentTypesofShadowRequestsandHowTheyCanTransformYourWebApp_0.png
 tag: Tech
 originalTitle: "Not All Requests Cast the Same Shadow Explore the Different Types of Shadow Requests and How They Can Transform Your Web App"
 link: "https://medium.com/@guhaprasaanth/not-all-requests-cast-the-same-shadow-explore-the-different-types-of-shadow-and-how-they-can-02d798cf51d6"
 isUpdated: false
 ---
-
 
 그림자 요청 유형의 세세한 부분을 파헤쳐 보고, 웹 응용 프로그램의 성능과 사용자 경험을 혁신할 수 있는 가능성을 발휘해보세요.
 
@@ -20,7 +19,18 @@ isUpdated: false
 
 # 1. 동기식 그림자 요청
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 목적:
 동기식 그림자 요청은 실시간으로 라이브 시스템과 그림자 시스템의 응답을 비교하는 것이 중요할 때 사용됩니다. 이러한 요청은 일반적으로 라이브 요청과 동시에 보내며 결과는 동시에 처리됩니다.
@@ -33,47 +43,58 @@ isUpdated: false
 
 코드 샘플:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Node.js 버전:
 
 ```js
-const express = require('express');
-const axios = require('axios');
+const express = require("express");
+const axios = require("axios");
 const app = express();
 const port = 3000;
 
 app.use(express.json());
 async function sendShadowRequest(data) {
-    try {
-        const response = await axios.post('https://shadow-system.example.com/api', data);
-        console.log('Shadow Response:', response.data);
-        return response.data; // 그림자 응답 반환
-    } catch (error) {
-        console.error('그림자 요청 전송 중 오류 발생:', error);
-        throw error; // 오류 전파
-    }
+  try {
+    const response = await axios.post("https://shadow-system.example.com/api", data);
+    console.log("Shadow Response:", response.data);
+    return response.data; // 그림자 응답 반환
+  } catch (error) {
+    console.error("그림자 요청 전송 중 오류 발생:", error);
+    throw error; // 오류 전파
+  }
 }
 
-app.post('/api/process', async (req, res) => {
-    const liveRequestData = req.body;
-    try {
-        // 그림자 요청 동기적으로 전송
-        const shadowResponse = await sendShadowRequest(liveRequestData);
-        // 라이브 시스템에 라이브 요청 전송
-        const liveResponse = await axios.post('https://live-system.example.com/api', liveRequestData);
-        // 라이브 시스템의 응답과 그림자 응답을 사용자에게 반환
-        res.json({
-            liveResponse: liveResponse.data,
-            shadowResponse: shadowResponse
-        });
-    } catch (error) {
-        res.status(500).json({ error: '요청 처리 중 오류 발생' });
-    }
+app.post("/api/process", async (req, res) => {
+  const liveRequestData = req.body;
+  try {
+    // 그림자 요청 동기적으로 전송
+    const shadowResponse = await sendShadowRequest(liveRequestData);
+    // 라이브 시스템에 라이브 요청 전송
+    const liveResponse = await axios.post("https://live-system.example.com/api", liveRequestData);
+    // 라이브 시스템의 응답과 그림자 응답을 사용자에게 반환
+    res.json({
+      liveResponse: liveResponse.data,
+      shadowResponse: shadowResponse,
+    });
+  } catch (error) {
+    res.status(500).json({ error: "요청 처리 중 오류 발생" });
+  }
 });
 
 app.listen(port, () => {
-    console.log(`서버가 포트 ${port}에서 실행 중입니다.`);
+  console.log(`서버가 포트 ${port}에서 실행 중입니다.`);
 });
 ```
 
@@ -81,7 +102,18 @@ app.listen(port, () => {
 
 - 동기적 실행:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 이 Node.js 구현에서 그림자 및 실시간 요청은 동기적으로 처리됩니다. 서버는 그림자 요청이 완료될 때까지 기다렸다가 실시간 요청을 보냅니다.
 - sendShadowRequest 함수는 await 되어 서버가 그림자 요청이 완전히 처리될 때까지 차단되는 것을 의미합니다.
@@ -93,7 +125,18 @@ app.listen(port, () => {
 
 3. 두 응답 반환:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 라이브 및 그림자 시스템에서의 응답이 사용자에게 반환되어, 두 시스템을 직접 비교하거나 확인할 수 있습니다.
 
@@ -103,7 +146,18 @@ app.listen(port, () => {
 
 ## Python 버전:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 import requests
@@ -142,7 +196,18 @@ if __name__ == "__main__":
     app.run(port=3000)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. 오류 처리:
 
@@ -152,7 +217,18 @@ if __name__ == "__main__":
 
 - 셰도우 및 라이브 시스템에서의 응답이 모두 클라이언트에게 반환되며, 이는 셰도우 시스템의 정확성을 검증하는 데 유용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 사용 사례:
 
@@ -162,7 +238,18 @@ if __name__ == "__main__":
 
 Node.js:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 비동기 작업을 동기적으로 처리하기 위해 async/await을 사용하여 서버가 그림자 및 라이브 요청이 완료될 때까지 기다리도록 보장합니다.
 - 그림자 요청이 완료될 때까지 기다려야 하기 때문에 응답 시간이 증가합니다.
@@ -174,7 +261,18 @@ Python:
 
 양쪽 경우 모두, 그림자 시스템의 응답을 라이브 시스템의 응답과 함께 유효성을 검사할 때, 전체 응답 시간을 지연시키더라도 중요한 경우 동기적인 그림자 요청이 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 2. 비동기 그림자 요청
 
@@ -187,50 +285,73 @@ Python:
 - 배포 후 유효성 검사: 라이브 시스템의 성능에 영향을 주지 않고 배포 후 변경 사항을 유효성을 확인하는 데 사용됩니다.
 - 장기간 실행 프로세스: 그림자 시스템이 요청을 처리하는 데 오랜 시간이 걸리고 즉시 비교가 필요하지 않은 시스템에서 유용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 노드.js 버전:
 
 ```js
-const express = require('express');
-const axios = require('axios');
+const express = require("express");
+const axios = require("axios");
 const port = 3000;
 
 const app = express();
 app.use(express.json());
 
 function sendShadowRequest(data) {
-    axios.post('https://shadow-system.example.com/api', data)
-        .then(response => {
-            console.log('Shadow Response:', response.data);
-        })
-        .catch(error => {
-            console.error('Error sending shadow request:', error);
-        });
+  axios
+    .post("https://shadow-system.example.com/api", data)
+    .then((response) => {
+      console.log("Shadow Response:", response.data);
+    })
+    .catch((error) => {
+      console.error("Error sending shadow request:", error);
+    });
 }
 
-app.post('/api/process', async (req, res) => {
-    const liveRequestData = req.body;
-    // 그림자 요청을 비동기적으로 보냄 (논블로킹)
-    sendShadowRequest(liveRequestData);
-    try {
-        // 라이브 시스템에 라이브 요청을 보내기
-        const liveResponse = await axios.post('https://live-system.example.com/api', liveRequestData);
-        // 사용자에게는 라이브 시스템의 응답만 반환
-        res.json(liveResponse.data);
-    } catch (error) {
-        res.status(500).json({ error: '라이브 요청 처리 중 오류 발생' });
-    }
+app.post("/api/process", async (req, res) => {
+  const liveRequestData = req.body;
+  // 그림자 요청을 비동기적으로 보냄 (논블로킹)
+  sendShadowRequest(liveRequestData);
+  try {
+    // 라이브 시스템에 라이브 요청을 보내기
+    const liveResponse = await axios.post("https://live-system.example.com/api", liveRequestData);
+    // 사용자에게는 라이브 시스템의 응답만 반환
+    res.json(liveResponse.data);
+  } catch (error) {
+    res.status(500).json({ error: "라이브 요청 처리 중 오류 발생" });
+  }
 });
 
 app.listen(port, () => {
-    console.log(`서버가 포트 ${port}에서 실행 중입니다.`);
+  console.log(`서버가 포트 ${port}에서 실행 중입니다.`);
 });
 ```
 
 ## 설명 (Node.js):
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 비동기 실행:
 
@@ -241,7 +362,18 @@ app.listen(port, () => {
 
 - 이 접근 방식의 논블로킹 특성은 그림자 요청이 라이브 요청의 응답 시간에 영향을 미치지 않도록 보장합니다. 그림자 요청은 백그라운드에서 처리됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. 응답 처리:
 
@@ -251,7 +383,18 @@ app.listen(port, () => {
 
 - 이 접근법은 그림자 시스템을 모니터링하거나 유효성 검사해야 하지만 실제 시스템의 성능이나 시간에 영향을 미치지 않도록 하는 경우에 이상적입니다. 사용자 경험에 영향을 주지 않으면서 새 시스템을 점진적으로 테스트하고 싶은 환경에서 일반적으로 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Python Version:
 
@@ -290,7 +433,18 @@ if __name__ == "__main__":
 
 - 비동기 실행:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 이 Python 버전에서는 그림자 요청을 별도의 스레드 (threading.Thread)를 사용하여 비동기적으로 전송합니다. 이를 통해 그림자 요청이 완료될 때까지 기다리지 않고도 주 프로세스가 라이브 요처리를 계속할 수 있습니다.
 
@@ -300,7 +454,18 @@ if __name__ == "__main__":
 
 3. 응답 처리:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 라이브 시스템의 응답은 사용자에게 반환되고, 그림자 시스템의 응답은 내부 사용이나 모니터링을 위해 로그에 남깁니다.
 
@@ -310,7 +475,18 @@ if __name__ == "__main__":
 
 ## 차이점:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Node.js는 JavaScript의 비차단 I/O 모델을 활용하기 위해 비동기 프라미스와 axios를 사용하여 그림자 요청을 보냅니다.
 - Python은 비동기 동작을 달성하기 위해 쓰레딩을 사용하여 그림자 요청을 별도의 스레드에서 실행하여 주 프로세스를 차단하지 않습니다.
@@ -322,7 +498,18 @@ if __name__ == "__main__":
 
 사용하는 곳:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 대상 테스트: 특정 기능이나 사용자 세그먼트와 관련된 요청만 테스트해야 할 때 사용됩니다.
 - 비용 관리: 그림자 요청의 수를 줄이고, 고영향 영역에만 집중함으로써 비용을 관리하는 데 도움이 됩니다.
@@ -334,55 +521,77 @@ if __name__ == "__main__":
 
 ```js
 // NodeJS 예제
-const express = require('express');
-const axios = require('axios');
+const express = require("express");
+const axios = require("axios");
 const port = 3000;
 
 const app = express();
 app.use(express.json());
 
 async function sendShadowRequest(data) {
-    try {
-        const response = await axios.post('https://shadow-system.example.com/api', data);
-        console.log('그림자 응답:', response.data);
-    } catch (error) {
-        console.error('그림자 요청 보내기 오류:', error);
-    }
+  try {
+    const response = await axios.post("https://shadow-system.example.com/api", data);
+    console.log("그림자 응답:", response.data);
+  } catch (error) {
+    console.error("그림자 요청 보내기 오류:", error);
+  }
 }
 
-app.post('/api/process', async (req, res) => {
-    const liveRequestData = req.body;
-    // 선택적 그림자 요청 조건 예시
-    if (liveRequestData.type === 'high_priority') {
-        sendShadowRequest(liveRequestData); // 대기할 필요 없이 백그라운드로 실행
-    }
-    // 라이브 시스템으로 라이브 요청 보내기
-    try {
-        const liveResponse = await axios.post('https://live-system.example.com/api', liveRequestData);
-        res.json(liveResponse.data);
-    } catch (error) {
-        res.status(500).json({ error: '라이브 요청 처리 오류' });
-    }
+app.post("/api/process", async (req, res) => {
+  const liveRequestData = req.body;
+  // 선택적 그림자 요청 조건 예시
+  if (liveRequestData.type === "high_priority") {
+    sendShadowRequest(liveRequestData); // 대기할 필요 없이 백그라운드로 실행
+  }
+  // 라이브 시스템으로 라이브 요청 보내기
+  try {
+    const liveResponse = await axios.post("https://live-system.example.com/api", liveRequestData);
+    res.json(liveResponse.data);
+  } catch (error) {
+    res.status(500).json({ error: "라이브 요청 처리 오류" });
+  }
 });
 
 app.listen(port, () => {
-    console.log(`서버가 포트 ${port}에서 실행 중입니다.`);
+  console.log(`서버가 포트 ${port}에서 실행 중입니다.`);
 });
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 설명:
 
 - Express 애플리케이션: 이 Node.js 코드는 Express.js를 사용하여 단순한 웹 서버를 설정하고 /api/process 엔드포인트에서 수신된 POST 요청을 수신합니다.
 - 선택적인 그림자 요청:
 
-    - 요청이 수신되면, 서버는 요청 타입이 "high_priority" 인지 확인합니다.
-    - 조건이 충족되면 axios 라이브러리를 사용하여 그림자 시스템으로 그림자 요청을 보냅니다. 이는 응답을 기다리지 않고 실행되며, 메인 프로세스가 계속 실행되는 동안 배경에서 실행됩니다.
+  - 요청이 수신되면, 서버는 요청 타입이 "high_priority" 인지 확인합니다.
+  - 조건이 충족되면 axios 라이브러리를 사용하여 그림자 시스템으로 그림자 요청을 보냅니다. 이는 응답을 기다리지 않고 실행되며, 메인 프로세스가 계속 실행되는 동안 배경에서 실행됩니다.
 
 3. 요청 처리:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 라이브 시스템으로 라이브 요청이 axios.post를 사용하여 전송되고, 라이브 시스템으로부터의 응답은 사용자에게 리턴됩니다.
 - 그 반면에 섀도우 요청은 백그라운드에서 처리됩니다. 그 응답은 로깅되지만, 이는 사용자에게 전달되는 라이브 시스템의 응답을 방해하지 않습니다.
@@ -423,7 +632,18 @@ if __name__ == "__main__":
 
 ## 설명 (Python):
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 선택적 실행:
 
@@ -433,7 +653,18 @@ if __name__ == "__main__":
 
 - Python의 threading 모듈을 사용하여 그림자 요청을 비동기적으로 처리합니다. 이는 메인 프로세스가 그림자 요청의 완료를 기다리지 않고 실시간 요청을 처리하도록 하는 것을 의미합니다. 이는 Node.js 버전에서 사용되는 논블로킹 접근과 유사합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 사용 사례:
 
@@ -443,9 +674,20 @@ if __name__ == "__main__":
 
 Node.js:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
-- 라이브 요청 데이터 유형이 `high_priority` 인지 확인하기 위해 조건부 확인을 사용합니다(if (liveRequestData.type === `high_priority`)). 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+- 라이브 요청 데이터 유형이 `high_priority` 인지 확인하기 위해 조건부 확인을 사용합니다(if (liveRequestData.type === `high_priority`)).
 - 그림자 요청은 비동기적으로 실행되어 라이브 시스템의 응답이 지연되지 않도록 합니다.
 
 Python:
@@ -455,7 +697,18 @@ Python:
 
 # 중요 포인트:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 비동기 처리: 쉐도우 요청을 기다리지 않음으로서 서버는 라이브 요청의 응답 시간에 영향을주지 않습니다. 쉐도우 요청은 비동기적으로 처리됩니다.
 - 선택적 쉐도잉: 요청을 쉐도우할지 여부는 유형 필드를 기반으로하기 때문에 선택적인 프로세스입니다. 이는 쉐도우 시스템에 불필요한 부하를 줄이고 중요 요청에만 집중하는 데 도움이 됩니다.
@@ -466,7 +719,18 @@ Python:
 
 # 4. 병렬 쉐도우 요청
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 목적:
 병렬 그림자 요청은 그림자 요청을 여러 그림자 시스템으로 동시에 보내는 것을 의미합니다. 이는 서로 다른 시스템 또는 동일 시스템의 다른 버전 간의 성능 또는 결과를 비교하기 위해 수행됩니다.
@@ -479,58 +743,69 @@ Python:
 
 코드 샘플:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Node.js 버전:
 
 ```js
-const express = require('express');
-const axios = require('axios');
+const express = require("express");
+const axios = require("axios");
 const port = 3000;
 
 const app = express();
 app.use(express.json());
 
 async function sendShadowRequest(data) {
-    try {
-        const response = await axios.post('https://shadow-system.example.com/api', data);
-        console.log('Shadow Response:', response.data);
-        return response.data;
-    } catch (error) {
-        console.error('Error sending shadow request:', error);
-        return null;
-    }
+  try {
+    const response = await axios.post("https://shadow-system.example.com/api", data);
+    console.log("Shadow Response:", response.data);
+    return response.data;
+  } catch (error) {
+    console.error("Error sending shadow request:", error);
+    return null;
+  }
 }
 
 async function sendLiveRequest(data) {
-    try {
-        const response = await axios.post('https://live-system.example.com/api', data);
-        return response.data;
-    } catch (error) {
-        throw error;
-    }
+  try {
+    const response = await axios.post("https://live-system.example.com/api", data);
+    return response.data;
+  } catch (error) {
+    throw error;
+  }
 }
 
-app.post('/api/process', async (req, res) => {
-    const requestData = req.body;
-    try {
-        // 라이브 및 섀도우 요청을 동시에 실행합니다.
-        const [liveResponse, shadowResponse] = await Promise.all([
-            sendLiveRequest(requestData),
-            sendShadowRequest(requestData)
-        ]);
-        // 사용자에게 라이브 시스템 응답을 반환합니다.
-        res.json({
-            liveResponse,
-            shadowResponse // 디버깅/모니터링을 위해 선택적으로 섀도우 응답을 포함할 수 있습니다.
-        });
-    } catch (error) {
-        res.status(500).json({ error: '요청 처리 중 오류 발생' });
-    }
+app.post("/api/process", async (req, res) => {
+  const requestData = req.body;
+  try {
+    // 라이브 및 섀도우 요청을 동시에 실행합니다.
+    const [liveResponse, shadowResponse] = await Promise.all([
+      sendLiveRequest(requestData),
+      sendShadowRequest(requestData),
+    ]);
+    // 사용자에게 라이브 시스템 응답을 반환합니다.
+    res.json({
+      liveResponse,
+      shadowResponse, // 디버깅/모니터링을 위해 선택적으로 섀도우 응답을 포함할 수 있습니다.
+    });
+  } catch (error) {
+    res.status(500).json({ error: "요청 처리 중 오류 발생" });
+  }
 });
 
 app.listen(port, () => {
-    console.log(`서버가 포트 ${port}에서 실행 중입니다.`);
+  console.log(`서버가 포트 ${port}에서 실행 중입니다.`);
 });
 ```
 
@@ -538,7 +813,18 @@ app.listen(port, () => {
 
 - 병렬 실행:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Node.js를 구현한 이 코드에서는 Promise.all을 사용하여 실시간 요청과 그림자 요청이 병렬로 실행됩니다. 이를 통해 서버는 두 요청을 동시에 시작하여 전반적인 응답 시간을 줄일 수 있습니다.
 
@@ -548,7 +834,18 @@ app.listen(port, () => {
 
 # 활용 사례:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 이 패턴은 라이브 시스템과 그림자 시스템의 결과를 실시간으로 비교하고 싶을 때 특히 유용합니다. 사용자에게 동일한 성능 수준을 유지하면서 새로운 시스템을 테스트하거나 보조 시스템의 일관성을 확인해야 하는 시나리오에 이상적입니다.
 
@@ -600,7 +897,18 @@ if __name__ == "__main__":
 
 ## 설명 (Python):
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 병렬 실행:
 
@@ -610,7 +918,18 @@ if __name__ == "__main__":
 
 - 스레드 풀을 사용하면 Python 애플리케이션이 여러 스레드를 효율적으로 관리하고, 두 요청이 주 프로세스를 차단하지 않고 처리될 수 있도록 합니다. future.result()의 사용을 통해 주 스레드가 두 요청의 완료를 기다릴 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 사용 사례:
 
@@ -620,7 +939,18 @@ if __name__ == "__main__":
 
 Node.js:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Promise.all을 사용하여 라이브 및 쉐도우 요청을 병렬로 실행합니다.
 - 이 접근 방식은 JavaScript의 비동기성을 활용하여 병렬 작업을 효율적으로 관리하며, 두 요청을 동시에 처리하면서 전체 응답 시간을 최소화합니다.
@@ -632,7 +962,18 @@ Python:
 
 두 구현 모두, 병렬 쉐도우 요청 패턴을 사용하여 라이브 및 쉐도우 요청을 동시에 실행하여, 사용자 경험에 영향을 미치지 않고 두 시스템이 모두 테스트되거나 유효화되도록 합니다. 이는 성능이 중요하지만 쉐도우 시스템을 테스트하거나 모니터링해야 하는 시나리오에서 특히 유용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 5. 시간적 그림자 요청
 
@@ -644,64 +985,86 @@ Python:
 - 최대 부하 테스트는 시스템이 고부하 조건을 처리할 수 있는지 확인하기 위해 피크 시간대의 트래픽을 시뮬레이션합니다.
 - 시간 기반 기능 테스트: 이 방법은 하루 중 일정 시간에만 활성화되는 기능이나 설정을 테스트하는 데 유용합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코드 샘플:
 
 # Node.js 버전:
 
 ```js
-const express = require('express');
-const axios = require('axios');
+const express = require("express");
+const axios = require("axios");
 const port = 3000;
 
 const app = express();
 app.use(express.json());
 async function sendShadowRequestWithDelay(data, delay) {
-    try {
-        await new Promise(resolve => setTimeout(resolve, delay));
-        const response = await axios.post('https://shadow-system.example.com/api', data);
-        console.log('Shadow Response:', response.data);
-    } catch (error) {
-        console.error('Error sending shadow request:', error);
-    }
+  try {
+    await new Promise((resolve) => setTimeout(resolve, delay));
+    const response = await axios.post("https://shadow-system.example.com/api", data);
+    console.log("Shadow Response:", response.data);
+  } catch (error) {
+    console.error("Error sending shadow request:", error);
+  }
 }
 
 async function sendLiveRequest(data) {
-    try {
-        const response = await axios.post('https://live-system.example.com/api', data);
-        return response.data;
-    } catch (error) {
-        throw error;
-    }
+  try {
+    const response = await axios.post("https://live-system.example.com/api", data);
+    return response.data;
+  } catch (error) {
+    throw error;
+  }
 }
 
-app.post('/api/process', async (req, res) => {
-    const requestData = req.body;
-    // Sending the shadow request with a temporal delay
-    const shadowDelay = 5000; // 5 seconds delay
-    sendShadowRequestWithDelay(requestData, shadowDelay);
-    try {
-        // Sending the live request to the live system
-        const liveResponse = await sendLiveRequest(requestData);
-        // Return the live system's response to the user
-        res.json({
-            liveResponse,
-            message: 'Shadow request will be processed after a delay'
-        });
-    } catch (error) {
-        res.status(500).json({ error: 'Error processing live request' });
-    }
+app.post("/api/process", async (req, res) => {
+  const requestData = req.body;
+  // Sending the shadow request with a temporal delay
+  const shadowDelay = 5000; // 5 seconds delay
+  sendShadowRequestWithDelay(requestData, shadowDelay);
+  try {
+    // Sending the live request to the live system
+    const liveResponse = await sendLiveRequest(requestData);
+    // Return the live system's response to the user
+    res.json({
+      liveResponse,
+      message: "Shadow request will be processed after a delay",
+    });
+  } catch (error) {
+    res.status(500).json({ error: "Error processing live request" });
+  }
 });
 
 app.listen(port, () => {
-    console.log(`Server is running on port ${port}`);
+  console.log(`Server is running on port ${port}`);
 });
 ```
 
 ## 설명 (Node.js):
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 임시 지연:
 
@@ -711,7 +1074,18 @@ app.listen(port, () => {
 
 - 실시간 요청은 즉시 처리되고 응답되며, 암시 요청 완료를 기다리지 않습니다. 이는 사용자 경험을 지연시키지 않도록 하는 것을 보장합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 사용 사례:
 
@@ -763,7 +1137,18 @@ if __name__ == "__main__":
     app.run(port=3000)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 설명 (Python):
 
@@ -773,7 +1158,18 @@ if __name__ == "__main__":
 
 2. 비동기 실행:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 그림자 요청은 threading.Thread를 사용하여 별도의 스레드에서 실행됩니다. 이를 통해 그림자 요청이 완료될 때까지 기다리지 않고 메인 프로세스가 실시간 요청을 처리할 수 있습니다.
 
@@ -783,7 +1179,18 @@ if __name__ == "__main__":
 
 # 차이점:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Node.js:
 
@@ -795,7 +1202,18 @@ Python:
 - time.sleep을 사용하여 지연을 도입하며, threading.Thread를 사용하여 별도의 스레드에서 그림자 요청을 실행합니다.
 - Node.js 버전과 유사하게, 라이브 요청은 즉시 처리되고, 그림자 요청은 지연되어 백그라운드에서 처리됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 양 구현 모두, 임시 그림자 요청은 라이브 시스템의 성능을 우선시하면서 그림자 시스템이 테스트되거나 모니터링될 수 있도록 설계되었습니다. 그림자 요청의 지연 실행은 주 사용자를 대상으로 한 과정에 간섭하지 않도록 보장하며, 이 패턴은 시스템 부하와 성능을 신중하게 관리해야 하는 시나리오에 유용합니다.
 
@@ -806,7 +1224,18 @@ Python:
 
 사용 예시:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 오류 처리: 라이브 시스템에서 오류가 발생할 때 그림자 요청을 트리거하여 사용자 경험에 영향을 미치지 않고 문제를 진단하고 수정하는 데 도움이 됩니다.
 - 대상 기능 테스트: 새로운 기능 또는 설정을 특정 조건 하에만 테스트하는 데 유용합니다.
@@ -816,53 +1245,64 @@ Python:
 # Node.js 버전: 조건부 그림자 요청
 
 ```js
-const express = require('express');
-const axios = require('axios');
+const express = require("express");
+const axios = require("axios");
 const port = 3000;
 
 const app = express();
 app.use(express.json());
 
 async function sendShadowRequest(data) {
-    try {
-        const response = await axios.post('https://shadow-system.example.com/api', data);
-        console.log('그림자 응답:', response.data);
-    } catch (error) {
-        console.error('그림자 요청 전송 중 오류 발생:', error);
-    }
+  try {
+    const response = await axios.post("https://shadow-system.example.com/api", data);
+    console.log("그림자 응답:", response.data);
+  } catch (error) {
+    console.error("그림자 요청 전송 중 오류 발생:", error);
+  }
 }
 
 async function sendLiveRequest(data) {
-    try {
-        const response = await axios.post('https://live-system.example.com/api', data);
-        return response.data;
-    } catch (error) {
-        throw error;
-    }
+  try {
+    const response = await axios.post("https://live-system.example.com/api", data);
+    return response.data;
+  } catch (error) {
+    throw error;
+  }
 }
 
-app.post('/api/process', async (req, res) => {
-    const requestData = req.body;
-    try {
-        // 그림자 요청을 보내기 전 조건 확인
-        if (requestData.priority === 'high' || requestData.source === 'mobile') {
-            sendShadowRequest(requestData); // 논블로킹 호출
-        }
-        // 라이브 시스템으로 라이브 요청 보내기
-        const liveResponse = await sendLiveRequest(requestData);
-        // 사용자에게는 라이브 시스템의 응답만 반환
-        res.json(liveResponse);
-    } catch (error) {
-        res.status(500).json({ error: '라이브 요청 처리 중 오류 발생' });
+app.post("/api/process", async (req, res) => {
+  const requestData = req.body;
+  try {
+    // 그림자 요청을 보내기 전 조건 확인
+    if (requestData.priority === "high" || requestData.source === "mobile") {
+      sendShadowRequest(requestData); // 논블로킹 호출
     }
+    // 라이브 시스템으로 라이브 요청 보내기
+    const liveResponse = await sendLiveRequest(requestData);
+    // 사용자에게는 라이브 시스템의 응답만 반환
+    res.json(liveResponse);
+  } catch (error) {
+    res.status(500).json({ error: "라이브 요청 처리 중 오류 발생" });
+  }
 });
 
 app.listen(port, () => {
-    console.log(`서버가 포트 ${port}에서 실행 중입니다.`);
+  console.log(`서버가 포트 ${port}에서 실행 중입니다.`);
 });
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 설명 (Node.js):
 
@@ -872,7 +1312,18 @@ app.listen(port, () => {
 
 2. 논블로킹:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 그림자 요청은 논 블로킹 방식으로 전송되므로 서버는 완료를 기다리지 않고 라이브 요청 처리를 계속합니다. 이는 그림자 요청이 라이브 시스템의 성능에 영향을 미치지 않도록 합니다.
 
@@ -882,7 +1333,18 @@ app.listen(port, () => {
 
 # Python Version: 조건부 그림자 요청
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 import requests
@@ -923,7 +1385,18 @@ if __name__ == "__main__":
     app.run(port=3000)
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. 비동기 실행:
 
@@ -933,7 +1406,18 @@ if __name__ == "__main__":
 
 - Python에서 조건부 그림자 요청은 특정 기준에 따라 그림자만 특정 요청에 대해 그림자화해야 할 때 특히 유용합니다. 예를 들어, 요청의 중요성이나 원천에 따라서입니다. 이 접근 방식은 그림자 시스템의 부하를 최소화하고 관련 요청만을 실시간 시스템과 병렬로 처리함으로써 필요한 요청만 처리되도록 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 차이점:
 
@@ -944,7 +1428,18 @@ Node.js:
 
 Python:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 비슷한 조건부 논리 접근 방식을 사용하지만, threading 모듈을 사용하여 별도의 스레드에서 쉐도우 요청을 실행합니다.
 - 라이브 요청은 즉시 처리되며, 조건이 충족되면 쉐도우 요청이 병렬로 실행됩니다.
@@ -956,7 +1451,18 @@ Python:
 목적:
 단계별 쉐도우 요청은 쉐도우 시스템으로 보내는 트래픽을 점진적으로 증가시키는 것을 포함하며, 먼저 소량의 요청부터 시작하여 시간이 지남에 따라 증가시켜 나갑니다. 이 기술은 쉐도우 시스템이 증가하는 부하를 처리할 수 있고 성능을 점진적으로 확인할 수 있도록 하는 데 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용 예시:
 
@@ -967,70 +1473,81 @@ Python:
 
 # Node.js Version: Staged Shadow Requests
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-const express = require('express');
-const axios = require('axios');
+const express = require("express");
+const axios = require("axios");
 const port = 3000;
 
 const app = express();
 app.use(express.json());
 
 async function sendShadowRequestStage1(data) {
-    try {
-        const response = await axios.post('https://shadow-system-stage1.example.com/api', data);
-        console.log('Stage 1 Shadow Response:', response.data);
-        return response.data;
-    } catch (error) {
-        console.error('Error in Stage 1 Shadow Request:', error);
-        return null;
-    }
+  try {
+    const response = await axios.post("https://shadow-system-stage1.example.com/api", data);
+    console.log("Stage 1 Shadow Response:", response.data);
+    return response.data;
+  } catch (error) {
+    console.error("Error in Stage 1 Shadow Request:", error);
+    return null;
+  }
 }
 
 async function sendShadowRequestStage2(data) {
-    try {
-        const response = await axios.post('https://shadow-system-stage2.example.com/api', data);
-        console.log('Stage 2 Shadow Response:', response.data);
-        return response.data;
-    } catch (error) {
-        console.error('Error in Stage 2 Shadow Request:', error);
-        return null;
-    }
+  try {
+    const response = await axios.post("https://shadow-system-stage2.example.com/api", data);
+    console.log("Stage 2 Shadow Response:", response.data);
+    return response.data;
+  } catch (error) {
+    console.error("Error in Stage 2 Shadow Request:", error);
+    return null;
+  }
 }
 
 async function sendLiveRequest(data) {
-    try {
-        const response = await axios.post('https://live-system.example.com/api', data);
-        return response.data;
-    } catch (error) {
-        throw error;
-    }
+  try {
+    const response = await axios.post("https://live-system.example.com/api", data);
+    return response.data;
+  } catch (error) {
+    throw error;
+  }
 }
 
-app.post('/api/process', async (req, res) => {
-    const requestData = req.body;
-    try {
-        // First stage of the shadow request
-        const stage1Response = await sendShadowRequestStage1(requestData);
-        
-        // Optionally pass stage 1 response to stage 2
-        if (stage1Response && stage1Response.continue) {
-            await sendShadowRequestStage2(stage1Response);
-        }
-        
-        // Sending the live request to the live system
-        const liveResponse = await sendLiveRequest(requestData);
-        
-        // Return only the live system's response to the user
-        res.json(liveResponse);
-    } catch (error) {
-        res.status(500).json({ error: 'Error processing live request' });
+app.post("/api/process", async (req, res) => {
+  const requestData = req.body;
+  try {
+    // First stage of the shadow request
+    const stage1Response = await sendShadowRequestStage1(requestData);
+
+    // Optionally pass stage 1 response to stage 2
+    if (stage1Response && stage1Response.continue) {
+      await sendShadowRequestStage2(stage1Response);
     }
+
+    // Sending the live request to the live system
+    const liveResponse = await sendLiveRequest(requestData);
+
+    // Return only the live system's response to the user
+    res.json(liveResponse);
+  } catch (error) {
+    res.status(500).json({ error: "Error processing live request" });
+  }
 });
 
 app.listen(port, () => {
-    console.log(`Server is running on port ${port}`);
+  console.log(`Server is running on port ${port}`);
 });
 ```
 
@@ -1041,7 +1558,18 @@ app.listen(port, () => {
 - 이 Node.js 구현에서는 그림자 요청이 단계별로 전송됩니다. 첫 번째 그림자 요청(sendShadowRequestStage1)이 처리되며, 그 결과에 따라 두 번째 그림자 요청(sendShadowRequestStage2)이 트리거될 수 있습니다.
 - 이 단계별 접근은 각 단계가 다음 단계에 영향을 미칠 수 있는 조건부 진행을 가능하게 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. 제어된 흐름:
 
@@ -1051,7 +1579,18 @@ app.listen(port, () => {
 
 - 단계적 그림자 요청은 순차적 또는 절차별 검증이 필요한 시나리오에서 유용합니다. 이는 한 단계의 출력이 다음 단계에서 수행할 작업이나 테스트를 결정하는 시스템에서 필요할 수 있으며, 그림자 처리 과정을 더 세밀하게 제어할 수 있게 해줍니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Python Version:
 
@@ -1110,7 +1649,18 @@ if __name__ == "__main__":
 
 - Staged Execution:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 이 Python 구현에서는 그림자 요청이 단계적으로 처리됩니다. 첫 번째 그림자 요청 (send_shadow_request_stage1)이 실행되고, 해당 응답은 두 번째 그림자 요청 (send_shadow_request_stage2)이 트리거될지를 결정할 수 있습니다.
 - 이 단계별 접근법은 단계별 유효성 검사를 허용하며, 각 단계의 결과가 다음으로의 진행을 영향을 미칩니다.
@@ -1121,7 +1671,18 @@ if __name__ == "__main__":
 
 # 사용 사례:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 스테이징된 셰도우 요청은 시스템의 동작이 점진적으로 확인되어야 하는 복잡한 워크플로우에서 유용합니다. 이 방법은 각 단계가 이전 단계의 성공적인 완료에 의존할 수 있는 테스트 시나리오에서 특히 유용하며, 다음 단계로 진행하기 전에 시스템의 각 부분이 기대한 대로 작동하는지 확인합니다.
 
@@ -1132,7 +1693,18 @@ Node.js:
 - 각 셰도우 요청 단계를 처리하기 위해 비동기 함수를 사용합니다. 첫 번째 단계의 응답에 따라 흐름이 제어되며, 두 번째 단계는 조건에 따라 트리거됩니다.
 - 이 구현은 여러 셰도우 시스템이 순차적인 프로세스에 관여하고 각 단계가 다음 단계에 영향을 줄 수 있는 시스템에서 이상적입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파이썬:
 
@@ -1143,7 +1715,18 @@ Node.js:
 
 # 8. 트래픽 분할 섀도 요청
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 목적:
 트래픽 분할 쉐도우 요청은 지리적 위치, 사용자 유형 또는 특정 기준에 따라 교통을 여러 쉐도우 시스템으로 분할하는 것을 의미합니다. 이 방법은 다양한 조건에서 다른 시스템을 유효성 검사하는 데 도움이 됩니다.
@@ -1155,7 +1738,18 @@ Node.js:
 
 코드 샘플:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Node.js 버전: 트래픽 분할 그림자 요청
 
@@ -1216,7 +1810,18 @@ app.listen(port, () => {
 
 - 이 Node.js 구현에서 shouldSendToShadowSystem 함수는 간단한 난수 생성기 (crypto.randomInt)를 사용하여 요청을 그림자 시스템으로 보낼 지 여부를 결정합니다. 현재 설정은 난수가 20 이하인 경우에만 20%의 트래픽을 그림자 시스템으로 보냅니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. 블로킹되지 않는 섀도우 요청:
 
@@ -1226,7 +1831,18 @@ app.listen(port, () => {
 
 - 트래픽 분할 섀도우 요청은 대부분의 사용자에게 영향을 주지 않으면서 트래픽의 하위 집합으로 새 시스템을 테스트하고 싶을 때 유용합니다. 이 방법을 사용하면 안정적인 라이브 시스템에 대부분의 트래픽을 유지하면서 섀도우 시스템을 점진적으로 도입하고 모니터할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Python 버전: 트래픽 분할 그림자 요청
 
@@ -1277,7 +1893,18 @@ if __name__ == "__main__":
 
 - 트래픽 분할 로직:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 이 Python 구현에서 should_send_to_shadow_system 함수는 요청을 그림자 시스템으로 보낼지를 결정하기 위해 Python의 random.randint를 사용합니다. 예시에서는 무작위 숫자가 1에서 20 범위 내에 속하는지 확인하여 트래픽의 20%를 분할합니다.
 
@@ -1287,7 +1914,18 @@ if __name__ == "__main__":
 
 # 사용 사례:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 트래픽 분할 그림자 요청은 일부 트래픽을 새로운 또는 실험적인 시스템으로 유도하고 싶을 때 이상적입니다. 이 방법을 사용하면 모든 사용자에게 잠재적인 위험이 노출되지 않고 그림자 시스템의 성능에 대한 실제 데이터를 수집할 수 있어서 단계적 롤아웃이나 프로덕션 환경에서의 테스트에 효과적인 전략입니다.
 
@@ -1298,7 +1936,18 @@ Node.js:
 - 랜덤 번호 생성기(crypto.randomInt)를 사용하여 어떤 요청을 그림자 시스템으로 보낼지 결정합니다. 트래픽 분할 논리는 20%의 트래픽을 그림자 시스템으로 라우팅하도록 설계되어 있어 새 시스템의 통제된 테스트를 가능하게 합니다.
 - 라이브 시스템의 성능에 영향을 미치지 않도록 그림자 요청을 비동기적으로 처리합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파이썬:
 
@@ -1309,6 +1958,17 @@ Node.js:
 
 # 결론:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그림자 요청의 유연성을 통해 여러 가지 테스트 및 모니터링 시나리오에 맞게 맞춤화할 수 있습니다. 시슽 기술을 이해하고 구현하는 것을 통해, 개발 팀은 그들의 시스템이 견고하고 신뢰할 수 있으며 제품 생산에 준비가 되어 있다는 것을 보장할 수 있습니다. Node.js, Bun, 또는 Python으로 작업 중이든지 상관없이, 이 코드 샘플들은 그림자 요청을 워크플로에 통합하는 방법을 보여주며, 실제 조건 하에서 시스템이 잘 작동하도록 보장하고 라이브 사용자 경험에 영향을 미치지 않도록 합니다.

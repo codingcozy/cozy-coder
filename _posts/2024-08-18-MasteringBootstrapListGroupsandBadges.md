@@ -3,14 +3,13 @@ title: "부트스트랩 List Groups과 Badges 마스터하기"
 description: ""
 coverImage: "/assets/img/2024-08-18-MasteringBootstrapListGroupsandBadges_0.png"
 date: 2024-08-18 10:19
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-18-MasteringBootstrapListGroupsandBadges_0.png
 tag: Tech
 originalTitle: "Mastering Bootstrap List Groups and Badges"
 link: "https://medium.com/@tomas-svojanovsky/mastering-bootstrap-list-groups-and-badges-bae703aec17e"
 isUpdated: false
 ---
-
 
 <img src="/assets/img/2024-08-18-MasteringBootstrapListGroupsandBadges_0.png" />
 
@@ -30,8 +29,18 @@ ul 목록 안에 list-group 클래스를 추가합니다. 각 li 항목에는 li
 </div>
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-08-18-MasteringBootstrapListGroupsandBadges_1.png)
 
@@ -42,18 +51,37 @@ ul 목록 안에 list-group 클래스를 추가합니다. 각 li 항목에는 li
 ```js
 <div class="container p-3">
   <div class="list-group">
-      <a class="list-group-item" href="#">Whiskers</a>
-      <a class="list-group-item" href="#">Mittens</a>
-      <a class="list-group-item active" href="#">Shadow</a>
-      <a class="list-group-item" href="#">Simba</a>
-      <a class="list-group-item disabled" href="#">Luna</a>
+    <a class="list-group-item" href="#">
+      Whiskers
+    </a>
+    <a class="list-group-item" href="#">
+      Mittens
+    </a>
+    <a class="list-group-item active" href="#">
+      Shadow
+    </a>
+    <a class="list-group-item" href="#">
+      Simba
+    </a>
+    <a class="list-group-item disabled" href="#">
+      Luna
+    </a>
   </div>
 </div>
 ```
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-08-18-MasteringBootstrapListGroupsandBadges_2.png)
 
@@ -71,11 +99,20 @@ ul 목록 안에 list-group 클래스를 추가합니다. 각 li 항목에는 li
     <li class="list-group-item disabled">Luna</li>
   </ul>
 </div>
-``` 
+```
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-08-18-MasteringBootstrapListGroupsandBadges_3.png)
 
@@ -95,8 +132,18 @@ ul 목록 안에 list-group 클래스를 추가합니다. 각 li 항목에는 li
 </div>
 ```
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-08-18-MasteringBootstrapListGroupsandBadges_4.png" />
 
@@ -106,16 +153,39 @@ ul 목록 안에 list-group 클래스를 추가합니다. 각 li 항목에는 li
 
 배지는 제목, 버튼, 내비게이션 항목 등 다양한 맥락에서 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <div class="container p-3">
-  <h1>예시 제목 <span class="badge bg-primary">새로운</span></h1>
-  <h2>예시 제목 <span class="badge bg-secondary">새로운</span></h2>
-  <h3>예시 제목 <span class="badge bg-success">새로운</span></h3>
-  <h4>예시 제목 <span class="badge bg-danger">새로운</span></h4>
-  <h5>예시 제목 <span class="badge bg-warning">새로운</span></h5>
-  <h6>예시 제목 <span class="badge bg-info">새로운</span></h6>
+  <h1>
+    예시 제목 <span class="badge bg-primary">새로운</span>
+  </h1>
+  <h2>
+    예시 제목 <span class="badge bg-secondary">새로운</span>
+  </h2>
+  <h3>
+    예시 제목 <span class="badge bg-success">새로운</span>
+  </h3>
+  <h4>
+    예시 제목 <span class="badge bg-danger">새로운</span>
+  </h4>
+  <h5>
+    예시 제목 <span class="badge bg-warning">새로운</span>
+  </h5>
+  <h6>
+    예시 제목 <span class="badge bg-info">새로운</span>
+  </h6>
 </div>
 ```
 
@@ -125,8 +195,18 @@ ul 목록 안에 list-group 클래스를 추가합니다. 각 li 항목에는 li
 
 버튼 내부에 뱃지를 사용할 수 있습니다. 이는 더 많은 정보나 관련 컨텍스트를 제공하기 위한 시각적인 표시 역할을 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <div class="container p-3">
   <button type="button" class="btn btn-primary">
@@ -134,14 +214,24 @@ ul 목록 안에 list-group 클래스를 추가합니다. 각 li 항목에는 li
   </button>
 </div>
 
-
 <img src="/assets/img/2024-08-18-MasteringBootstrapListGroupsandBadges_6.png" />
 
 ## Badges in List Group
 
 We can put everything together.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 텍스트, 배지 및 구조화 정렬의 조합은 이 디자인을 기능적이고 미학적으로 매력적으로 만들어 많은 웹 애플리케이션에 적합합니다.
 
@@ -154,30 +244,21 @@ We can put everything together.
 ```js
 <div class="container p-3">
   <ul class="list-group">
-    <li
-        class="list-group-item d-flex justify-content-between align-items-start"
-        >
+    <li class="list-group-item d-flex justify-content-between align-items-start">
       <div class="ms-2 me-auto">
-        <div class="fw-bold">전자제품</div>
-        이 항목에 대한 내용
+        <div class="fw-bold">전자제품</div>이 항목에 대한 내용
       </div>
       <span class="badge bg-primary rounded-pill">20</span>
     </li>
-    <li
-        class="list-group-item d-flex justify-content-between align-items-start"
-        >
+    <li class="list-group-item d-flex justify-content-between align-items-start">
       <div class="ms-2 me-auto">
-        <div class="fw-bold">패션</div>
-        이 항목에 대한 내용
+        <div class="fw-bold">패션</div>이 항목에 대한 내용
       </div>
       <span class="badge bg-danger rounded-pill">10</span>
     </li>
-    <li
-        class="list-group-item d-flex justify-content-between align-items-start"
-        >
+    <li class="list-group-item d-flex justify-content-between align-items-start">
       <div class="ms-2 me-auto">
-        <div class="fw-bold">스포츠</div>
-        이 항목에 대한 내용
+        <div class="fw-bold">스포츠</div>이 항목에 대한 내용
       </div>
       <span class="badge bg-success rounded-pill">30</span>
     </li>
@@ -185,8 +266,18 @@ We can put everything together.
 </div>
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image 1](/assets/img/2024-08-18-MasteringBootstrapListGroupsandBadges_7.png)
 

@@ -3,14 +3,13 @@ title: "iOS 앱 사이즈 최적화 제1장 - 사이즈 제어"
 description: ""
 coverImage: "/assets/img/2024-08-18-iOSApp-SizeOptimizationChapter1Controlthesize_0.png"
 date: 2024-08-18 10:49
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-18-iOSApp-SizeOptimizationChapter1Controlthesize_0.png
 tag: Tech
 originalTitle: "iOS App-Size Optimization Chapter 1  Control the size"
 link: "https://medium.com/kerege/ios-app-size-optimization-chapter-1-control-the-size-a74fd59f0fb5"
 isUpdated: false
 ---
-
 
 앱(.ipa) 내부에 무엇이 있는지 고려해 본 적이 있나요?
 
@@ -20,7 +19,18 @@ isUpdated: false
 
 시작하기 전에, Xcode 빌드 시스템이 어떻게 작동하는지 이해하기 위해 이 기사를 읽어보는 것을 추천합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 Xcode 빌드 시스템의 개요입니다:
 
@@ -30,8 +40,18 @@ isUpdated: false
 
 찾으려면 Xcode를 열고 - `설정 -` 위치 -` 파생 데이터로 이동하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-08-18-iOSApp-SizeOptimizationChapter1Controlthesize_1.png)
 
@@ -41,8 +61,18 @@ For this article, I will use my app with an .ipa file as an example.
 
 ![image](/assets/img/2024-08-18-iOSApp-SizeOptimizationChapter1Controlthesize_2.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저 .ipa 파일을 .zip 확장자로 바꿔주세요. 그냥 이름을 바꾸시면 됩니다.
 
@@ -52,7 +82,18 @@ For this article, I will use my app with an .ipa file as an example.
 
 ![Step 4](/assets/img/2024-08-18-iOSApp-SizeOptimizationChapter1Controlthesize_4.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 선택한 애플리케이션 파일을 선택하고 '패키지 콘텐츠 보기'를 클릭하세요.
 
@@ -62,7 +103,18 @@ For this article, I will use my app with an .ipa file as an example.
 
 내 프로젝트에서는 많은 mp3, scn(3D 오브젝트), json(Lottie) 파일이 있는데, 정말 필요한 걸까요? 이 시리즈 기사의 다음 장에서 이에 대해 다룰 예정입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Assets.car 파일은 무엇인가요?
 
@@ -72,7 +124,18 @@ Assets.car 파일은 무엇인가요?
 
 다음으로 주목해야 할 중요한 폴더는 'Frameworks'와 'PlugIns'입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-08-18-iOSApp-SizeOptimizationChapter1Controlthesize_6.png" />
 
@@ -83,7 +146,18 @@ Assets.car 파일은 무엇인가요?
 
 알아차리셨겠지만, Assets.car, .scn, 그리고 컴파일된 Swift 파일들이 보입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앱과 확장 프로그램 간의 모든 리소스를 공유하는 라이브러리를 공유하는 것이 좋겠죠? .scn과 Assets.car과 같은 파일들의 중복을 피할 수 있어요.
 
@@ -93,7 +167,18 @@ Assets.car 파일은 무엇인가요?
 
 ![image](/assets/img/2024-08-18-iOSApp-SizeOptimizationChapter1Controlthesize_8.png)
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ‘패키지 내용 표시’를 클릭해서 내부를 확인해보세요.
 
@@ -103,10 +188,20 @@ Assets.car 파일은 무엇인가요?
 
 이 방법이 쉽고 편리해서 정말 좋아해요. 하지만 물론 더 편리하고 자동화된 다른 방법들도 있을 거에요. 예를 들어, emergetools가 그 중 하나입니다. 내가 알기로 Spotify가 이것을 자동화 도구로 사용한다고 하더라구요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 Markdown 형식으로 변환한 것입니다.
-
 
 Let’s try it and see if it reveals anything interesting.
 
@@ -116,8 +211,18 @@ The design is really good, featuring interactive elements. The best aspect is th
 
 ![image2](/assets/img/2024-08-18-iOSApp-SizeOptimizationChapter1Controlthesize_11.png)
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 빨간 상자는 (평소와 같이) 나쁜 일이 발생했음을 나타냅니다. 이러한 빨간 상자는 이미 정의된 'MoonScene.scn'과 같이 중복된 파일을 나타냅니다.
 
@@ -127,6 +232,17 @@ Substack에서 저희를 팔로우해보세요: https://kerege.substack.com/
 
 LinkedIn에서 저와 함께하세요: https://www.linkedin.com/in/salgara/
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제게 커피를 사주실래요? https://ko-fi.com/salgara

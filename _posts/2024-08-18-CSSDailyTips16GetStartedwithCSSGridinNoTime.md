@@ -3,14 +3,13 @@ title: "CSS 그리드 시작하기 신속하게 익히는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-18-CSSDailyTips16GetStartedwithCSSGridinNoTime_0.png"
 date: 2024-08-18 10:23
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-18-CSSDailyTips16GetStartedwithCSSGridinNoTime_0.png
 tag: Tech
 originalTitle: "CSS Daily Tips 16 Get Started with CSS Grid in No Time"
 link: "https://medium.com/dev-genius/css-daily-tips-16-get-started-with-css-grid-in-no-time-f6c34f57f12a"
 isUpdated: false
 ---
-
 
 ![이미지](/assets/img/2024-08-18-CSSDailyTips16GetStartedwithCSSGridinNoTime_0.png)
 
@@ -20,7 +19,18 @@ CSS Grid은 웹 개발에 혁명을 일으키며, 복잡하고 응답성 있는 
 
 CSS Grid 레이아웃 또는 일반적으로 CSS Grid로 불리는 것은 복잡한 웹 레이아웃을 빠르고 쉽게 만들 수 있는 2차원 레이아웃 시스템입니다. Flexbox와 달리, 단순한 1차원 레이아웃(행 또는 열 기반)에 최적화된 것과는 달리 CSS Grid는 행과 열 모두 다룰 수 있어 복잡한 웹 디자인을 만드는 데 이상적입니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # CSS Grid의 주요 개념
 
@@ -34,7 +44,18 @@ CSS Grid 레이아웃 또는 일반적으로 CSS Grid로 불리는 것은 복잡
 
 # 그리드 컨테이너 생성하기
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리드 컨테이너를 만들려면 부모 요소에 display: grid를 적용해야 해요.
 
@@ -48,8 +69,18 @@ CSS Grid 레이아웃 또는 일반적으로 CSS Grid로 불리는 것은 복잡
 
 그리드의 구조를 정의하려면 grid-template-columns와 grid-template-rows를 사용하세요.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .container {
@@ -99,8 +130,18 @@ CSS Grid 레이아웃 또는 일반적으로 CSS Grid로 불리는 것은 복잡
 
 해설:
 
+<!-- cozy-coder - 수평 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 기본 그리드 레이아웃: 각 그리드 항목이 셀 내에서 수직 및 수평으로 중앙 정렬된 세 개의 열과 두 개의 행으로 그리드를 생성합니다.
 
@@ -110,7 +151,18 @@ CSS Grid 레이아웃 또는 일반적으로 CSS Grid로 불리는 것은 복잡
 
 그리드 라인은 그리드를 나누는 수평 및 수직 라인입니다. 이러한 라인을 사용하여 그리드 항목을 배치할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .item {
@@ -132,7 +184,18 @@ CSS Grid 레이아웃 또는 일반적으로 CSS Grid로 불리는 것은 복잡
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 예시: 그리드 라인을 사용한 위치 지정
 
@@ -181,7 +244,18 @@ CSS Grid 레이아웃 또는 일반적으로 CSS Grid로 불리는 것은 복잡
 
 - 그리드 라인을 사용한 위치 지정: 첫 번째 항목을 두 열과 두 행에 걸쳐 배치하고, 두 번째 항목은 두 열에 걸쳐 배치하며, 나머지는 개별 그리드 셀을 차지합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 고급 그리드 기술
 
@@ -192,7 +266,7 @@ CSS Grid 레이아웃 또는 일반적으로 CSS Grid로 불리는 것은 복잡
 ```js
 .container {
     display: grid;
-    grid-template-areas: 
+    grid-template-areas:
         "header header header"
         "sidebar content content"
         "footer footer footer";
@@ -217,7 +291,18 @@ CSS Grid 레이아웃 또는 일반적으로 CSS Grid로 불리는 것은 복잡
 }
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 예시: 그리드 템플릿 영역
 
@@ -230,7 +315,7 @@ CSS Grid 레이아웃 또는 일반적으로 CSS Grid로 불리는 것은 복잡
     <style>
         .container {
             display: grid;
-            grid-template-areas: 
+            grid-template-areas:
                 "header header header"
                 "sidebar content content"
                 "footer footer footer";
@@ -280,7 +365,18 @@ CSS Grid 레이아웃 또는 일반적으로 CSS Grid로 불리는 것은 복잡
 
 - 그리드 템플릿 영역: 이름이 지정된 그리드 영역을 사용하여 복잡한 레이아웃을 정의하며, CSS를 더 가독성 있고 유지보수하기 쉽게 만듭니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 반응형 그리드 레이아웃
 
@@ -322,7 +418,18 @@ CSS Grid를 사용하면 화면 크기에 따라 그리드 구조를 조정하�
 </html>
 ```
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해당 내용을 친근한 톤으로 번역하겠습니다:
 
@@ -336,7 +443,18 @@ CSS Grid를 사용하면 화면 크기에 따라 그리드 구조를 조정하�
 
 CSS Grid는 그리드 항목을 가로 및 세로로 모두 정렬하고 정렬하는 데 사용할 수 있는 속성을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .container {
@@ -388,7 +506,18 @@ CSS Grid는 그리드 항목을 가로 및 세로로 모두 정렬하고 정렬�
 
 해설:
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 항목 정렬 및 정렬: align-items와 justify-items를 사용하여 그리드 항목을 그리드 셀 내에서 가로 및 세로 중앙에 정렬합니다.
 
@@ -398,7 +527,18 @@ CSS Grid는 그리드 항목을 가로 및 세로로 모두 정렬하고 정렬�
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS Grid은 복잡하고 반응형 웹 레이아웃을 간단하게 만들어 주는 강력한 도구입니다. 그리드 컨테이너, 그리드 항목 및 위치 지정의 기본 원리를 이해하면 동적이고 적응 가능한 디자인을 빠르게 만들 수 있습니다. 또한 그리드 템플릿 영역, 반응형 레이아웃 및 정렬 속성과 같은 고급 기술을 사용하면 CSS Grid의 능력을 최대로 발휘할 수 있습니다.
 

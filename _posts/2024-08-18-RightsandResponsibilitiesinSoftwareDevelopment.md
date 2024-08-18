@@ -3,14 +3,13 @@ title: "소프트웨어 개발에서의 권리와 책임 이해해야 할 중요
 description: ""
 coverImage: "/assets/img/2024-08-18-RightsandResponsibilitiesinSoftwareDevelopment_0.png"
 date: 2024-08-18 10:56
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-18-RightsandResponsibilitiesinSoftwareDevelopment_0.png
 tag: Tech
 originalTitle: "Rights and Responsibilities in Software Development"
 link: "https://medium.com/analysts-corner/rights-and-responsibilities-in-software-development-dc1dc702984a"
 isUpdated: false
 ---
-
 
 ![Rights and Responsibilities in Software Development](/assets/img/2024-08-18-RightsandResponsibilitiesinSoftwareDevelopment_0.png)
 
@@ -20,7 +19,18 @@ isUpdated: false
 
 소프트웨어 프로젝트에서도 사람들은 권리와 책임을 갖습니다. 우리가 상호작용하는 사람들을 고려해 이 두면을 조직화할 수 있습니다. 우리는 서로의 팀원, 고객, 매니저, 공급업체, 대중과의 이러한 권리-책임 관계를 갖습니다. 협업하며 상대방에게 필요한 것과 '이 프로젝트가 함께 성공적으로 진행되기 위해 당신에게 필요한 것이 무엇인지'에 대해 대화해야 합니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 소프트웨어 실무자는 전문 윤리를 준수하는 책임이 있습니다. 컴퓨팅 머신리(Association for Computing Machinery)과 IEEE 컴퓨터 협회는 소프트웨어 공학 윤리 및 전문 실무에 대한 윤리 강령을 공동으로 마련했습니다. 이 강령은 실무자가 기밀을 유지하고 지적 재산권을 존중하며 높은 품질을 추구하는 책임을 다룹니다. 소프트웨어 전문가들은 이 강령에 익숙해져야 합니다.
 
@@ -30,7 +40,18 @@ isUpdated: false
 
 # 일부 고객의 권리 및 책임
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 소프트웨어 요구 사항의 영역은 비즈니스 분석가(BAs)와 고객 대표 간의 밀접한 협력을 필요로 합니다. 이들은 상호 권리와 책임을 갖고 있습니다. 이 내용은 Joy Beatty와 공동 저술한 책인 Software Requirements에서 설명한 바 있습니다. 여기서 소프트웨어 고객을 위한 10개의 요구 사항 권리 및 해당하는 요구 사항 책임서를 다운로드할 수 있습니다. 몇 가지 주요 내용은 다음과 같습니다.
 
@@ -42,7 +63,18 @@ isUpdated: false
 
 윤리와 공정성은 소프트웨어 엔지니어링 및 제품 개발의 모든 측면에 적용됩니다. 예를 들어 Nils Löwe는 책임 있는 소프트웨어 개발을 위한 선언문을 작성했고, Jeff Atwood는 효율적인 근무 환경을 위한 프로그래머 권리 선언서를 제시했습니다. 더불어 다른 하나의 개발자 권리 선언서도 있습니다. 코드를 작성하는 사람들에게 특화된 일부 권리 및 책임사항은 다음과 같습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 개발자로서 여러분은 다른 사람들에 의해 지적재산이 인정되고 존중받을 권리가 있습니다. 다른 사람의 작품을 허락을 받아 재사용함으로써 다른 사람의 지적재산권을 존중하는 책임이 있습니다.
 - 개발자로서 여러분은 진행 중인 요구 사항의 우선순위를 알 권리가 있습니다. 새로운 요구 사항이나 다시 우선순위를 매기는 경우 일정 영향을 고객에게 알리는 책임이 있습니다.
@@ -55,7 +87,18 @@ isUpdated: false
 - 프로젝트 매니저 또는 스폰서로서, 개발자들에게 고품질 소프트웨어를 제작할 것을 기대하는 권리가 있습니다. 고품질 소프트웨어를 생산할 수 있도록 환경, 자원 및 시간을 제공하는 책임이 있습니다. 조직이나 팀의 리더는 건설적이고 협력적인 방향으로 그룹 문화를 이끌어가는 책임이 있습니다.
 - 프로젝트 매니저 또는 스폰서로서, 프로젝트 목표를 설정하고 일정을 수립할 권리가 있습니다. 개발자들의 추정치를 존중하고 현실적이지 않은 시간 내에 작업을 완수하도록 개발자들에게 압력을 가하는 것을 피하는 책임이 있습니다.
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 일부 자율 팀 권리 및 책임
 
@@ -65,7 +108,18 @@ Willem-Jan Ageling은 권한이 부여된 자율적인 Scrum 팀에서 작업하
 
 # 위기 전에 고려해야 할 사항
 
-<div class="content-ad"></div>
+<!-- cozy-coder - 수평 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1107185301"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다른 커뮤니티에서 특정 권리를 요구할 자격이 있다고 생각할 수 있지만, 그들이 당신의 기대를 충족시킬 능력이나 의지가 없을 수도 있습니다. 그런 상황에 부딪힐 때는 당사자들이 상호 협력적이고 얌전하게 일할 방법에 합의해야 합니다. 협력자들이 서로의 권리와 책임을 논의하고 기록하여 오해를 방지하는 것은 시간 낭비가 아닙니다. 이러한 대화는 기대 관리의 한 형태입니다.
 
