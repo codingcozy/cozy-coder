@@ -1,14 +1,15 @@
 ---
-title: "CSS 그리드 시작하기 신속하게 익히는 방법"
+title: "CSS Grid 기능별 정리"
 description: ""
 coverImage: "/assets/img/2024-08-18-CSSDailyTips16GetStartedwithCSSGridinNoTime_0.png"
 date: 2024-08-18 10:23
-ogImage:
+ogImage: 
   url: /assets/img/2024-08-18-CSSDailyTips16GetStartedwithCSSGridinNoTime_0.png
 tag: Tech
 originalTitle: "CSS Daily Tips 16 Get Started with CSS Grid in No Time"
 link: "https://medium.com/dev-genius/css-daily-tips-16-get-started-with-css-grid-in-no-time-f6c34f57f12a"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723951033580
 ---
 
 ![이미지](/assets/img/2024-08-18-CSSDailyTips16GetStartedwithCSSGridinNoTime_0.png)

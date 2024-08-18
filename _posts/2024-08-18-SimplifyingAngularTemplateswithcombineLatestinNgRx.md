@@ -1,14 +1,15 @@
 ---
-title: "NgRx에서 combineLatest를 활용하여 Angular 템플릿을 간편하게 만드는 방법"
+title: "NgRx에서 combineLatest를 활용하여 Angular 템플릿 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-18-SimplifyingAngularTemplateswithcombineLatestinNgRx_0.png"
 date: 2024-08-18 11:11
-ogImage:
+ogImage: 
   url: /assets/img/2024-08-18-SimplifyingAngularTemplateswithcombineLatestinNgRx_0.png
 tag: Tech
 originalTitle: "Simplifying Angular Templates with combineLatest in NgRx"
 link: "https://medium.com/stackademic/simplifying-angular-templates-with-combinelatest-in-ngrx-d6a0d4dd1184"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723957374157
 ---
 
 ![image](/assets/img/2024-08-18-SimplifyingAngularTemplateswithcombineLatestinNgRx_0.png)

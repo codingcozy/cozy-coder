@@ -1,14 +1,15 @@
 ---
-title: "리액트 ToDo 앱과 장고로 세분화된 Full-Stack 개발 마스터하기"
+title: "리액트 + 장고로 풀스택 ToDo 앱 프로젝트 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-18-MasteringFull-StackDevelopmentBuildaReactTodoAppwithDjangoinMinutes_0.png"
 date: 2024-08-18 11:09
-ogImage:
+ogImage: 
   url: /assets/img/2024-08-18-MasteringFull-StackDevelopmentBuildaReactTodoAppwithDjangoinMinutes_0.png
 tag: Tech
 originalTitle: "Mastering Full-Stack Development Build a React Todo App with Django in Minutes"
 link: "https://medium.com/@devsumitg/mastering-full-stack-development-build-a-react-todo-app-with-django-in-minutes-e77c75f17d46"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723951645795
 ---
 
 ![이미지](/assets/img/2024-08-18-MasteringFull-StackDevelopmentBuildaReactTodoAppwithDjangoinMinutes_0.png)

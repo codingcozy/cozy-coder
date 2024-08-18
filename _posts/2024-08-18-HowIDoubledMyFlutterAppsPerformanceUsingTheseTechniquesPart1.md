@@ -1,14 +1,15 @@
 ---
-title: "플러터 앱 성능 2배 향상시키는 방법 - 파트 1"
+title: "플러터 앱 성능 2배 향상시키는 방법"
 description: ""
 coverImage: "/assets/no-image.jpg"
 date: 2024-08-18 10:40
-ogImage:
+ogImage: 
   url: /assets/no-image.jpg
 tag: Tech
 originalTitle: "How I Doubled My Flutter Apps Performance Using These Techniques  Part 1"
 link: "https://medium.com/@raghavthegreat1/how-i-doubled-my-flutter-apps-performance-using-these-techniques-part-1-48ac41d553e9"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723951219190
 ---
 
 2020년 완전히 잠겨 있다가 플러터 여행을 시작했을 때 놀라웠어요. 아름다운 크로스 플랫폼 앱을 손쉽게 만들 수 있다는 것에 매료되었죠. 그러나 앱이 점점 복잡해지면서 성능이 점차 떨어지는 것을 알게 되었어요. 가장 불편한 순간에 앱이 느리거나 충돌하는 것을 본 적이 있다면, 얼마나 짜증나는지 알 거예요.

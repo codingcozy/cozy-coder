@@ -1,14 +1,15 @@
 ---
-title: "내 예상 5년 후의 플러터와 웹 개발 현황 그 다음은"
+title: "2024년 플러터와 웹 개발 현황과 앞으로의 미래"
 description: ""
 coverImage: "/assets/img/2024-08-18-MyFlutterandWebPredictions5YearsAfterWhatNext_0.png"
 date: 2024-08-18 10:39
-ogImage:
+ogImage: 
   url: /assets/img/2024-08-18-MyFlutterandWebPredictions5YearsAfterWhatNext_0.png
 tag: Tech
 originalTitle: "My Flutter and Web Predictions 5 Years After What Next"
 link: "https://medium.com/@slavaolenin/my-flutter-and-web-predictions-5-years-after-what-next-113b5c36de35"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723951692677
 ---
 
 2019년에 Flutter가 웹에 혁명을 가져올 것이라고 예언했었죠. 그리고 제가 그것에 대해 옳았다는 걸 알아버렸습니다!

@@ -1,14 +1,15 @@
 ---
-title: "알면 좋은 것과 나쁜 것 알아두어야 하는 프론트엔드 도구와 기술"
+title: "초보 프론트엔드 개발자들이 알아둬야할 도구와 기술"
 description: ""
 coverImage: "/assets/img/2024-08-18-TheGoodandtheBadFront-EndToolsandTechniquesYouShouldKnow_0.png"
 date: 2024-08-18 11:07
-ogImage:
+ogImage: 
   url: /assets/img/2024-08-18-TheGoodandtheBadFront-EndToolsandTechniquesYouShouldKnow_0.png
 tag: Tech
 originalTitle: "The Good and the Bad Front-End Tools and Techniques You Should Know"
 link: "https://medium.com/gitconnected/the-good-and-the-bad-front-end-tools-and-techniques-you-should-know-bd8acc9aa980"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723952040116
 ---
 
 ![image](/assets/img/2024-08-18-TheGoodandtheBadFront-EndToolsandTechniquesYouShouldKnow_0.png)

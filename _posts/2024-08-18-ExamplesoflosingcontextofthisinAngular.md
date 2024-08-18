@@ -1,14 +1,15 @@
 ---
-title: "Angular에서 this의 컨텍스트를 잃는 예시들"
+title: "Angular에서 this의 컨텍스트 정리"
 description: ""
 coverImage: "/assets/img/2024-08-18-ExamplesoflosingcontextofthisinAngular_0.png"
 date: 2024-08-18 11:01
-ogImage:
+ogImage: 
   url: /assets/img/2024-08-18-ExamplesoflosingcontextofthisinAngular_0.png
 tag: Tech
 originalTitle: "Examples of losing context of this in Angular"
 link: "https://medium.com/itnext/practical-examples-of-losing-context-of-this-in-angular-ed7035ea85a7"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723951172674
 ---
 
 이러한 것을 잃어버리는 것은 예전에는 ES6 이전에 일반적인 두통이었습니다. 그런 다음 화살표 함수가 등장하면 과거의 문제가 사라졌습니다. 그렇다면 새로운 JavaScript 개발자는 왜 호출 컨텍스트의 차이를 배우려고 해야 할까요? (또는 상속, 호이스팅, 객체지향 원칙 등) 제가 이유를 보여드릴게요. 그 전에 간단하게 정의를 다시 한 번 살펴봅시다:

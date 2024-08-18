@@ -1,14 +1,15 @@
 ---
-title: "PHP 초보자를 위한 7가지 핵심 질문에 답하면 PHP를 잘 이해했다고 할 수 있습니다"
+title: "PHP 초보자를 위한 7가지 면접 질문 "
 description: ""
 coverImage: "/assets/img/2024-08-18-IfYouCanAnswerThese7QuestionsCorrectlyYoureDecentatPHP_0.png"
 date: 2024-08-18 10:44
-ogImage:
+ogImage: 
   url: /assets/img/2024-08-18-IfYouCanAnswerThese7QuestionsCorrectlyYoureDecentatPHP_0.png
 tag: Tech
 originalTitle: "If You Can Answer These 7 Questions Correctly Youre Decent at PHP"
 link: "https://medium.com/write-a-catalyst/if-you-can-answer-these-7-questions-correctly-youre-decent-at-php-83a2b1bc1f95"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723951484039
 ---
 
 ![2024-08-18-IfYouCanAnswerThese7QuestionsCorrectlyYoureDecentatPHP_0.png](/assets/img/2024-08-18-IfYouCanAnswerThese7QuestionsCorrectlyYoureDecentatPHP_0.png)

@@ -3,12 +3,13 @@ title: "각기 다른 그림자 요청의 변화 웹 앱을 변화시킬 수 있
 description: ""
 coverImage: "/assets/img/2024-08-18-NotAllRequestsCasttheSameShadowExploretheDifferentTypesofShadowRequestsandHowTheyCanTransformYourWebApp_0.png"
 date: 2024-08-18 11:14
-ogImage:
+ogImage: 
   url: /assets/img/2024-08-18-NotAllRequestsCasttheSameShadowExploretheDifferentTypesofShadowRequestsandHowTheyCanTransformYourWebApp_0.png
 tag: Tech
 originalTitle: "Not All Requests Cast the Same Shadow Explore the Different Types of Shadow Requests and How They Can Transform Your Web App"
 link: "https://medium.com/@guhaprasaanth/not-all-requests-cast-the-same-shadow-explore-the-different-types-of-shadow-and-how-they-can-02d798cf51d6"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723951866961
 ---
 
 그림자 요청 유형의 세세한 부분을 파헤쳐 보고, 웹 응용 프로그램의 성능과 사용자 경험을 혁신할 수 있는 가능성을 발휘해보세요.

@@ -1,5 +1,5 @@
 ---
-title: "사용하지 않았지만 사용해야 할 것 같은 5가지 HTML 태그"
+title: "많이 사용하지 않지만 유용한 HTML 태그 5가지"
 description: ""
 coverImage: "/assets/img/2024-08-18-5HTMLtagsyouhaventbeenusingbutprobablyshouldbe_0.png"
 date: 2024-08-18 10:27
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "5 HTML tags you havent been using, but probably should be"
 link: "https://medium.com/@kyleabrady/5-html-tags-you-havent-been-using-but-probably-should-be-fd08973e2c67"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723950982091
 ---
 
 

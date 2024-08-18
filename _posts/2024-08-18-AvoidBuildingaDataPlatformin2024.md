@@ -1,14 +1,15 @@
 ---
-title: "2024년, 데이터 플랫폼 구축을 피해야 하는 이유"
+title: "2024년, 데이터 플랫폼 구축을 하면 안되는 이유"
 description: ""
 coverImage: "/assets/img/2024-08-18-AvoidBuildingaDataPlatformin2024_0.png"
 date: 2024-08-18 10:53
-ogImage:
+ogImage: 
   url: /assets/img/2024-08-18-AvoidBuildingaDataPlatformin2024_0.png
 tag: Tech
 originalTitle: "Avoid Building a Data Platform in 2024"
 link: "https://medium.com/towards-data-science/avoid-building-a-data-platform-in-2024-56f0ee95da42"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723951006248
 ---
 
 무엇을 구축하지 말아야 하는 것에 대해 읽는 것에 가치가 없다고 생각할 수도 있지만, 데이터 및 분석 플랫폼 도구의 확산, 모던 데이터 스택(MDS)이 인기를 잃고, '데이터 플랫폼 구축'에 대한 많은 기사들이 이런 경고를 내놓게 만들었습니다.

@@ -1,14 +1,15 @@
 ---
-title: "코틀린 코루틴 가이드 비동기 처리를 위한 완벽한 솔루션"
+title: "코틀린에서 비동기 처리를 하기 위한 방법"
 description: ""
 coverImage: "/assets/img/2024-08-18-KotlinCoroutinesGuide_0.png"
 date: 2024-08-18 10:46
-ogImage:
+ogImage: 
   url: /assets/img/2024-08-18-KotlinCoroutinesGuide_0.png
 tag: Tech
 originalTitle: "Kotlin Coroutines Guide"
 link: "https://medium.com/@daniel.atitienei/kotlin-coroutines-guide-543556ada927"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723951550908
 ---
 
 커피 한 잔을 따르고 ☕, 코루틴과 같은 큰 관심사에 대해 이야기해보세요.

@@ -1,14 +1,15 @@
 ---
-title: "JavaScript와 TypeScript에서 let 사용을 중지해야 하는 이유  JavaScript TypeScript 고급 2024"
+title: "JavaScript와 TypeScript에서 let을 사용하면 안되는 이유"
 description: ""
 coverImage: "/assets/img/2024-08-18-StopUsingletorWhyItsNeedlessinJavaScriptTypeScriptAdvancedJSTS2024_0.png"
 date: 2024-08-18 10:59
-ogImage:
+ogImage: 
   url: /assets/img/2024-08-18-StopUsingletorWhyItsNeedlessinJavaScriptTypeScriptAdvancedJSTS2024_0.png
 tag: Tech
 originalTitle: "Stop Using let or Why Its Needless in JavaScript TypeScript  Advanced JS TS 2024"
 link: "https://medium.com/javascript-in-plain-english/stop-using-let-or-why-its-needless-in-javascript-typescript-advanced-js-ts-2024-fe3be70287d2"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723957385704
 ---
 
 ![이미지](/assets/img/2024-08-18-StopUsingletorWhyItsNeedlessinJavaScriptTypeScriptAdvancedJSTS2024_0.png)

@@ -1,14 +1,15 @@
 ---
-title: "백엔드 개발자라면 데이터베이스 지식을 경시하지 말아야 하는 이유"
+title: "백엔드 개발자라면 데이터베이스 지식 공부해야하는 이유"
 description: ""
 coverImage: "/assets/img/2024-08-18-DontUnderestimateDatabaseKnowledgeIfYoureaBackendDeveloper_0.png"
 date: 2024-08-18 10:42
-ogImage:
+ogImage: 
   url: /assets/img/2024-08-18-DontUnderestimateDatabaseKnowledgeIfYoureaBackendDeveloper_0.png
 tag: Tech
 originalTitle: "Dont Underestimate Database Knowledge If Youre a Backend Developer"
 link: "https://medium.com/@emirgs-uzun/dont-underestimate-database-knowledge-if-you-re-a-backend-developer-f5a146871216"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723951139515
 ---
 
 백엔드 개발자가 되기를 원한다면, 데이터베이스에 대한 견고한 이해 없이 시작하는 것은 나침반 없이 산을 탐험하는 것과 같습니다. 데이터베이스와 백엔드 간의 관계는 애플리케이션의 심장과 뇌의 관계와 비슷합니다. 내 의견으로는, 백엔드 개발의 60%는 데이터베이스에 관한 것입니다. 처음 학습을 시작했을 때, 온라인 백엔드 로드맵에서 가장 큰 결점 중 하나는 데이터베이스 지식에 대한 강조 부족이었습니다. 이러한 로드맵은 종종 초보자들을 잘못 이끌어주는데, 조금의 JavaScript와 몇 가지 기본적인 Java 지식으로 백엔드 개발자가 될 수 있다고 제안합니다. 이는 초보자들을 오도하기 쉽습니다. 이후 학생들이 교육을 계속하고 주요 데이터베이스 문제를 마주하게 되면, 모든 동기부여를 잃고, 불안감을 느끼며 공부를 그만두는 경우가 발생할 수 있습니다.

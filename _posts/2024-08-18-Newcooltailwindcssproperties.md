@@ -1,14 +1,15 @@
 ---
-title: "흥미로운 Tailwind CSS 속성들 최신 업데이트와 활용법"
+title: "최신 Tailwind CSS 속성들 기능 정리"
 description: ""
 coverImage: "/assets/img/2024-08-18-Newcooltailwindcssproperties_0.png"
 date: 2024-08-18 10:26
-ogImage:
+ogImage: 
   url: /assets/img/2024-08-18-Newcooltailwindcssproperties_0.png
 tag: Tech
 originalTitle: "New cool tailwind css properties"
 link: "https://medium.com/@shreyvijayvargiya26/new-cool-tailwind-css-properties-eeea98808df1"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723951816721
 ---
 
 접근성을 고려하여 발전하는 모습이 너무 좋아요 😊

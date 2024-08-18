@@ -1,14 +1,15 @@
 ---
-title: "Cake 프로젝트 케이크 만드는 방법과 레시피 알려드립니다"
+title: "프로젝트 케이크 만드는 방법과 레시피 알려드립니다"
 description: ""
 coverImage: "/assets/img/2024-08-18-ProjectNameCake_0.png"
 date: 2024-08-18 10:29
-ogImage:
+ogImage: 
   url: /assets/img/2024-08-18-ProjectNameCake_0.png
 tag: Tech
 originalTitle: "Project Name Cake"
 link: "https://medium.com/aardvark-infinity/project-name-cake-af6793c026f3"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723952077369
 ---
 
 ![Project Name Cake](/assets/img/2024-08-18-ProjectNameCake_0.png)

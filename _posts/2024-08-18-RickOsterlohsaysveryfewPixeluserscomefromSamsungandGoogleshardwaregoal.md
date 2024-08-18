@@ -1,14 +1,15 @@
 ---
-title: "리크 오스터로는 말합니다 새로운 픽셀 사용자는 매우 소수이며 삼성에서 온 사용자도 Google의 하드웨어 목표가 무엇일까요"
+title: "새로운 픽셀 사용자는 매우 소수이며 삼성에서 온 사용자도 Google의 하드웨어 목표가 무엇일까요"
 description: ""
 coverImage: "/assets/no-image.jpg"
 date: 2024-08-18 10:47
-ogImage:
+ogImage: 
   url: /assets/no-image.jpg
 tag: Tech
 originalTitle: "Rick Osterloh says very few Pixel users come from Samsung and Googles hardware goal"
 link: "https://medium.com/@umarjd18/rick-osterloh-says-very-few-pixel-users-come-from-samsung-and-google-s-hardware-goal-d059fd5eeac8"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723957366132
 ---
 
 픽셀과 안드로이드/크롬 리드 Rick Osterloh는 2024년 Made by Google 이후 벤 톰슨에 의해 다채롭고 흥미로운 대화를 나누었습니다.

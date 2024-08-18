@@ -1,14 +1,15 @@
 ---
-title: "Nodejs 성능과 확장성 최적화 방법"
+title: "Nodejs 성능과 확장성 최적화 하는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-18-NodejsPerformanceandScalabilityBestPractices_0.png"
 date: 2024-08-18 11:13
-ogImage:
+ogImage: 
   url: /assets/img/2024-08-18-NodejsPerformanceandScalabilityBestPractices_0.png
 tag: Tech
 originalTitle: "Nodejs Performance and Scalability Best Practices"
 link: "https://medium.com/@profoliohub/node-js-performance-and-scalability-best-practices-776c6ceb25ca"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723951826636
 ---
 
 우리의 Node.js 내부 심층 탐구 일곱 번째 시리즈에 오신 것을 환영합니다! 이번 포스트에서는 Node.js 애플리케이션의 성능과 확장성을 최적화하기 위한 기술과 모범 사례를 탐색할 것입니다. 애플리케이션이 규모와 복잡성이 커지면서, 무거운 부하에도 빠르고 반응성 있는 상태를 유지하는 것이 중요합니다. 이 블로그는 이를 달성하기 위한 실용적인 통찰을 제공할 것입니다.

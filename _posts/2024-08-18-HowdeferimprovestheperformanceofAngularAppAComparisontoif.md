@@ -1,14 +1,15 @@
 ---
-title: "Angular 앱의 성능을 향상시키는 defer의 효과 if와의 비교"
+title: "Angular 앱의 성능을 향상시키는 defer와 if 비교"
 description: ""
 coverImage: "/assets/img/2024-08-18-HowdeferimprovestheperformanceofAngularAppAComparisontoif_0.png"
 date: 2024-08-18 11:11
-ogImage:
+ogImage: 
   url: /assets/img/2024-08-18-HowdeferimprovestheperformanceofAngularAppAComparisontoif_0.png
 tag: Tech
 originalTitle: "How defer improves the performance of Angular App A Comparison to if"
 link: "https://medium.com/angular-simplified/optimizing-angular-performance-with-defer-a-comparison-to-if-2d25f2dd1984"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723951232667
 ---
 
 <img src="/assets/img/2024-08-18-HowdeferimprovestheperformanceofAngularAppAComparisontoif_0.png" />

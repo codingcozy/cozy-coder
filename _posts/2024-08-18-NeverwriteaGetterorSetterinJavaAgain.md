@@ -1,14 +1,15 @@
 ---
-title: "자바에서 Getter 또는 Setter를 다시 작성하지 마세요"
+title: "자바에서 Getter 또는 Setter를 사용하면 안되는 이유"
 description: ""
 coverImage: "/assets/img/2024-08-18-NeverwriteaGetterorSetterinJavaAgain_0.png"
 date: 2024-08-18 11:24
-ogImage:
+ogImage: 
   url: /assets/img/2024-08-18-NeverwriteaGetterorSetterinJavaAgain_0.png
 tag: Tech
 originalTitle: "Never write a Getter or Setter in Java Again"
 link: "https://medium.com/@abhisheksinghjava/never-write-a-getter-or-setter-in-java-again-a40ce6c3a05f"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723951698224
 ---
 
 <img src="/assets/img/2024-08-18-NeverwriteaGetterorSetterinJavaAgain_0.png" />

@@ -1,14 +1,15 @@
 ---
-title: "부트스트랩 List Groups과 Badges 마스터하기"
+title: "부트스트랩 List Groups과 Badges 사용 방법"
 description: ""
 coverImage: "/assets/img/2024-08-18-MasteringBootstrapListGroupsandBadges_0.png"
 date: 2024-08-18 10:19
-ogImage:
+ogImage: 
   url: /assets/img/2024-08-18-MasteringBootstrapListGroupsandBadges_0.png
 tag: Tech
 originalTitle: "Mastering Bootstrap List Groups and Badges"
 link: "https://medium.com/@tomas-svojanovsky/mastering-bootstrap-list-groups-and-badges-bae703aec17e"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723951563182
 ---
 
 <img src="/assets/img/2024-08-18-MasteringBootstrapListGroupsandBadges_0.png" />

@@ -1,14 +1,15 @@
 ---
-title: "자바스크립트에서의 this 키워드 이 키워드의 작동 방식 및 활용 방법"
+title: "자바스크립트에서의 this 란 무엇일까"
 description: ""
 coverImage: "/assets/img/2024-08-18-InterviewthiskeywordinJS_0.png"
 date: 2024-08-18 11:00
-ogImage:
+ogImage: 
   url: /assets/img/2024-08-18-InterviewthiskeywordinJS_0.png
 tag: Tech
 originalTitle: "Interview this keyword in JS"
 link: "https://medium.com/@opensrc0/interview-this-keyword-in-js-f6b015d69c4c"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723951533251
 ---
 
 ![이미지](/assets/img/2024-08-18-InterviewthiskeywordinJS_0.png)

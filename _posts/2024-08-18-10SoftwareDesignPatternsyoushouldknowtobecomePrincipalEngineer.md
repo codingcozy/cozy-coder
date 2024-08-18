@@ -1,14 +1,15 @@
 ---
-title: "주요 엔지니어가 되기 위해 알아야 할 10가지 소프트웨어 디자인 패턴"
+title: "주니어 개발자가 알아둬야 할 10가지 소프트웨어 디자인 패턴"
 description: ""
 coverImage: "/assets/img/2024-08-18-10SoftwareDesignPatternsyoushouldknowtobecomePrincipalEngineer_0.png"
 date: 2024-08-18 11:03
-ogImage:
+ogImage: 
   url: /assets/img/2024-08-18-10SoftwareDesignPatternsyoushouldknowtobecomePrincipalEngineer_0.png
 tag: Tech
 originalTitle: "10 Software Design Patterns you should know to become Principal Engineer"
 link: "https://medium.com/javascript-in-plain-english/10-software-design-patterns-you-should-know-to-become-principal-engineer-b2f070564516"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723950939311
 ---
 
 ![Image](/assets/img/2024-08-18-10SoftwareDesignPatternsyoushouldknowtobecomePrincipalEngineer_0.png)

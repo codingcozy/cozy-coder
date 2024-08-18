@@ -1,14 +1,15 @@
 ---
-title: "파이썬 매직 메소드에 대해 알았으면 좋았을 9가지 혹독한 진실"
+title: "파이썬 magic method 정리"
 description: ""
 coverImage: "/assets/img/2024-08-18-9ThingsIRegretNotKnowingEarlierAboutPythonMagicMethods_0.png"
 date: 2024-08-18 10:38
-ogImage:
+ogImage: 
   url: /assets/img/2024-08-18-9ThingsIRegretNotKnowingEarlierAboutPythonMagicMethods_0.png
 tag: Tech
 originalTitle: "9 Things I Regret Not Knowing Earlier About Python Magic Methods"
 link: "https://medium.com/@zlliu/9-things-i-regret-not-knowing-earlier-about-python-magic-methods-48903e679d8f"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723950996571
 ---
 
 ![Image](/assets/img/2024-08-18-9ThingsIRegretNotKnowingEarlierAboutPythonMagicMethods_0.png)

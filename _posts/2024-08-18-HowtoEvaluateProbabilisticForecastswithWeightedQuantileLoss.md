@@ -3,12 +3,13 @@ title: "가중된 분위수 손실 함수를 사용하여 확률적 예측을 �
 description: ""
 coverImage: "/assets/img/2024-08-18-HowtoEvaluateProbabilisticForecastswithWeightedQuantileLoss_0.png"
 date: 2024-08-18 10:35
-ogImage:
+ogImage: 
   url: /assets/img/2024-08-18-HowtoEvaluateProbabilisticForecastswithWeightedQuantileLoss_0.png
 tag: Tech
 originalTitle: "How to Evaluate Probabilistic Forecasts with Weighted Quantile Loss"
 link: "https://medium.com/@_init_/how-to-evaluate-probabilistic-forecasts-with-weighted-quantile-loss-0208463746d0"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723951473849
 ---
 
 ![How to Evaluate Probabilistic Forecasts with Weighted Quantile Loss](/assets/img/2024-08-18-HowtoEvaluateProbabilisticForecastswithWeightedQuantileLoss_0.png)

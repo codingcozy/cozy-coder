@@ -1,14 +1,15 @@
 ---
-title: "앵귤러의 3가지 레벨의 지연 로딩 방법을 알고 계셨나요"
+title: "앵귤러에서 lazy loading 적용하는 방법"
 description: ""
 coverImage: "/assets/no-image.jpg"
 date: 2024-08-18 10:57
-ogImage:
+ogImage: 
   url: /assets/no-image.jpg
 tag: Tech
 originalTitle: "Did You Know Angular Has 3 Lazy Loading Levels"
 link: "https://medium.com/javascript-in-plain-english/did-you-know-angular-has-3-lazy-loading-levels-da2877f813ad"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723951131645
 ---
 
 ## 안녕하세요 👋

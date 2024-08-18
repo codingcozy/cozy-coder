@@ -1,14 +1,15 @@
 ---
-title: "자바스크립트에서의 커링Currying과 인터뷰 문제들"
+title: "자바스크립트 커링 Currying 관련 면접 질문"
 description: ""
 coverImage: "/assets/img/2024-08-18-2024CurryinginJavaScriptInterviewProblems_0.png"
 date: 2024-08-18 11:12
-ogImage:
+ogImage: 
   url: /assets/img/2024-08-18-2024CurryinginJavaScriptInterviewProblems_0.png
 tag: Tech
 originalTitle: "2024Currying in JavaScript  Interview Problems"
 link: "https://medium.com/javascript-in-plain-english/2024-currying-in-javascript-interview-problems-78c7d14adb7b"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723950971565
 ---
 
 <img src="/assets/img/2024-08-18-2024CurryinginJavaScriptInterviewProblems_0.png" />

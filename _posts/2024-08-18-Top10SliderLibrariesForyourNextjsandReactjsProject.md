@@ -1,14 +1,15 @@
 ---
-title: "당신의 Nextjs와 Reactjs 프로젝트를 위한 최고의 10가지 슬라이더 라이브러리"
+title: "Nextjs와 Reactjs에서 사용하기 좋은 슬라이더 라이브러리"
 description: ""
 coverImage: "/assets/img/2024-08-18-Top10SliderLibrariesForyourNextjsandReactjsProject_0.png"
 date: 2024-08-18 11:05
-ogImage:
+ogImage: 
   url: /assets/img/2024-08-18-Top10SliderLibrariesForyourNextjsandReactjsProject_0.png
 tag: Tech
 originalTitle: "Top 10 Slider Libraries For your Nextjs and Reactjs Project"
 link: "https://medium.com/stackademic/top-10-slider-libraries-for-your-nextjs-and-reactjs-project-b3c3175d7349"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723952030271
 ---
 
 ## 다음 Next.js 및 React.js 프로젝트를 최고의 10 가지 슬라이더 라이브러리로 업그레이드하세요! 원활한 이미지 표시와 동적 콘텐츠 쇼케이스를 위한 다양한 옵션을 발견해보세요. SwiperJS부터 React Image Gallery까지, 웹 애플리케이션의 기능성과 시각적 매력을 향상시킬 완벽한 슬라이더를 찾아보세요. 🌐💻✨

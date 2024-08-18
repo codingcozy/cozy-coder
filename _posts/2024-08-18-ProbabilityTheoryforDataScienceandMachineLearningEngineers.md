@@ -3,12 +3,13 @@ title: "데이터 과학과 머신러닝 엔지니어를 위한 확률 이론 �
 description: ""
 coverImage: "/assets/img/2024-08-18-ProbabilityTheoryforDataScienceandMachineLearningEngineers_0.png"
 date: 2024-08-18 10:33
-ogImage:
+ogImage: 
   url: /assets/img/2024-08-18-ProbabilityTheoryforDataScienceandMachineLearningEngineers_0.png
 tag: Tech
 originalTitle: "Probability Theory for Data Science and Machine Learning Engineers"
 link: "https://medium.com/towards-artificial-intelligence/probability-theory-for-data-science-and-machine-learning-engineers-0be974204c68"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723951869031
 ---
 
 확률 이론은 통계 분석과 머신 러닝의 핵심입니다. 데이터 과학자로서 견고한 모델을 이해하고 개발하는 데 이를 숙달하는 것이 중요합니다. 이 블로그에서는 확률 이론의 주요 개념을 소개하며, 집합 이론의 기초부터 고급 베이지안 추론까지 상세한 설명과 실제 예제로 안내해 드릴 것입니다.

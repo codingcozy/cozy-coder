@@ -1,14 +1,15 @@
 ---
-title: "Swift에서 Enum 활용 마스터하기 열거형 타입과 최상의 실천법에 대한 포괄적 안내"
+title: "Swift에서 Enum을 활용해서 열거형 타입 사용하는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-18-MasteringEnumsinSwiftAComprehensiveGuidetoEnumerationTypesandBestPractices_0.png"
 date: 2024-08-18 10:50
-ogImage:
+ogImage: 
   url: /assets/img/2024-08-18-MasteringEnumsinSwiftAComprehensiveGuidetoEnumerationTypesandBestPractices_0.png
 tag: Tech
 originalTitle: "Mastering Enums in Swift A Comprehensive Guide to Enumeration Types and Best Practices"
 link: "https://medium.com/@appdevbyamitesh/mastering-enums-in-swift-a-comprehensive-guide-to-enumeration-types-and-best-practices-372a5db33736"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723951624957
 ---
 
 ![이미지](/assets/img/2024-08-18-MasteringEnumsinSwiftAComprehensiveGuidetoEnumerationTypesandBestPractices_0.png)

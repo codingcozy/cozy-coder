@@ -3,12 +3,13 @@ title: "소프트웨어 개발에서의 권리와 책임 이해해야 할 중요
 description: ""
 coverImage: "/assets/img/2024-08-18-RightsandResponsibilitiesinSoftwareDevelopment_0.png"
 date: 2024-08-18 10:56
-ogImage:
+ogImage: 
   url: /assets/img/2024-08-18-RightsandResponsibilitiesinSoftwareDevelopment_0.png
 tag: Tech
 originalTitle: "Rights and Responsibilities in Software Development"
 link: "https://medium.com/analysts-corner/rights-and-responsibilities-in-software-development-dc1dc702984a"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723957368960
 ---
 
 ![Rights and Responsibilities in Software Development](/assets/img/2024-08-18-RightsandResponsibilitiesinSoftwareDevelopment_0.png)

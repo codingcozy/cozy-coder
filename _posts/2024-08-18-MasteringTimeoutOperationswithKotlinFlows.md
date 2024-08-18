@@ -3,12 +3,13 @@ title: "코틀린 플로우로 타임아웃 작업 마스터하기"
 description: ""
 coverImage: "/assets/img/2024-08-18-MasteringTimeoutOperationswithKotlinFlows_0.png"
 date: 2024-08-18 10:48
-ogImage:
+ogImage: 
   url: /assets/img/2024-08-18-MasteringTimeoutOperationswithKotlinFlows_0.png
 tag: Tech
 originalTitle: "Mastering Timeout Operations with Kotlin Flows"
 link: "https://medium.com/@sandeepkella23/mastering-timeout-operations-with-kotlin-flows-cb8a45a3014e"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723951656393
 ---
 
 ![2024-08-18-MasteringTimeoutOperationswithKotlinFlows_0.png](/assets/img/2024-08-18-MasteringTimeoutOperationswithKotlinFlows_0.png)

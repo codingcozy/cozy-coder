@@ -1,14 +1,15 @@
 ---
-title: "iOS 면접 가이드 Swift에서 URLSession 작업의 오류 처리 방법"
+title: "iOS 면접 질문 Swift에서 URLSession 작업의 오류 처리하는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-18-iOSInterviewGuideErrorHandlingwithURLSessionTasksinSwift_0.png"
 date: 2024-08-18 10:51
-ogImage:
+ogImage: 
   url: /assets/img/2024-08-18-iOSInterviewGuideErrorHandlingwithURLSessionTasksinSwift_0.png
 tag: Tech
 originalTitle: "iOS Interview Guide Error Handling with URLSession Tasks in Swift"
 link: "https://medium.com/swiftable/ios-interview-guide-error-handling-with-urlsession-tasks-in-swift-0055a377ab23"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723951885422
 ---
 
 ![image](/assets/img/2024-08-18-iOSInterviewGuideErrorHandlingwithURLSessionTasksinSwift_0.png)

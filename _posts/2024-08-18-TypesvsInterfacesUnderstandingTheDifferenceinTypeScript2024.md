@@ -3,12 +3,13 @@ title: "2024년 TypeScript에서 Types와 Interfaces의 차이점을 이해하�
 description: ""
 coverImage: "/assets/img/2024-08-18-TypesvsInterfacesUnderstandingTheDifferenceinTypeScript2024_0.png"
 date: 2024-08-18 10:58
-ogImage:
+ogImage: 
   url: /assets/img/2024-08-18-TypesvsInterfacesUnderstandingTheDifferenceinTypeScript2024_0.png
 tag: Tech
 originalTitle: "Types vs Interfaces Understanding The Difference in TypeScript 2024"
 link: "https://medium.com/towardsdev/types-vs-interfaces-understanding-the-difference-in-typescript-2024-0dcedae7f5e1"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723951922306
 ---
 
 ![Types vs Interfaces](/assets/img/2024-08-18-TypesvsInterfacesUnderstandingTheDifferenceinTypeScript2024_0.png)

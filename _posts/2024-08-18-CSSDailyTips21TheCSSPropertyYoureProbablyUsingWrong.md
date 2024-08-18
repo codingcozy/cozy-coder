@@ -1,14 +1,15 @@
 ---
-title: "CSS 매일 팁 21 제대로 사용하고 있는 것 같지만 틀린 CSS 속성"
+title: "대부분 잘못 사용하고 있는 CSS 속성들"
 description: ""
 coverImage: "/assets/img/2024-08-18-CSSDailyTips21TheCSSPropertyYoureProbablyUsingWrong_0.png"
 date: 2024-08-18 10:24
-ogImage:
+ogImage: 
   url: /assets/img/2024-08-18-CSSDailyTips21TheCSSPropertyYoureProbablyUsingWrong_0.png
 tag: Tech
 originalTitle: "CSS Daily Tips 21 The CSS Property Youre Probably Using Wrong"
 link: "https://medium.com/@Marioskif/css-daily-tips-21-the-css-property-youre-probably-using-wrong-ec2a9c73bbd0"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723951045420
 ---
 
 <img src="/assets/img/2024-08-18-CSSDailyTips21TheCSSPropertyYoureProbablyUsingWrong_0.png" />

@@ -1,14 +1,15 @@
 ---
-title: "서버 기반 JSON을 활용한 동적 UI 구성하기"
+title: "서버 기반 JSON을 활용한 동적 UI 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-18-BuildDynamicUIswithServer-BasedJSON_0.png"
 date: 2024-08-18 10:41
-ogImage:
+ogImage: 
   url: /assets/img/2024-08-18-BuildDynamicUIswithServer-BasedJSON_0.png
 tag: Tech
 originalTitle: "Build Dynamic UIs with Server-Based JSON"
 link: "https://medium.com/@nocode_71647/build-dynamic-uis-with-server-based-json-fa7ed6c4e3bd"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723951013565
 ---
 
 <img src="/assets/img/2024-08-18-BuildDynamicUIswithServer-BasedJSON_0.png" />

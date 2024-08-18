@@ -1,14 +1,15 @@
 ---
-title: "도커에서 실행되는 스프링 부트 애플리케이션에 여러 개의 데이터베이스 연결하기"
+title: "도커에서 스프링 부트 애플리케이션에 여러 개의 데이터베이스 연결하는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-18-ConnectingMultipleDBstoSpringBootApplicationRunningonDocker_0.png"
 date: 2024-08-18 11:22
-ogImage:
+ogImage: 
   url: /assets/img/2024-08-18-ConnectingMultipleDBstoSpringBootApplicationRunningonDocker_0.png
 tag: Tech
 originalTitle: "Connecting Multiple DBs to Spring Boot Application Running on Docker"
 link: "https://medium.com/@sehgal.mohit06/connecting-multiple-dbs-to-spring-boot-application-running-on-docker-83a2f9deb19c"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723951113163
 ---
 
 이 글에서는 다음을 수행할 것입니다:

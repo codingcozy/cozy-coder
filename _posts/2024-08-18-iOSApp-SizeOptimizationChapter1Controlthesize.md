@@ -1,14 +1,15 @@
 ---
-title: "iOS 앱 사이즈 최적화 제1장 - 사이즈 제어"
+title: "iOS 앱 사이즈 최적화 하는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-18-iOSApp-SizeOptimizationChapter1Controlthesize_0.png"
 date: 2024-08-18 10:49
-ogImage:
+ogImage: 
   url: /assets/img/2024-08-18-iOSApp-SizeOptimizationChapter1Controlthesize_0.png
 tag: Tech
 originalTitle: "iOS App-Size Optimization Chapter 1  Control the size"
 link: "https://medium.com/kerege/ios-app-size-optimization-chapter-1-control-the-size-a74fd59f0fb5"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723951896991
 ---
 
 앱(.ipa) 내부에 무엇이 있는지 고려해 본 적이 있나요?

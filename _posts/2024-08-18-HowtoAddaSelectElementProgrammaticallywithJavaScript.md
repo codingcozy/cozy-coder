@@ -1,14 +1,15 @@
 ---
-title: "자바스크립트로 프로그래밍적으로 셀렉트 요소를 추가하는 방법"
+title: "자바스크립트에서 셀렉트 요소를 개발로 추가하는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-18-HowtoAddaSelectElementProgrammaticallywithJavaScript_0.png"
 date: 2024-08-18 10:46
-ogImage:
+ogImage: 
   url: /assets/img/2024-08-18-HowtoAddaSelectElementProgrammaticallywithJavaScript_0.png
 tag: Tech
 originalTitle: "How to Add a Select Element Programmatically with JavaScript"
 link: "https://medium.com/javascript-in-plain-english/how-to-add-a-select-element-programmatically-with-javascript-78b3b7ae3246"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723951470604
 ---
 
 <img src="/assets/img/2024-08-18-HowtoAddaSelectElementProgrammaticallywithJavaScript_0.png" />

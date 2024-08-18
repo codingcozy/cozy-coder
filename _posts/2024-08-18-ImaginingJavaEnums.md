@@ -3,12 +3,13 @@ title: "Java Enum 활용 예시 상태 패턴과의 조합 방법"
 description: ""
 coverImage: "/assets/img/2024-08-18-ImaginingJavaEnums_0.png"
 date: 2024-08-18 11:21
-ogImage:
+ogImage: 
   url: /assets/img/2024-08-18-ImaginingJavaEnums_0.png
 tag: Tech
 originalTitle: "Imagining Java Enums"
 link: "https://medium.com/@viraj_63415/java-enum-in-a-nutshell-192100524776"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723951513464
 ---
 
 자바 Enum을 상상하고 프로젝트에서 효과적으로 활용하는 방법을 배워보세요
