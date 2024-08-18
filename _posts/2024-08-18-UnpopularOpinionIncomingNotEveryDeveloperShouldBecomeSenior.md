@@ -3,7 +3,7 @@ title: "개발자들에게 큰 권한을 양도해야 할까"
 description: ""
 coverImage: "/assets/img/2024-08-18-UnpopularOpinionIncomingNotEveryDeveloperShouldBecomeSenior_0.png"
 date: 2024-08-18 10:52
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-18-UnpopularOpinionIncomingNotEveryDeveloperShouldBecomeSenior_0.png
 tag: Tech
 originalTitle: "Unpopular Opinion Incoming Not Every Developer Should Become Senior"

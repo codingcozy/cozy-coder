@@ -1,9 +1,9 @@
 ---
-title: "HTML로 반응형 테이블 만드는 방법\"
+title: "HTML로 반응형 테이블 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-18-HTMLTips22CreatingResponsiveHTMLTables_0.png"
 date: 2024-08-18 10:28
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-18-HTMLTips22CreatingResponsiveHTMLTables_0.png
 tag: Tech
 originalTitle: "HTML Tips 22 Creating Responsive HTML Tables"
