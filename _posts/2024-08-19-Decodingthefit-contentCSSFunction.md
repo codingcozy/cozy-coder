@@ -1,9 +1,9 @@
 ---
-title: "fit-content CSS 함수 정리"
+title: "fit-content CSS 함수 정리"
 description: ""
 coverImage: "/assets/img/2024-08-19-Decodingthefit-contentCSSFunction_0.png"
 date: 2024-08-19 01:50
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-19-Decodingthefit-contentCSSFunction_0.png
 tag: Tech
 originalTitle: "Decoding the fit-content CSS Function"
@@ -11,7 +11,6 @@ link: "https://medium.com/@divjotdavy/decoding-the-fit-content-css-function-1e0c
 isUpdated: true
 updatedAt: 1724033226405
 ---
-
 
 ![Fit-content() CSS Function](/assets/img/2024-08-19-Decodingthefit-contentCSSFunction_0.png)
 
@@ -22,12 +21,14 @@ updatedAt: 1724033226405
 그리드 요소의 grid-template-columns 및 grid-template-rows 속성에서 사용되어 그리드 항목의 차원을 지정합니다. MDN에 따르면, "fit-content() CSS 함수는 주어진 크기를 형식에 맞추는데, 이는 주어진 수식에 따라 가능한 크기에서 값을 판단합니다 (최대 크기, 최소 크기, 인수)." 좋아요, 그런데 이게 무슨 뜻이죠?
 
 <!-- cozy-coder - 수평 -->
+
 <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-4877378276818686"
      data-ad-slot="1107185301"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
+
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
@@ -41,18 +42,21 @@ updatedAt: 1724033226405
 ```js
 <div class="grid">
   <div class="item">
-   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
   </div>
 </div>
 ```
 
 <!-- cozy-coder - 수평 -->
+
 <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-4877378276818686"
      data-ad-slot="1107185301"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
+
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
@@ -73,22 +77,24 @@ updatedAt: 1724033226405
 }
 ```
 
-.grid 컨테이너에는 너비가 500픽셀이고 높이가 300픽셀이에요. 또한 배경색, 일부 타이포그래피 및 패딩을 그리드 항목에 추가하여 조금 더 멋지게 보이게 했어요. 결과는 이렇게 보여야 해요 - 
+.grid 컨테이너에는 너비가 500픽셀이고 높이가 300픽셀이에요. 또한 배경색, 일부 타이포그래피 및 패딩을 그리드 항목에 추가하여 조금 더 멋지게 보이게 했어요. 결과는 이렇게 보여야 해요 -
 
 <img src="/assets/img/2024-08-19-Decodingthefit-contentCSSFunction_1.png" />
 
 <!-- cozy-coder - 수평 -->
+
 <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-4877378276818686"
      data-ad-slot="1107185301"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
+
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-위에서 보듯이, .grid 컨테이너에는 샘플 텍스트가 있는 .item 그리드 아이템이 있습니다. 컨테이너 요소의 크기는 500*300px입니다. 이제 그리드 항목의 높이를 콘텐츠에 맞게 조정하는 방법을 살펴보겠습니다.
+위에서 보듯이, .grid 컨테이너에는 샘플 텍스트가 있는 .item 그리드 아이템이 있습니다. 컨테이너 요소의 크기는 500\*300px입니다. 이제 그리드 항목의 높이를 콘텐츠에 맞게 조정하는 방법을 살펴보겠습니다.
 
 ## 행에 대한 fit-content() 함수
 
@@ -107,25 +113,29 @@ fit-content() 함수가 그리드 항목의 높이에 어떻게 영향을 미치
 ```
 
 <!-- cozy-coder - 수평 -->
+
 <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-4877378276818686"
      data-ad-slot="1107185301"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
+
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-안녕하세요! 표 태그를 Markdown 형식으로 변경하시라고 하셨네요. 
+안녕하세요! 표 태그를 Markdown 형식으로 변경하시라고 하셨네요.
 
 <!-- cozy-coder - 수평 -->
+
 <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-4877378276818686"
      data-ad-slot="1107185301"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
+
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
@@ -141,12 +151,14 @@ min(106, max(106, 30)); // 결과: 106
 지금까지 fit-content()를 사용하여 그리드 항목의 높이를 콘텐츠에 맞게 조절하는 방법을 살펴보았습니다. 이제 fit-content()가 그리드 항목의 너비에 어떻게 영향을 미치는지 살펴봅시다.
 
 <!-- cozy-coder - 수평 -->
+
 <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-4877378276818686"
      data-ad-slot="1107185301"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
+
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
@@ -170,27 +182,29 @@ min(106, max(106, 30)); // 결과: 106
 원하는 브라우저에서 레이아웃 변경 사항을 확인하세요. 그리드 항목의 너비가 줄어들고, 높이는 내용을 맞추기 위해 비례적으로 증가했음을 알 수 있습니다.
 
 <!-- cozy-coder - 수평 -->
+
 <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-4877378276818686"
      data-ad-slot="1107185301"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
+
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-
 ![그리드 항목이 너비를 계산하는 방법을 살펴보겠습니다. 위의 코드에서 fit-content에 동일한 10%를 인수로 제공했습니다. 이 경우, 최소 사이즈는 width: min-content를 사용하여 계산됩니다. 텍스트 내용의 최소 너비를 계산하기 위해 컨텐츠는 가능한 매 회마다 감싸져 가장 긴 단어가 될 때까지 넓어져서 가장 작은 너비를 얻습니다. 그리드 항목에 width: min-content를 적용하면 최소 너비는 약 115px 정도 될 것입니다.](/assets/img/2024-08-19-Decodingthefit-contentCSSFunction_5.png)
 
-
 <!-- cozy-coder - 수평 -->
+
 <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-4877378276818686"
      data-ad-slot="1107185301"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
+
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
@@ -202,16 +216,18 @@ min(106, max(106, 30)); // 결과: 106
 따라서 최소 크기는 115px이고 최대 크기는 1680px입니다. 또한 우리는 10%를 인수로 사용했습니다. 절대값으로는 (500의 10%) 50px입니다. 이러한 모든 값을 우리의 공식에 적용하면 다음과 같습니다 -
 
 ```js
-min(1680, max(115, 50)) // 결과: 115
+min(1680, max(115, 50)); // 결과: 115
 ```
 
 <!-- cozy-coder - 수평 -->
+
 <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-4877378276818686"
      data-ad-slot="1107185301"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
+
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
@@ -235,12 +251,14 @@ min(1680, max(115, 50)) // 결과: 115
 이제 그리드 항목이 200픽셀의 너비를 갖게 됨을 알 수 있습니다.
 
 <!-- cozy-coder - 수평 -->
+
 <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-4877378276818686"
      data-ad-slot="1107185301"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
+
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
@@ -256,12 +274,14 @@ min(1680, max(115, 200)); //결과: 200
 여기에는 여러분이 직접 값을 바꿔가며 결과를 확인할 수 있는 펜이 있습니다. 함께 놀아보세요.
 
 <!-- cozy-coder - 수평 -->
+
 <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-4877378276818686"
      data-ad-slot="1107185301"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
+
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
