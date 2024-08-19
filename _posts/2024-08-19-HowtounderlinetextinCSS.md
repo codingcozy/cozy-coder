@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "How to underline text in CSS "
 link: "https://medium.com/@frontendinterviewquestions/how-to-underline-text-in-css-f5b7604d4316"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724033338792
 ---
 
 

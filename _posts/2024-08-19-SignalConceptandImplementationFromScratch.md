@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Signal Concept and Implementation From Scratch"
 link: "https://medium.com/@sib.sustswe/signal-concept-and-implementation-from-scratch-0515b2a7b99a"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724034957808
 ---
 
 

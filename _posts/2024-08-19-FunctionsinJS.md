@@ -1,5 +1,5 @@
 ---
-title: "JavaScript에서 함수 사용하기 기초부터 심화까지"
+title: "JavaScript 내장 함수 기초부터 고급까지 정리"
 description: ""
 coverImage: "/assets/img/2024-08-19-FunctionsinJS_0.png"
 date: 2024-08-19 02:16
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Functions in JS"
 link: "https://medium.com/@gigadexterity/functions-in-js-6b728fb4d72d"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724033280740
 ---
 
 

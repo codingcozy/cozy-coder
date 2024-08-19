@@ -1,5 +1,5 @@
 ---
-title: "React와 Tailwind를 사용해 손쉬운 애니메이션을 위한 새로운 도구, Animata 입니다"
+title: "React와 Tailwind에서 애니메이션을 쉽게 사용하는 방법(Animata)"
 description: ""
 coverImage: "/assets/img/2024-08-19-IntroducingAnimataNewToolforEffortlessAnimationsinReactTailwind_0.png"
 date: 2024-08-19 02:56
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Introducing Animata New Tool for Effortless Animations in React , Tailwind"
 link: "https://dev.to/uicraft_by_pratik/introducing-animata-new-tool-for-effortless-animations-in-react-tailwind-19fm"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724033358998
 ---
 
 

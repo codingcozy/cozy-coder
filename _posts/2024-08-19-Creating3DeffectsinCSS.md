@@ -1,5 +1,5 @@
 ---
-title: "CSS로 3D 효과 만들기 시작부터 마스터까지"
+title: "CSS로 3D 효과 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-19-Creating3DeffectsinCSS_0.png"
 date: 2024-08-19 02:54
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Creating 3D effects in CSS"
 link: "https://dev.to/logrocket/creating-3d-effects-in-css-1h6"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724033207459
 ---
 
 

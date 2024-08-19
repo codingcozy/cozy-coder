@@ -1,5 +1,5 @@
 ---
-title: "React에서 useContext를 사용하는 이으와 시기에 대한 이유와 방법 알아보기"
+title: "React에서 useContext를 사용하는 이유"
 description: ""
 coverImage: "/assets/img/2024-08-19-WhyandWhentoUseuseContextinReact_0.png"
 date: 2024-08-19 02:18
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Why and When to Use useContext in React"
 link: "https://medium.com/@komalmraut/why-and-when-to-use-usecontext-in-react-20f19a8d7fce"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724034979689
 ---
 
 

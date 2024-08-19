@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Async Await Isnt Enough Solving Synchronous Bottlenecks in FastAPI"
 link: "https://medium.com/@aryanrot234/async-await-isnt-enough-solving-synchronous-bottlenecks-in-fastapi-6f9f152256a2"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724033074844
 ---
 
 

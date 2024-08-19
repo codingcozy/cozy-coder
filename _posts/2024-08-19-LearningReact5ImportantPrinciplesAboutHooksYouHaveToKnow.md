@@ -1,5 +1,5 @@
 ---
-title: "React Hooks 꼭 알아야 할 5가지 중요 원칙"
+title: "React Hooks에서 반드시 알아야 할 5가지 내용"
 description: ""
 coverImage: "/assets/img/2024-08-19-LearningReact5ImportantPrinciplesAboutHooksYouHaveToKnow_0.png"
 date: 2024-08-19 02:11
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Learning React 5 Important Principles About Hooks You Have To Know"
 link: "https://medium.com/code-like-a-girl/learning-react-5-important-principles-about-hooks-you-have-to-know-4967cd9d4eb4"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724033385254
 ---
 
 

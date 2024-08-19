@@ -1,5 +1,5 @@
 ---
-title: "HTML 태그와 속성 설명  초보자를 위한 레슨 2"
+title: "HTML 기본 태그들 속성 설명"
 description: ""
 coverImage: "/assets/no-image.jpg"
 date: 2024-08-19 01:53
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "infoHTML Tags and Attributes for beginners  Lesson 2"
 link: "https://medium.com/@jvcodes/html-tags-and-attributes-for-beginners-lesson-2-44e88b1d485e"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724034676916
 ---
 
 

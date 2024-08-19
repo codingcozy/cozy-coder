@@ -1,5 +1,5 @@
 ---
-title: "Nodejs로 API 게이트웨이 구축하기 제 1부 - 개요, 라우팅"
+title: "Nodejs로 API 게이트웨이 구축하기 - 개요, 라우팅"
 description: ""
 coverImage: "/assets/img/2024-08-19-BuildingAPIGatewayinNodejsPartIOverviewRouting_0.png"
 date: 2024-08-19 02:31
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Building API Gateway in Nodejs Part I  Overview , Routing"
 link: "https://medium.com/@dmytro.misik/building-api-gateway-in-node-js-part-i-overview-routing-d684c8963938"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724033135710
 ---
 
 

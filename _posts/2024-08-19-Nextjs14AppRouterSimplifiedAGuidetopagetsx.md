@@ -1,5 +1,5 @@
 ---
-title: "Nextjs 14 App Router로 쉽게 살펴보는 pagetsx 가이드"
+title: "Nextjs 14 App Router page.tsx "
 description: ""
 coverImage: "/assets/img/2024-08-19-Nextjs14AppRouterSimplifiedAGuidetopagetsx_0.png"
 date: 2024-08-19 02:28
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Nextjs 14 App Router Simplified A Guide to pagetsx"
 link: "https://medium.com/@sagarpatil23399/next-js-14-app-router-simplified-a-guide-to-page-tsx-233131ec039b"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724034721819
 ---
 
 

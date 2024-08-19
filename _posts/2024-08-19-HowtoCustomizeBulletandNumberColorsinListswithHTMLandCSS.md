@@ -1,5 +1,5 @@
 ---
-title: "HTML과 CSS를 사용하여 목록의 글머리 기호와 번호 색상을 사용자 정의하는 방법"
+title: "HTML과 CSS를 사용하여 목록 불릿과 번호 색상을 커스텀하는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-19-HowtoCustomizeBulletandNumberColorsinListswithHTMLandCSS_0.png"
 date: 2024-08-19 01:52
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "How to Customize Bullet and Number Colors in Lists with HTML and CSS"
 link: "https://medium.com/@alfonsoramos.1803/how-to-customize-bullet-and-number-colors-in-lists-with-html-and-css-2d533134356a"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724033307315
 ---
 
 

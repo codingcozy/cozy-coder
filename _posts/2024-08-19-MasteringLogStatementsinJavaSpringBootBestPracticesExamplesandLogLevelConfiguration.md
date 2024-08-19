@@ -1,5 +1,5 @@
 ---
-title: "자바 Spring Boot에서 로그문 사용 마스터하기 최상의 실천 방법, 예제 및 로그 레벨 구성"
+title: "자바 Spring Boot에서 로그문 사용 방법"
 description: ""
 coverImage: "/assets/img/2024-08-19-MasteringLogStatementsinJavaSpringBootBestPracticesExamplesandLogLevelConfiguration_0.png"
 date: 2024-08-19 02:35
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Mastering Log Statements in Java Spring Boot Best Practices, Examples, and Log Level Configuration"
 link: "https://medium.com/@tecnicorabi/mastering-log-statements-in-java-spring-boot-best-practices-examples-and-log-level-configuration-8618c2a61b60"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724034688149
 ---
 
 

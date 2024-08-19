@@ -1,5 +1,5 @@
 ---
-title: "틱택토 게임 웹사이트 만들기 간단한 프론트엔드 프로젝트 실습"
+title: "HTML,CSS,JS로 틱택토 게임 웹사이트 만드는 방법"
 description: ""
 coverImage: "/assets/no-image.jpg"
 date: 2024-08-19 02:43
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Build a Tic Tac Toe Game Website"
 link: "https://dev.to/abhishekgurjar/build-a-tic-tac-toe-game-website-4cl5"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724033126436
 ---
 
 

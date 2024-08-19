@@ -1,5 +1,5 @@
 ---
-title: "파이프라인 디자인 패턴 소프트웨어 개발에서 활용하는 효율적인 방법"
+title: "파이프라인 디자인 패턴 정리"
 description: ""
 coverImage: "/assets/img/2024-08-19-PipelineDesignpattern_0.png"
 date: 2024-08-19 02:38
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Pipeline Design pattern"
 link: "https://medium.com/@ankithahjpgowda/pipeline-design-pattern-2c16f05f5ad9"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724034733694
 ---
 
 

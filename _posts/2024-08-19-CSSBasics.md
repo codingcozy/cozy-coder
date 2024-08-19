@@ -1,5 +1,5 @@
 ---
-title: "CSS 기초 웹페이지 디자인 시작하기"
+title: "세련된 웹페이지를 만들기 위해 알아둬야하는 CSS"
 description: ""
 coverImage: "/assets/img/2024-08-19-CSSBasics_0.png"
 date: 2024-08-19 02:52
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "CSS Basics"
 link: "https://dev.to/thekarlesi/css-basics-1261"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724033165838
 ---
 
 

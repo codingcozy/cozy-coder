@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "The Silent Screams of Your Web Console A Tale of Overlooked Performance Killers"
 link: "https://medium.com/@isinghprince/the-silent-screams-of-your-web-console-a-tale-of-overlooked-performance-killers-9cd3225fd270"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724034917140
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-title: "웹 UI를 구축하기 위한 자기계발 파트 1 - HTML 이해하기"
+title: "웹 UI를 만들기 위해 알아둬야할 HTML"
 description: ""
 coverImage: "/assets/img/2024-08-19-DevelopyourselftobuildWebUIsPart1UnderstandingHTML_0.png"
 date: 2024-08-19 01:58
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Develop yourself to build Web UIs Part 1  Understanding HTML"
 link: "https://medium.com/@marinalabs/develop-yourself-to-build-web-uis-part-1-understanding-html-41f1498baabf"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724033266206
 ---
 
 

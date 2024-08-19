@@ -1,5 +1,5 @@
 ---
-title: "bcryptjs와 jsonwebtoken을 활용한 강력한 비밀번호 복구 시스템 구축 방법"
+title: "bcryptjs와 jsonwebtoken을 활용한 강력한 비밀번호 복구 시스템 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-19-BuildaRobustPasswordRecoverySystemUsingbcryptjsjsonwebtoken_0.png"
 date: 2024-08-19 02:12
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Build a Robust Password Recovery System Using bcryptjs, jsonwebtoken"
 link: "https://medium.com/@emmanueljirigho/build-a-robust-password-recovery-system-using-bcryptjs-jsonwebtoken-8a99be22b444"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724033115962
 ---
 
 

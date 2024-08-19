@@ -1,5 +1,5 @@
 ---
-title: "Google 스프레드시트에서 파일을 분할 비동기 프로세스로 여러 개 업로드하고 이어받기 업로드하기"
+title: "Google 스프레드시트에서 파일을 분할 비동기 프로세스로 여러 개 업로드하고 이어받기 업로드하는 방법"
 description: ""
 coverImage: "/assets/no-image.jpg"
 date: 2024-08-19 01:54
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Uploading Multiple Files with Split Asynchronous Processes and Resumable Upload in Google Spreadsheets"
 link: "https://medium.com/google-cloud/uploading-multiple-files-with-split-asynchronous-processes-and-resumable-upload-in-google-d42eebbdfda9"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724034956322
 ---
 
 

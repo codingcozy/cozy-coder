@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "gRPC Interceptors in Python"
 link: "https://medium.com/taranis-ag/grpc-interceptors-in-python-267402b5e77e"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724034990174
 ---
 
 

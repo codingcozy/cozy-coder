@@ -1,5 +1,5 @@
 ---
-title: "CSS 선택자 웹 페이지 스타일링의 새로운 벗들"
+title: "새롭게 추가된 CSS 선택자들"
 description: ""
 coverImage: "/assets/img/2024-08-19-CSSSelectorsYourNewBestFriendsforStylingWebPages_0.png"
 date: 2024-08-19 02:57
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "CSS Selectors Your New Best Friends for Styling Web Pages"
 link: "https://dev.to/gdebojyoti/css-selectors-your-new-best-friends-for-styling-web-pages-4f9p"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724033198819
 ---
 
 

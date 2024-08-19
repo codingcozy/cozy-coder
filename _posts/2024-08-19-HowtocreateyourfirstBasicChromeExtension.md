@@ -1,5 +1,5 @@
 ---
-title: "처음 만드는 기본 Chrome 확장 프로그램 만드는 방법"
+title: "나만의 Chrome 확장 프로그램 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-19-HowtocreateyourfirstBasicChromeExtension_0.png"
 date: 2024-08-19 01:48
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "How to create your first Basic Chrome Extension"
 link: "https://medium.com/@rehmat-sayany/how-to-create-your-first-baschrome-extension-e05f2d126ab5"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724033321681
 ---
 
 

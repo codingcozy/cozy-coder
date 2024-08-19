@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Responsive Web Design Making Your Site Mobile-Friendly"
 link: "https://dev.to/gdebojyoti/responsive-web-design-making-your-site-mobile-friendly-1elp"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724034736618
 ---
 
 

@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "JOI Validation in NodeJS  ExpressJS"
 link: "https://medium.com/@ahmadmukhtar2001/joi-validation-in-node-js-express-js-0b1955b5ea4b"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724033372475
 ---
 
 

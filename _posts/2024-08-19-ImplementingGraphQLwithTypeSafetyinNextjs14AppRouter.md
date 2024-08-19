@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Implementing GraphQL with Type Safety in Nextjs 14 App Router"
 link: "https://medium.com/@sagardhami2001/implementing-graphql-with-type-safety-in-next-js-14-app-router-0dd0a1259327"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724033342881
 ---
 
 

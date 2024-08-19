@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Serialization of entities using TypeScript decorators"
 link: "https://medium.com/@k.kharlamow/serialization-of-entities-using-typescript-decorators-99356b13e00a"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724034739509
 ---
 
 

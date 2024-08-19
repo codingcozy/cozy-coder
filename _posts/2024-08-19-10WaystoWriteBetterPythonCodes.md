@@ -1,5 +1,5 @@
 ---
-title: "파이썬 코드를 더 잘 작성하는 10가지 방법"
+title: "파이썬 코드를 더 멋지게 작성하는 10가지 방법"
 description: ""
 coverImage: "/assets/img/2024-08-19-10WaystoWriteBetterPythonCodes_0.png"
 date: 2024-08-19 02:03
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "10 Ways to Write Better Python Codes"
 link: "https://medium.com/gitconnected/10-ways-to-write-better-python-codes-55fc862ab0ef"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724033054864
 ---
 
 

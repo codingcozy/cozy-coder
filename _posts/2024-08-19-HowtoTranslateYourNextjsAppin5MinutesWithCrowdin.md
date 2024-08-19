@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "How to Translate Your Nextjs App in 5 Minutes With Crowdin"
 link: "https://dev.to/zerodays/how-to-translate-your-nextjs-app-in-5-minutes-with-crowdin-1pe0"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724033310373
 ---
 
 

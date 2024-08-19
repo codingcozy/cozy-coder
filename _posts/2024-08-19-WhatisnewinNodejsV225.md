@@ -1,5 +1,5 @@
 ---
-title: "Nodejs V225에서 무슨 새로운 기능들이 있는지 알아보세요"
+title: "Nodejs V.2.25에서 새로 추가된 기능 정리"
 description: ""
 coverImage: "/assets/img/2024-08-19-WhatisnewinNodejsV225_0.png"
 date: 2024-08-19 02:29
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "What is new in Nodejs V225"
 link: "https://medium.com/@nairihar/what-is-new-in-node-js-v22-5-8899620ddebf"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724034973131
 ---
 
 

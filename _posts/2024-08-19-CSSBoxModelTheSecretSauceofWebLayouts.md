@@ -1,5 +1,5 @@
 ---
-title: "웹 레이아웃의 비밀 소스 CSS 박스 모델"
+title: "웹 레이아웃을 자유자재로 다루기 위해 알아둬야할 CSS 박스 모델"
 description: ""
 coverImage: "/assets/img/2024-08-19-CSSBoxModelTheSecretSauceofWebLayouts_0.png"
 date: 2024-08-19 02:53
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "CSS Box Model The Secret Sauce of Web Layouts"
 link: "https://dev.to/gdebojyoti/css-box-model-the-secret-sauce-of-web-layouts-1c17"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724033188651
 ---
 
 

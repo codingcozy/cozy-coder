@@ -1,5 +1,5 @@
 ---
-title: "CSS를 사용하여 앵커 태그의 밑줄을 제거하는 방법"
+title: "CSS로 앵커 태그의 밑줄을 제거하는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-19-HowtoremoveunderlinefromanchortagusingCSS_0.png"
 date: 2024-08-19 01:42
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "How to remove underline from anchor tag using CSS "
 link: "https://medium.com/@frontendinterviewquestions/how-to-remove-underline-from-anchor-tag-using-css-ac5abf6521dd"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724033326982
 ---
 
 

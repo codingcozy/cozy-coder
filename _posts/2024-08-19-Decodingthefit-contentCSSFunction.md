@@ -1,5 +1,5 @@
 ---
-title: "fit-content CSS 함수 해석하기"
+title: "fit-content CSS 함수 정리"
 description: ""
 coverImage: "/assets/img/2024-08-19-Decodingthefit-contentCSSFunction_0.png"
 date: 2024-08-19 01:50
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Decoding the fit-content CSS Function"
 link: "https://medium.com/@divjotdavy/decoding-the-fit-content-css-function-1e0c5c1f6ce2"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724033226405
 ---
 
 

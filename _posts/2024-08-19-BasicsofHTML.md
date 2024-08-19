@@ -1,5 +1,5 @@
 ---
-title: "HTML 기초 웹 개발 입문자를 위한 필수 요소들"
+title: "HTML 기초 웹 개발을 위해 알아둬야하는 태그들"
 description: ""
 coverImage: "/assets/img/2024-08-19-BasicsofHTML_0.png"
 date: 2024-08-19 01:49
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Basics of HTML"
 link: "https://medium.com/@saide2857/basics-of-html-571e504def06"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724033089242
 ---
 
 

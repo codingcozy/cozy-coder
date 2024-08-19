@@ -1,5 +1,5 @@
 ---
-title: "자바스크립트로 만드는 멋진 드럼 킷 웹사이트 만들기"
+title: "자바스크립트로 만드는 드럼 킷 웹사이트 만들기"
 description: ""
 coverImage: "/assets/no-image.jpg"
 date: 2024-08-19 02:41
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Build a Drum Kit Website"
 link: "https://dev.to/abhishekgurjar/build-a-drum-kit-website-8hh"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724033106627
 ---
 
 

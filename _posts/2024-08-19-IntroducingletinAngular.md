@@ -1,5 +1,5 @@
 ---
-title: "Angular에서의 let 소개 어떤 동작을 하는 걸까요"
+title: "Angular에서의 let이 어떻게 동작하는지 이해하기"
 description: ""
 coverImage: "/assets/img/2024-08-19-IntroducingletinAngular_0.png"
 date: 2024-08-19 02:27
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Introducing let in Angular"
 link: "https://medium.com/angular-blog/introducing-let-in-angular-686f9f383f0f"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724033368726
 ---
 
 

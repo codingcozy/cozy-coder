@@ -1,5 +1,5 @@
 ---
-title: "Nodejs 핵심 개념 파트 1"
+title: "2024년 최신 Nodejs 핵심 개념 정리"
 description: ""
 coverImage: "/assets/no-image.jpg"
 date: 2024-08-19 02:34
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "PRO Nodejs Concepts Part 1"
 link: "https://medium.com/@devdiwan/pro-node-js-concepts-part-1-76e0e0af3e6e"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724034727498
 ---
 
 

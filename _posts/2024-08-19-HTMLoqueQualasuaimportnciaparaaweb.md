@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "HTML o que , Qual a sua importncia para a web"
 link: "https://dev.to/albericojr/html-o-que-e-qual-a-sua-importancia-para-a-web-35lb"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724033288008
 ---
 
 

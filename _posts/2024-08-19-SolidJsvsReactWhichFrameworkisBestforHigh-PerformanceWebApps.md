@@ -1,5 +1,5 @@
 ---
-title: "고성능 웹 앱을 위한 최적의 프레임워크는 SolidJs와 React 중 어떤 것일까요"
+title: "SolidJs와 React 중 웹 앱에 최적화된 프레임워크는 무엇일까"
 description: ""
 coverImage: "/assets/img/2024-08-19-SolidJsvsReactWhichFrameworkisBestforHigh-PerformanceWebApps_0.png"
 date: 2024-08-19 02:21
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "SolidJs vs React  Which Framework is Best for High-Performance Web Apps"
 link: "https://medium.com/@hamzabhf00/solidjs-vs-react-which-framework-is-best-for-high-performance-web-apps-85eee5d44435"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724034915231
 ---
 
 

@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "10 Game-Changing Web Development Tools to Supercharge Your Workflow in 2024"
 link: "https://dev.to/vyan/10-game-changing-web-development-tools-to-supercharge-your-workflow-in-2024-4dmk"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724033045950
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-title: "Angular 18를 탐험하며 NgRx 상태 관리가 풀리다"
+title: "Angular 18에서 NgRx 상태 관리하는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-19-NavigatingAngular18NgRxStateManagementDemystified_0.png"
 date: 2024-08-19 02:23
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Navigating Angular 18 NgRx State Management Demystified"
 link: "https://medium.com/@trippytom28/navigating-angular-18-ngrx-state-management-demystified-e61e5ac38274"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724034707743
 ---
 
 

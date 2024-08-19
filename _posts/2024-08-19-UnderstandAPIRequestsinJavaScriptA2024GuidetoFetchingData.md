@@ -1,5 +1,5 @@
 ---
-title: "자바스크립트로 API 요청 이해하기 데이터 가져오는 2024 가이드"
+title: "자바스크립트로 API 요청 하는 방법"
 description: ""
 coverImage: "/assets/no-image.jpg"
 date: 2024-08-19 02:47
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Understand API Requests in JavaScript A 2024 Guide to Fetching Data"
 link: "https://dev.to/vyan/mastering-api-requests-in-javascript-a-2024-guide-to-fetching-data-5h7h"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724034938593
 ---
 
 

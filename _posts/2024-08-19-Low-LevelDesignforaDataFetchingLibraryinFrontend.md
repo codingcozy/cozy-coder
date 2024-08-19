@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Low-Level Design for a Data Fetching Library in Frontend"
 link: "https://medium.com/@web.hardikhere/low-level-design-for-a-data-fetching-library-in-frontend-56b789a2edf5"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724034682939
 ---
 
 

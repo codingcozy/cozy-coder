@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Creating a Dynamic Theme Switcher in Vue 3 with CSS Variables"
 link: "https://medium.com/@fortitudetechnologies/creating-a-dynamic-theme-switcher-in-vue-3-with-css-variables-423d012ac175"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724033220937
 ---
 
 

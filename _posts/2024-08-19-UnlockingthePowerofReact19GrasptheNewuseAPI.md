@@ -1,5 +1,5 @@
 ---
-title: "React 19의 파워 언락 새로운 use API 파악하기"
+title: "React 19에서 새로 추가된 use API 정리"
 description: ""
 coverImage: "/assets/no-image.jpg"
 date: 2024-08-19 02:50
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Unlocking the Power of React 19 Grasp the New use API"
 link: "https://dev.to/vyan/unlocking-the-power-of-react-19-grasp-the-new-use-api-4bdg"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724034949303
 ---
 
 

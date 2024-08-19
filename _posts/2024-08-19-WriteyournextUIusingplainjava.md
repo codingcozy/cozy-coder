@@ -1,5 +1,5 @@
 ---
-title: "자바로 다음 UI 만들기 초보자를 위한 단계별 안내"
+title: "자바로 UI 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-19-WriteyournextUIusingplainjava_0.png"
 date: 2024-08-19 02:37
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Write your next UI using plain java"
 link: "https://medium.com/@miguelperezcolom/write-your-next-ui-using-plain-java-3c1fd981ed29"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724034988840
 ---
 
 

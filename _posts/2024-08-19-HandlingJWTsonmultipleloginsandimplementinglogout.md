@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Handling JWTs on multiple logins and implementing logout"
 link: "https://medium.com/@shashwat2002joshi/handling-jwts-on-multiple-logins-and-implementing-logout-1d7348620e8a"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724033293430
 ---
 
 

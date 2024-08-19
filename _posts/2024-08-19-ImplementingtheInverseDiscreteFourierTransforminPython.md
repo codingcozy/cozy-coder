@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Implementing the Inverse Discrete Fourier Transform in Python"
 link: "https://medium.com/@positive.delta.hm/implementing-the-inverse-discrete-fourier-transform-in-python-1f53e28631c9"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724033345722
 ---
 
 

@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Locally Kubernetes Deployment NET  Angular"
 link: "https://medium.com/@uahmad565565/local-kubernetes-deployment-net-angular-b8ef35e06d8f"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724034680651
 ---
 
 

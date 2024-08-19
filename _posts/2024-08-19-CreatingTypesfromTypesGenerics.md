@@ -1,5 +1,5 @@
 ---
-title: "타입에서 타입으로  제네릭을 활용한 타입 생성"
+title: "타입에서 타입으로 제네릭을 활용한 타입 생성"
 description: ""
 coverImage: "/assets/img/2024-08-19-CreatingTypesfromTypesGenerics_0.png"
 date: 2024-08-19 02:09
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Creating Types from Types  Generics"
 link: "https://medium.com/@msunil037/creating-types-from-types-generics-a355c992e460"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724033216279
 ---
 
 

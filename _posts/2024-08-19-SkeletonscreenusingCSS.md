@@ -1,5 +1,5 @@
 ---
-title: "CSS를 이용한 스켈레톤 화면 구현하기"
+title: "CSS로 스켈레톤 화면 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-19-SkeletonscreenusingCSS_0.png"
 date: 2024-08-19 01:46
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Skeleton screen using CSS"
 link: "https://medium.com/@frontendinterviewquestions/skeleton-screen-using-css-2eb424ca4702"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724034762791
 ---
 
 

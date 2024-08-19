@@ -1,5 +1,5 @@
 ---
-title: "웹 접근성 고려한 웹 애플리케이션 구축 프론트엔드 개발자를 위한 안내"
+title: "웹 접근성 고려한 웹 애플리케이션 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-19-BuildingAccessibleWebApplicationsAFront-EndDevelopersGuide_0.png"
 date: 2024-08-19 01:57
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Building Accessible Web Applications A Front-End Developers Guide"
 link: "https://medium.com/@reenarmali/building-accessible-web-applications-a-front-end-developers-guide-4066398a51df"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724033142882
 ---
 
 

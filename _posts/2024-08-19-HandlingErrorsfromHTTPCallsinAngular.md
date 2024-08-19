@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Handling Errors from HTTP Calls in Angular"
 link: "https://medium.com/@paul-chesa/handling-errors-from-http-calls-in-angular-4dbc7f6b26ca"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724033290935
 ---
 
 

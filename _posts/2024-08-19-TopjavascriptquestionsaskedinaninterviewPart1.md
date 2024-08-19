@@ -1,5 +1,5 @@
 ---
-title: "인터뷰에서 가장 많이 물어보는 자바스크립트 질문  Part 1"
+title: "기술면접에서 가장 많이 물어보는 자바스크립트 질문"
 description: ""
 coverImage: "/assets/img/2024-08-19-TopjavascriptquestionsaskedinaninterviewPart1_0.png"
 date: 2024-08-19 02:07
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Top javascript questions asked in an interview  Part 1"
 link: "https://medium.com/@mhetreayush1719/top-javascript-questions-asked-in-an-interview-part-1-2e4d6ee63127"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724034926287
 ---
 
 

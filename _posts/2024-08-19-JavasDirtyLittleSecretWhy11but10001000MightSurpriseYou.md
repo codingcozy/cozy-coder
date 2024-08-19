@@ -1,5 +1,5 @@
 ---
-title: "자바의 오류 메시지 1  1이지만 1000  1000은 놀라울 수도 있어"
+title: "자바의 오류 메시지 1 1이지만 1000 1000은 놀라울 수도 있어"
 description: ""
 coverImage: "/assets/img/2024-08-19-JavasDirtyLittleSecretWhy11but10001000MightSurpriseYou_0.png"
 date: 2024-08-19 02:39
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Javas Dirty Little Secret Why 1  1 but 1000  1000 Might Surprise You"
 link: "https://medium.com/@patidar05priya/javas-dirty-little-secret-why-1-1-but-1000-1000-might-surprise-you-1e44acfe2c6a"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724033374637
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-title: "예시를 활용한 Full Stack 프로젝트 설정 방법과 함께 배우기"
+title: "Full Stack 프로젝트 설정 방법(코드 있음)"
 description: ""
 coverImage: "/assets/img/2024-08-19-HowtosetupaFullStackprojectwithExample_0.png"
 date: 2024-08-19 02:45
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "How to setup a Full Stack project with Example"
 link: "https://dev.to/shanu001x/how-to-setup-full-stack-project-for-production-in-nodejs-environment-2d7l"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724033336454
 ---
 
 

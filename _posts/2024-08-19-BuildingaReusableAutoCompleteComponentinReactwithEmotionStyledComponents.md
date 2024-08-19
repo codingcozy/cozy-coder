@@ -1,5 +1,5 @@
 ---
-title: "React와 Emotion Styled Components를 활용한 재사용 가능한 AutoComplete 컴포넌트 구축 방법"
+title: "React와 Emotion Styled Components를 활용한 재사용 가능한 AutoComplete 컴포넌트 만드는 방법"
 description: ""
 coverImage: "/assets/no-image.jpg"
 date: 2024-08-19 02:20
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Building a Reusable AutoComplete Component in React with Emotion Styled Components"
 link: "https://medium.com/@sunnyyadav30/building-a-reusable-autocomplete-component-in-react-with-emotion-styled-components-0ca7188e17da"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724033152233
 ---
 
 

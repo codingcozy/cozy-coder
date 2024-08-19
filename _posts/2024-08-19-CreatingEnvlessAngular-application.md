@@ -1,5 +1,5 @@
 ---
-title: "환경 설정이 필요없는 Angular 애플리케이션 만들기"
+title: "환경 설정이 필요없는 Angular 애플리케이션 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-19-CreatingEnvlessAngular-application_0.png"
 date: 2024-08-19 02:13
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Creating Envless Angular-application"
 link: "https://medium.com/itnext/creating-envless-angular-application-0ce3c2ecaddd"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724033212744
 ---
 
 

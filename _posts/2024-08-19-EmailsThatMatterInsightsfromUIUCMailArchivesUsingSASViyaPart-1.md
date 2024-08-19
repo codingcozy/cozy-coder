@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Emails That Matter Insights from UIUC Mail Archives Using SAS Viya Part-1"
 link: "https://medium.com/learning-data/emails-that-matter-insights-from-uiuc-mail-archives-using-sas-viya-part-1-78ae5a26623f"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724033270159
 ---
 
 

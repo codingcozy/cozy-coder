@@ -1,5 +1,5 @@
 ---
-title: "오늘 웹 앱을 만들 때 내 기술 스택"
+title: "2024년 웹 앱을 만들 때 필요한 기술 스택"
 description: ""
 coverImage: "/assets/img/2024-08-19-MyTechStackForBuildingWebAppsToday_0.png"
 date: 2024-08-19 02:22
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "My Tech Stack For Building Web Apps Today"
 link: "https://medium.com/javascript-in-plain-english/my-tech-stack-for-building-web-apps-today-43398556bb4d"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724034699249
 ---
 
 

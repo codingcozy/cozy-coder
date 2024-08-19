@@ -1,5 +1,5 @@
 ---
-title: "아날로그 시계 웹사이트 만들기 HTML, CSS, JavaScript로 구현하는 방법"
+title: " HTML, CSS, JavaScript로 아날로그 시계 웹사이트 만들기"
 description: ""
 coverImage: "/assets/no-image.jpg"
 date: 2024-08-19 02:42
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Build a Analog Clock Website"
 link: "https://dev.to/abhishekgurjar/build-a-analog-clock-website-5eia"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724033100191
 ---
 
 

@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Create a FIFO , Real-time Notifications System With Redis, Bull And Socket Io In Node JS Backend"
 link: "https://medium.com/@laskar.ksatria12/how-to-create-a-fifo-real-time-notifications-system-with-redis-bull-and-socket-io-in-node-js-6b5c96bffb23"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724033201313
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-title: "15가지 유용한 HTML5 속성들을 알아야 하는 이유"
+title: "유용한 HTML5 속성 15가지 정리"
 description: ""
 coverImage: "/assets/img/2024-08-19-15UsefulHTML5AttributesYouShouldKnowAbout_0.png"
 date: 2024-08-19 01:56
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "15 Useful HTML5 Attributes You Should Know About"
 link: "https://medium.com/@kaderbiral26/15-useful-html5-attributes-you-should-know-about-acb8774e4188"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724033072187
 ---
 
 
