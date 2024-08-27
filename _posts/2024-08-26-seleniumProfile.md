@@ -1,10 +1,10 @@
 ---
-title: "셀레니움(selenium)에서 크롬 프로필 설정하는 방법"
+title: "셀레니움(selenium)에서 크롬 브라우저 프로필 설정하는 방법"
 description: ""
-coverImage: "/assets/img/2024-08-19-WriteyournextUIusingplainjava_0.png"
+coverImage: "/assets/img/2024-08-26-seleniumProfile_cover.png"
 date: 2024-08-27 02:37
 ogImage: 
-  url: /assets/img/2024-08-19-WriteyournextUIusingplainjava_0.png
+  url: /assets/img/2024-08-26-seleniumProfile_cover.png
 tag: Tech
 originalTitle: ""
 link: ""
